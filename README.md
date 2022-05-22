@@ -16,7 +16,7 @@ In order to run this project, multiple prerequisites are needed. Please refer to
 
 :teacher: To set the Mara robotic joint angles directly:
 
-- step 1: launch the Mara robot in Gazebo
+- step 1: launch the Mara robot in Gazebo <br />
 In terminal 1:
 ```bash
 source /opt/ros/foxy/setup.bash
@@ -24,7 +24,7 @@ cd ros2_ws
 source install/setup.bash
 ros2 launch mara_gazebo mara2.launch.py
 ```
-- step 2: set the joint angles (eg. 0°,90°,0°,90°,0°,0°)
+- step 2: set the joint angles (eg. 0°,90°,0°,90°,0°,0°) <br />
 In terminal 2:									
 ```bash
 cd ros2_ws
@@ -35,7 +35,7 @@ ros2 run ldmk_package anglespublisher2 0 90 0 90 0 0
 
 :woman_teacher: To deploy a simulation of the Mara robotic arm multiple nodes must be run
 
-- step 1: launch the Mara robot in Gazebo:
+- step 1: launch the Mara robot in Gazebo <br />
 In terminal 1:
 ```bash
 source /opt/ros/foxy/setup.bash
@@ -43,7 +43,7 @@ cd ros2_ws
 source install/setup.bash
 ros2 launch mara_gazebo mara2.launch.py
 ```
-- step 2: listen to end-effector position or joint angles commands
+- step 2: listen to end-effector position or joint angles commands <br />
 In terminal 2:									
 ```bash
 cd ros2_ws
