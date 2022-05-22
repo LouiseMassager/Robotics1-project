@@ -14,7 +14,7 @@ In order to run this project, multiple prerequisites are needed. Please refer to
 
 ## Deployment
 
-*** To set the Mara robotic joint angles directly:
+:student: To set the Mara robotic joint angles directly:
 
 - step 1: launch the Mara robot in Gazebo
 In terminal 1:
@@ -33,7 +33,7 @@ colcon build --packages-select ldmk_package
 ros2 run ldmk_package anglespublisher2 0 90 0 90 0 0
 ```
 
-*** To deploy a simulation of the Mara robotic arm multiple nodes must be run
+:woman_student: To deploy a simulation of the Mara robotic arm multiple nodes must be run
 
 - step 1: launch the Mara robot in Gazebo:
 In terminal 1:
