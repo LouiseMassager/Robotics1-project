@@ -51,7 +51,7 @@ source install/setup.bash
 ros2 launch ldmk_package maraik.launch.py
 ```
 
-- step 3: listen to keyboard commands to move the end-effector
+- step 3: listen to keyboard commands to move the end-effector <br />
 terminal 3:									
 ```bash
 cd ros2_ws
@@ -60,7 +60,7 @@ ros2 run ldmk_package teleop_keyboard run
 ```
 
 :ear: To listen to a topic (eg. /cmd_ik)
-additional terminal:
+- additional terminal:
 ```bash
 cd ros2_ws
 source install/setup.bash
