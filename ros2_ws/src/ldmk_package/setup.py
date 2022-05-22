@@ -27,6 +27,7 @@ setup(
             'roboticsIK = ldmk_package.roboticsIK:main',
             'teleop_keyboard = ldmk_package.teleop_keyboard',
             'anglespublisher2 = ldmk_package.anglespublisher2',
+            'fingerspublisher = ldmk_package.fingerspublisher:main',
         ],
     },
 )
