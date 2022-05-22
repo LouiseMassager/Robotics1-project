@@ -3,7 +3,7 @@
 Robotics1-project aims to realize a position control of the Mara robot in ROS2 in order to move a box around.
 
 
-## Screenshots
+## Screenshot
 
 <img src="mara_demo.jpg" width=1000>
 
