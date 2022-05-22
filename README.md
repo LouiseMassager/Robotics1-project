@@ -14,6 +14,14 @@ In order to run this project, multiple prerequisites are needed. Please refer to
 
 ## Deployment
 
+:triangular_flag_on_post: First, always update the ldmk_package:
+```bash
+source /opt/ros/foxy/setup.bash
+cd ros2_ws
+source install/setup.bash
+colcon build --packages-select ldmk_package
+```
+
 :teacher: To set the Mara robotic joint angles directly:
 
 - step 1: launch the Mara robot in Gazebo <br />
