@@ -14,7 +14,26 @@ In order to run this project, multiple prerequisites are needed. Please refer to
 
 ## Deployment
 
-To deploy a simulation of the Mara robotic arm multiple nodes must be run.
+* To set the Mara robotic joint angles directly:
+
+- step 1: launch the Mara robot in Gazebo
+In terminal 1:
+```bash
+source /opt/ros/foxy/setup.bash
+cd ros2_ws
+source install/setup.bash
+ros2 launch mara_gazebo mara2.launch.py
+```
+- step 2: set the joint angles (eg. 0°,90°,0°,90°,0°,0°)
+In terminal 2:									
+```bash
+cd ros2_ws
+source install/setup.bash
+colcon build --packages-select ldmk_package
+ros2 run ldmk_package anglespublisher2 0 90 0 90 0 0
+```
+
+* To deploy a simulation of the Mara robotic arm multiple nodes must be run
 
 - step 1: launch the Mara robot in Gazebo:
 In terminal 1:
@@ -24,7 +43,7 @@ cd ros2_ws
 source install/setup.bash
 ros2 launch mara_gazebo mara2.launch.py
 ```
-- step 2: listen to end-effector position or joint angles commands:
+- step 2: listen to end-effector position or joint angles commands
 In terminal 2:									
 ```bash
 cd ros2_ws
@@ -32,7 +51,7 @@ source install/setup.bash
 ros2 launch ldmk_package maraik.launch.py
 ```
 
-- step 3: listen to keyboard commands to move the end-effector:
+- step 3: listen to keyboard commands to move the end-effector
 terminal 3:									
 ```bash
 cd ros2_ws
