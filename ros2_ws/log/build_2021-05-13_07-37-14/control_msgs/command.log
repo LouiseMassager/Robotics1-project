@@ -1,0 +1,6 @@
+Invoking command in '/home/user/ros2_ws/build/control_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/control_msgs/control_msgs -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/control_msgs
+Invoked command in '/home/user/ros2_ws/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/control_msgs/control_msgs -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/control_msgs
+Invoking command in '/home/user/ros2_ws/build/control_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/control_msgs -- -j16 -l16
+Invoked command in '/home/user/ros2_ws/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/control_msgs -- -j16 -l16
+Invoking command in '/home/user/ros2_ws/build/control_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/control_msgs
+Invoked command in '/home/user/ros2_ws/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/control_msgs

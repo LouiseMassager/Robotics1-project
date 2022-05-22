@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hrim_actuator_gripper_srvs/srv/ControlVacuum.srv
+// generated code does not contain a copyright notice
+
+
+module hrim_actuator_gripper_srvs {
+  module srv {
+    @verbatim (language="comment", text=
+      " allows the user to work with different suction values")
+    struct ControlVacuum_Request {
+      @verbatim (language="comment", text=
+        " suction value on the maximum allowed")
+      float goal_percentage_suction;
+    };
+    struct ControlVacuum_Response {
+      @verbatim (language="comment", text=
+        " true: the goal is accepted | false: the goal is not accepted")
+      boolean goal_accepted;
+    };
+  };
+};

@@ -1,0 +1,10 @@
+{
+  "package_name": "hrim_actuator_gripper_msgs",
+  "non_idl_tuples": [
+    "/home/user/ros2_ws/src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_msgs:msg/CycleTime.msg",
+    "/home/user/ros2_ws/src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_msgs:msg/GoalTactilePressure.msg",
+    "/home/user/ros2_ws/src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_msgs:msg/Reconfiguration.msg",
+    "/home/user/ros2_ws/src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_msgs:msg/StateFingerGripper.msg",
+    "/home/user/ros2_ws/src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_msgs:msg/StateGripper.msg"
+  ]
+}

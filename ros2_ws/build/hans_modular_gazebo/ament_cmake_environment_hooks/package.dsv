@@ -1,0 +1,4 @@
+source;share/hans_modular_gazebo/local_setup.bash
+source;share/hans_modular_gazebo/local_setup.dsv
+source;share/hans_modular_gazebo/local_setup.sh
+source;share/hans_modular_gazebo/local_setup.zsh

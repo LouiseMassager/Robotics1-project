@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hrim_actuator_gripper_srvs/srv/ControlFinger.srv
+// generated code does not contain a copyright notice
+
+
+module hrim_actuator_gripper_srvs {
+  module srv {
+    @verbatim (language="comment", text=
+      " allows the user to work with different values")
+    struct ControlFinger_Request {
+      @verbatim (language="comment", text=
+        " distance between fingers")
+      float goal_linearposition;
+
+      @verbatim (language="comment", text=
+        " angle of the joint")
+      float goal_angularposition;
+
+      @verbatim (language="comment", text=
+        " maximun effort to apply")
+      float goal_effort;
+
+      @verbatim (language="comment", text=
+        " velocity to open/close fingers, if 0 gripper contains pressure sensor")
+      float goal_velocity;
+
+      @verbatim (language="comment", text=
+        " acceleration to open fingers")
+      float goal_acceleration;
+    };
+    struct ControlFinger_Response {
+      @verbatim (language="comment", text=
+        " true: the goal is accepted | false: the goal is not accepted")
+      boolean goal_accepted;
+    };
+  };
+};

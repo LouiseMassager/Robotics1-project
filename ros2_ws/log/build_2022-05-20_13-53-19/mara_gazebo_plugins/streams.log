@@ -1,0 +1,122 @@
+[0.386s] Invoking command in '/home/user/ros2_ws/build/mara_gazebo_plugins': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/hrim_generic_srvs:/home/user/ros2_ws/install/hrim_generic_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions:/home/simulations/ros2_sims_ws/install/ros1_bridge:/home/user/ros2_ws/install/robotiq_hande_gripper_description:/home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins:/home/user/ros2_ws/install/robotiq_gazebo:/home/user/ros2_ws/install/robotiq_85_gripper_description:/home/user/ros2_ws/install/robotiq_140_gripper_description:/home/user/ros2_ws/install/mara_utils_scripts:/home/user/ros2_ws/install/mara_minimal_trajectory_action:/home/user/ros2_ws/install/mara_minimal_subscriber:/home/user/ros2_ws/install/mara_minimal_publisher:/home/user/ros2_ws/install/mara_gazebo_plugins:/home/user/ros2_ws/install/mara_gazebo:/home/user/ros2_ws/install/mara_description:/home/user/ros2_ws/install/mara_contact_publisher:/home/user/ros2_ws/install/mara_bringup:/home/user/ros2_ws/install/individual_trajectories_bridge:/home/user/ros2_ws/install/hros_cognition_mara_components:/home/user/ros2_ws/install/gripper_minimal_service:/home/user/ros2_ws/install/hrim_actuator_gripper_srvs:/home/user/ros2_ws/install/gripper_minimal_subscriber:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs:/home/user/ros2_ws/install/hans_t9_4_description:/home/user/ros2_ws/install/hans_t49_description:/home/user/ros2_ws/install/hans_t30_description:/home/user/ros2_ws/install/hans_modular_gazebo:/home/user/ros2_ws/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/user/ros2_ws/install/hrim_generic_srvs/lib:/home/user/ros2_ws/install/hrim_generic_msgs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/lib:/home/user/ros2_ws/install/mara_gazebo_plugins/lib:/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs/lib:/home/user/ros2_ws/install/control_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/user/ros2_ws/install/hrim_generic_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_generic_msgs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs/lib/python3.8/site-packages:/home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/mara_gazebo_plugins -- -j8 -l8
+[40.644s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[40.647s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[40.647s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[40.648s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[40.648s] -- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[40.648s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[40.648s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[40.651s] -- Looking for ignition-math6 -- found version 6.8.0
+[40.651s] -- Searching for dependencies of ignition-math6
+[40.652s] -- Looking for OGRE...
+[40.652s] -- Found Ogre Ghadamon (1.9.0)
+[40.652s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[40.652s] -- Looking for OGRE_Paging...
+[40.652s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[40.653s] -- Looking for OGRE_Terrain...
+[40.653s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[40.653s] -- Looking for OGRE_Property...
+[40.653s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[40.653s] -- Looking for OGRE_RTShaderSystem...
+[40.653s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[40.654s] -- Looking for OGRE_Volume...
+[40.654s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[40.654s] -- Looking for OGRE_Overlay...
+[40.654s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[40.654s] -- Looking for ignition-math6 -- found version 6.8.0
+[40.655s] -- Looking for ignition-transport8 -- found version 8.2.0
+[40.655s] -- Searching for dependencies of ignition-transport8
+[40.655s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[40.656s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[40.657s] -- Checking for module 'libzmq >= 4'
+[40.657s] --   Found libzmq , version 4.3.2
+[40.657s] -- Checking for module 'uuid'
+[40.659s] --   Found uuid, version 2.34.0
+[40.659s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[40.659s] -- Searching for dependencies of ignition-msgs5
+[40.660s] -- Looking for ignition-math6 -- found version 6.8.0
+[40.660s] -- Checking for module 'tinyxml2'
+[40.660s] --   Found tinyxml2, version 6.2.0
+[40.660s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[40.660s] -- Looking for ignition-common3 -- found version 3.13.1
+[40.661s] -- Searching for dependencies of ignition-common3
+[40.661s] -- Looking for dlfcn.h - found
+[40.661s] -- Looking for libdl - found
+[40.663s] -- Searching for <ignition-common3> component [graphics]
+[40.663s] -- Looking for ignition-common3-graphics -- found version 3.13.1
+[40.664s] -- Searching for dependencies of ignition-common3-graphics
+[40.664s] -- Looking for ignition-math6 -- found version 6.8.0
+[40.668s] -- Looking for ignition-fuel_tools4 -- found version 4.3.0
+[40.668s] -- Searching for dependencies of ignition-fuel_tools4
+[40.668s] -- Checking for module 'jsoncpp'
+[40.668s] --   Found jsoncpp, version 1.7.4
+[40.668s] -- Checking for module 'libzip'
+[40.669s] --   Found libzip, version 1.5.1
+[40.669s] -- Looking for ignition-common3 -- found version 3.13.1
+[40.669s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[40.669s] -- Gazebo version: 11.5
+[40.670s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[40.670s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[40.670s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[40.670s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[40.671s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[40.671s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[40.672s] -- Found rclcpp_action: 2.4.0 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[40.672s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[40.672s] -- Found tf2: 0.13.11 (/opt/ros/foxy/share/tf2/cmake)
+[40.673s] -- Found tf2_geometry_msgs: 0.13.11 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[40.678s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[40.678s] -- Found hrim_actuator_rotaryservo_msgs: 0.3.0 (/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs/share/hrim_actuator_rotaryservo_msgs/cmake)
+[40.678s] -- Found hrim_actuator_rotaryservo_srvs: 0.3.0 (/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs/share/hrim_actuator_rotaryservo_srvs/cmake)
+[40.678s] -- Found hrim_actuator_rotaryservo_actions: 0.3.0 (/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake)
+[40.679s] -- Found hrim_generic_msgs: 0.3.0 (/home/user/ros2_ws/install/hrim_generic_msgs/share/hrim_generic_msgs/cmake)
+[40.679s] -- Found hrim_generic_srvs: 0.3.0 (/home/user/ros2_ws/install/hrim_generic_srvs/share/hrim_generic_srvs/cmake)
+[40.679s] -- Configuring done
+[40.679s] -- Generating done
+[40.680s] -- Build files have been written to: /home/user/ros2_ws/build/mara_gazebo_plugins
+[40.680s] [35m[1mScanning dependencies of target mara_gazebo_joint_plugin[0m
+[40.680s] [ 16%] [32mBuilding CXX object CMakeFiles/mara_gazebo_joint_plugin.dir/src/mara_gazebo_joint_plugin.cpp.o[0m
+[40.680s] CMake Warning at CMakeLists.txt:50 (add_library):
+[40.681s]   Cannot generate a safe runtime search path for target
+[40.681s]   mara_gazebo_joint_plugin because there is a cycle in the constraint graph:
+[40.681s] 
+[40.681s]     dir 0 is [/usr/lib/x86_64-linux-gnu/gazebo-11/plugins]
+[40.682s]     dir 1 is [/opt/ros/foxy/lib]
+[40.682s]       dir 8 must precede it due to runtime library [liboctomap.so.1.9]
+[40.682s]     dir 2 is [/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs/lib]
+[40.682s]     dir 3 is [/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs/lib]
+[40.682s]     dir 4 is [/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib]
+[40.683s]     dir 5 is [/home/user/ros2_ws/install/hrim_generic_msgs/lib]
+[40.683s]     dir 6 is [/home/user/ros2_ws/install/hrim_generic_srvs/lib]
+[40.683s]     dir 7 is [/opt/ros/foxy/lib/x86_64-linux-gnu]
+[40.684s]     dir 8 is [/opt/ros/noetic/lib]
+[40.684s]       dir 1 must precede it due to runtime library [libgazebo_ros_utils.so]
+[40.687s] 
+[40.687s]   Some of these libraries may not be found correctly.
+[40.687s] 
+[40.687s] 
+[40.688s] CMake Warning at CMakeLists.txt:73 (add_library):
+[40.688s]   Cannot generate a safe runtime search path for target
+[40.688s]   mara_gazebo_joint_training_plugin because there is a cycle in the
+[40.688s]   constraint graph:
+[40.688s] 
+[40.689s]     dir 0 is [/usr/lib/x86_64-linux-gnu/gazebo-11/plugins]
+[40.689s]     dir 1 is [/opt/ros/foxy/lib]
+[40.689s]       dir 8 must precede it due to runtime library [liboctomap.so.1.9]
+[40.689s]     dir 2 is [/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs/lib]
+[40.689s]     dir 3 is [/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs/lib]
+[40.690s]     dir 4 is [/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib]
+[40.691s]     dir 5 is [/home/user/ros2_ws/install/hrim_generic_msgs/lib]
+[40.691s]     dir 6 is [/home/user/ros2_ws/install/hrim_generic_srvs/lib]
+[40.692s]     dir 7 is [/opt/ros/foxy/lib/x86_64-linux-gnu]
+[40.692s]     dir 8 is [/opt/ros/noetic/lib]
+[40.692s]       dir 1 must precede it due to runtime library [libgazebo_ros_utils.so]
+[40.692s] 
+[40.693s]   Some of these libraries may not be found correctly.
+[40.694s] 
+[40.694s] 
+[158.522s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[158.523s] compilation terminated.
+[158.527s] make[2]: *** [CMakeFiles/mara_gazebo_joint_plugin.dir/build.make:63: CMakeFiles/mara_gazebo_joint_plugin.dir/src/mara_gazebo_joint_plugin.cpp.o] Error 1
+[158.527s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/mara_gazebo_joint_plugin.dir/all] Error 2
+[158.527s] make: *** [Makefile:141: all] Error 2

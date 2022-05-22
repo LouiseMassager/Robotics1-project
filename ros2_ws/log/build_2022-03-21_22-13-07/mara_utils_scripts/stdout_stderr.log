@@ -1,0 +1,24 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/ros2_ws/build/mara_utils_scripts
+-- Install configuration: ""
+-- Up-to-date: /home/user/ros2_ws/install/mara_utils_scripts/lib/mara_utils_scripts/mara_control.py
+-- Installing: /home/user/ros2_ws/install/mara_utils_scripts/lib/mara_utils_scripts/spawn_mara.py
+-- Up-to-date: /home/user/ros2_ws/install/mara_utils_scripts/share/ament_index/resource_index/package_run_dependencies/mara_utils_scripts
+-- Installing: /home/user/ros2_ws/install/mara_utils_scripts/share/ament_index/resource_index/parent_prefix_path/mara_utils_scripts
+-- Installing: /home/user/ros2_ws/install/mara_utils_scripts/share/mara_utils_scripts/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/install/mara_utils_scripts/share/mara_utils_scripts/environment/ament_prefix_path.dsv
+-- Installing: /home/user/ros2_ws/install/mara_utils_scripts/share/mara_utils_scripts/environment/path.sh
+-- Installing: /home/user/ros2_ws/install/mara_utils_scripts/share/mara_utils_scripts/environment/path.dsv
+-- Installing: /home/user/ros2_ws/install/mara_utils_scripts/share/mara_utils_scripts/local_setup.bash
+-- Installing: /home/user/ros2_ws/install/mara_utils_scripts/share/mara_utils_scripts/local_setup.sh
+-- Installing: /home/user/ros2_ws/install/mara_utils_scripts/share/mara_utils_scripts/local_setup.zsh
+-- Installing: /home/user/ros2_ws/install/mara_utils_scripts/share/mara_utils_scripts/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/mara_utils_scripts/share/mara_utils_scripts/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/mara_utils_scripts/share/ament_index/resource_index/packages/mara_utils_scripts
+-- Up-to-date: /home/user/ros2_ws/install/mara_utils_scripts/share/mara_utils_scripts/cmake/mara_utils_scriptsConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/mara_utils_scripts/share/mara_utils_scripts/cmake/mara_utils_scriptsConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/install/mara_utils_scripts/share/mara_utils_scripts/package.xml

@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from control_msgs/msg/JointControllerState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module control_msgs {
+  module msg {
+    struct JointControllerState {
+      std_msgs::msg::Header header;
+
+      double set_point;
+
+      double process_value;
+
+      double process_value_dot;
+
+      double error;
+
+      double time_step;
+
+      double command;
+
+      double p;
+
+      double i;
+
+      double d;
+
+      double i_clamp;
+
+      boolean antiwindup;
+    };
+  };
+};

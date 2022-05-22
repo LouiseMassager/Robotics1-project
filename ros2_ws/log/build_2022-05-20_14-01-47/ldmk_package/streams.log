@@ -1,0 +1,24 @@
+[0.695s] Invoking command in '/home/user/ros2_ws/src/ldmk_package': PYTHONPATH=/home/user/ros2_ws/install/ldmk_package/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/ldmk_package build --build-base /home/user/ros2_ws/build/ldmk_package/build install --prefix /home/user/ros2_ws/install/ldmk_package --record /home/user/ros2_ws/build/ldmk_package/install.log --single-version-externally-managed
+[1.279s] running egg_info
+[1.281s] writing ../../build/ldmk_package/ldmk_package.egg-info/PKG-INFO
+[1.285s] writing dependency_links to ../../build/ldmk_package/ldmk_package.egg-info/dependency_links.txt
+[1.285s] writing entry points to ../../build/ldmk_package/ldmk_package.egg-info/entry_points.txt
+[1.285s] writing requirements to ../../build/ldmk_package/ldmk_package.egg-info/requires.txt
+[1.285s] writing top-level names to ../../build/ldmk_package/ldmk_package.egg-info/top_level.txt
+[1.354s] reading manifest file '../../build/ldmk_package/ldmk_package.egg-info/SOURCES.txt'
+[1.356s] writing manifest file '../../build/ldmk_package/ldmk_package.egg-info/SOURCES.txt'
+[1.356s] running build
+[1.356s] running build_py
+[1.356s] copying ldmk_package/roboticsIK.py -> /home/user/ros2_ws/build/ldmk_package/build/lib/ldmk_package
+[1.359s] running install
+[1.360s] running install_lib
+[1.366s] copying /home/user/ros2_ws/build/ldmk_package/build/lib/ldmk_package/roboticsIK.py -> /home/user/ros2_ws/install/ldmk_package/lib/python3.8/site-packages/ldmk_package
+[1.367s] byte-compiling /home/user/ros2_ws/install/ldmk_package/lib/python3.8/site-packages/ldmk_package/roboticsIK.py to roboticsIK.cpython-38.pyc
+[1.367s] running install_data
+[1.367s] running install_egg_info
+[1.369s] removing '/home/user/ros2_ws/install/ldmk_package/lib/python3.8/site-packages/ldmk_package-0.0.0-py3.8.egg-info' (and everything under it)
+[1.370s] Copying ../../build/ldmk_package/ldmk_package.egg-info to /home/user/ros2_ws/install/ldmk_package/lib/python3.8/site-packages/ldmk_package-0.0.0-py3.8.egg-info
+[1.375s] running install_scripts
+[1.403s] Installing roboticsIK script to /home/user/ros2_ws/install/ldmk_package/lib/ldmk_package
+[1.403s] writing list of installed files to '/home/user/ros2_ws/build/ldmk_package/install.log'
+[1.437s] Invoked command in '/home/user/ros2_ws/src/ldmk_package' returned '0': PYTHONPATH=/home/user/ros2_ws/install/ldmk_package/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/ldmk_package build --build-base /home/user/ros2_ws/build/ldmk_package/build install --prefix /home/user/ros2_ws/install/ldmk_package --record /home/user/ros2_ws/build/ldmk_package/install.log --single-version-externally-managed

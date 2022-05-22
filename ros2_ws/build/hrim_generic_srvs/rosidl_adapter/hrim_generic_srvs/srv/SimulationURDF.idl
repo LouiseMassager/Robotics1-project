@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hrim_generic_srvs/srv/SimulationURDF.srv
+// generated code does not contain a copyright notice
+
+
+module hrim_generic_srvs {
+  module srv {
+    struct SimulationURDF_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct SimulationURDF_Response {
+      @verbatim (language="comment", text=
+        " the urdf corresponding to the component's .stl")
+      string urdf_model;
+    };
+  };
+};

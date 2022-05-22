@@ -1,0 +1,4 @@
+source;share/hrim_actuator_gripper_msgs/local_setup.bash
+source;share/hrim_actuator_gripper_msgs/local_setup.dsv
+source;share/hrim_actuator_gripper_msgs/local_setup.sh
+source;share/hrim_actuator_gripper_msgs/local_setup.zsh

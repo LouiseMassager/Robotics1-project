@@ -1,0 +1,5 @@
+make[2]: *** [CMakeFiles/hrim_actuator_gripper_msgs__rosidl_generator_c.dir/build.make:256: CMakeFiles/hrim_actuator_gripper_msgs__rosidl_generator_c.dir/rosidl_generator_c/hrim_actuator_gripper_msgs/msg/detail/state_finger_gripper__functions.c.o] Interrupt
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** wait: No child processes.  Stop.
+make: *** [Makefile:141: all] Error 2

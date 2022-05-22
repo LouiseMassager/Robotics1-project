@@ -1,0 +1,37 @@
+[0.122s] Invoking command in '/home/user/ros2_ws/build/hans_t9_4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/hans_t9_4_description -- -j8 -l8
+[3.690s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.694s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.695s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.695s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[3.713s] -- Configuring done
+[3.781s] -- Generating done
+[3.783s] -- Build files have been written to: /home/user/ros2_ws/build/hans_t9_4_description
+[4.011s] Invoked command in '/home/user/ros2_ws/build/hans_t9_4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/hans_t9_4_description -- -j8 -l8
+[4.326s] Invoking command in '/home/user/ros2_ws/build/hans_t9_4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/hans_t9_4_description
+[6.206s] -- Install configuration: ""
+[6.207s] -- Up-to-date: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/meshes
+[6.207s] -- Up-to-date: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/meshes/HANS_T5.4_black.dae
+[6.207s] -- Up-to-date: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/meshes/HANS_T5.4.dae
+[6.207s] -- Up-to-date: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/urdf
+[6.208s] -- Up-to-date: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/urdf/hans_t9.4.urdf.xacro
+[6.208s] -- Up-to-date: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/urdf/hans_module.urdf.xacro
+[6.208s] -- Up-to-date: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/urdf/hans_t9.4.urdf
+[6.209s] -- Up-to-date: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/rviz
+[6.209s] -- Up-to-date: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/rviz/visualization.rviz
+[6.210s] -- Up-to-date: /home/user/ros2_ws/install/hans_t9_4_description/share/ament_index/resource_index/package_run_dependencies/hans_t9_4_description
+[6.210s] -- Installing: /home/user/ros2_ws/install/hans_t9_4_description/share/ament_index/resource_index/parent_prefix_path/hans_t9_4_description
+[6.211s] -- Installing: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/environment/ament_prefix_path.sh
+[6.211s] -- Installing: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/environment/ament_prefix_path.dsv
+[6.212s] -- Installing: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/environment/path.sh
+[6.213s] -- Installing: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/environment/path.dsv
+[6.214s] -- Installing: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/local_setup.bash
+[6.214s] -- Installing: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/local_setup.sh
+[6.214s] -- Installing: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/local_setup.zsh
+[6.216s] -- Installing: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/local_setup.dsv
+[6.217s] -- Installing: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/package.dsv
+[6.217s] -- Up-to-date: /home/user/ros2_ws/install/hans_t9_4_description/share/ament_index/resource_index/packages/hans_t9_4_description
+[6.217s] -- Installing: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.218s] -- Up-to-date: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/cmake/hans_t9_4_descriptionConfig.cmake
+[6.283s] -- Up-to-date: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/cmake/hans_t9_4_descriptionConfig-version.cmake
+[6.284s] -- Up-to-date: /home/user/ros2_ws/install/hans_t9_4_description/share/hans_t9_4_description/package.xml
+[6.412s] Invoked command in '/home/user/ros2_ws/build/hans_t9_4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/hans_t9_4_description

@@ -1,0 +1,181 @@
+[0.268s] Invoking command in '/home/user/ros2_ws/build/mara_contact_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/mara/mara_contact_publisher -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/mara_contact_publisher
+[14.624s] -- The C compiler identification is GNU 9.3.0
+[14.625s] -- The CXX compiler identification is GNU 9.3.0
+[14.625s] -- Check for working C compiler: /usr/bin/cc
+[14.625s] -- Check for working C compiler: /usr/bin/cc -- works
+[14.625s] -- Detecting C compiler ABI info
+[14.625s] -- Detecting C compiler ABI info - done
+[14.625s] -- Detecting C compile features
+[14.626s] -- Detecting C compile features - done
+[14.626s] -- Check for working CXX compiler: /usr/bin/c++
+[14.626s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[14.627s] -- Detecting CXX compiler ABI info
+[14.627s] -- Detecting CXX compiler ABI info - done
+[14.627s] -- Detecting CXX compile features
+[14.627s] -- Detecting CXX compile features - done
+[14.627s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[14.628s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[14.628s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.628s] -- Found gazebo_dev: 3.5.0 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[14.628s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[14.628s] -- Checking for module 'bullet>=2.82'
+[14.814s] --   Found bullet, version 2.88
+[15.712s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[16.144s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[16.371s] -- Found assimp: /usr/include (found version "5.0.0") 
+[17.005s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[18.259s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[19.071s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[19.117s] -- Looking for ignition-math6 -- found version 6.4.0
+[19.246s] -- Searching for dependencies of ignition-math6
+[19.371s] -- Looking for OGRE...
+[19.374s] -- OGRE_PREFIX_WATCH changed.
+[19.411s] -- Checking for module 'OGRE'
+[19.545s] --   Found OGRE, version 1.9.0
+[20.180s] -- Found Ogre Ghadamon (1.9.0)
+[20.318s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[20.403s] -- Looking for OGRE_Paging...
+[20.439s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[20.440s] -- Looking for OGRE_Terrain...
+[20.493s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[20.494s] -- Looking for OGRE_Property...
+[20.582s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[20.582s] -- Looking for OGRE_RTShaderSystem...
+[20.671s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[20.673s] -- Looking for OGRE_Volume...
+[20.690s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[20.690s] -- Looking for OGRE_Overlay...
+[20.765s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[21.353s] -- Looking for ignition-math6 -- found version 6.4.0
+[21.365s] -- Looking for ignition-transport8 -- found version 8.1.0
+[21.366s] -- Searching for dependencies of ignition-transport8
+[21.437s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[21.557s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[21.585s] -- Checking for module 'libzmq >= 4'
+[21.780s] --   Found libzmq , version 4.3.2
+[22.084s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[22.095s] -- Checking for module 'uuid'
+[22.268s] --   Found uuid, version 2.34.0
+[22.528s] -- Found UUID: TRUE  
+[22.541s] -- Looking for ignition-msgs5 -- found version 5.3.0
+[22.544s] -- Searching for dependencies of ignition-msgs5
+[22.620s] -- Looking for ignition-math6 -- found version 6.4.0
+[22.632s] -- Checking for module 'tinyxml2'
+[22.758s] --   Found tinyxml2, version 6.2.0
+[23.110s] -- Looking for ignition-msgs5 -- found version 5.3.0
+[23.136s] -- Looking for ignition-common3 -- found version 3.6.0
+[23.137s] -- Searching for dependencies of ignition-common3
+[23.138s] -- Looking for dlfcn.h - found
+[23.141s] -- Looking for libdl - found
+[23.144s] -- Found DL: TRUE  
+[23.159s] -- Searching for <ignition-common3> component [graphics]
+[23.179s] -- Looking for ignition-common3-graphics -- found version 3.6.0
+[23.180s] -- Searching for dependencies of ignition-common3-graphics
+[23.181s] -- Looking for ignition-math6 -- found version 6.4.0
+[23.206s] -- Looking for ignition-fuel_tools4 -- found version 4.2.1
+[23.207s] -- Searching for dependencies of ignition-fuel_tools4
+[23.801s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[23.831s] -- Checking for module 'jsoncpp'
+[23.958s] --   Found jsoncpp, version 1.7.4
+[24.304s] -- Found JSONCPP: TRUE  
+[24.351s] -- Checking for module 'libzip'
+[24.482s] --   Found libzip, version 1.5.1
+[24.804s] -- Found ZIP: TRUE  
+[24.805s] -- Looking for ignition-common3 -- found version 3.6.0
+[24.806s] -- Looking for ignition-msgs5 -- found version 5.3.0
+[24.812s] -- Gazebo version: 11.1
+[24.818s] -- Found gazebo_ros: 3.5.0 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[24.914s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[24.934s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[25.404s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[25.485s] -- Found FastRTPS: /opt/ros/foxy/include  
+[25.686s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[25.799s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[25.802s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[25.805s] -- Found Threads: TRUE  
+[26.175s] -- Found gazebo_msgs: 3.5.0 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+[26.882s] -- Configuring done
+[29.001s] -- Generating done
+[29.005s] -- Build files have been written to: /home/user/ros2_ws/build/mara_contact_publisher
+[29.029s] Invoked command in '/home/user/ros2_ws/build/mara_contact_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/mara/mara_contact_publisher -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/mara_contact_publisher
+[29.031s] Invoking command in '/home/user/ros2_ws/build/mara_contact_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/mara_contact_publisher -- -j16 -l16
+[29.157s] [35m[1mScanning dependencies of target mara_contact_publisher[0m
+[32.581s] [ 50%] [32mBuilding CXX object CMakeFiles/mara_contact_publisher.dir/src/ContactPublisher.cpp.o[0m
+[52.352s] [01m[K/home/user/ros2_ws/src/ros2_mara/mara/mara_contact_publisher/src/ContactPublisher.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[52.352s] [01m[K/home/user/ros2_ws/src/ros2_mara/mara/mara_contact_publisher/src/ContactPublisher.cpp:77:16:[m[K [01;35m[Kwarning: [m[K'[01m[Kbool rclcpp::is_initialized(rclcpp::Context::SharedPtr)[m[K' is deprecated: use the function ok() instead, which has the same usage. [[01;35m[K-Wdeprecated-declarations[m[K]
+[52.352s]    77 |   if (!rclcpp::[01;35m[Kis_initialized[m[K()) {
+[52.352s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[52.352s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:36[m[K,
+[52.353s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[52.353s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[52.353s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[52.353s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[52.353s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[52.354s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[52.354s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[52.354s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[52.354s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[52.354s]                  from [01m[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18[m[K,
+[52.354s]                  from [01m[K/home/user/ros2_ws/src/ros2_mara/mara/mara_contact_publisher/src/ContactPublisher.cpp:25[m[K:
+[52.354s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:159:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[52.354s]   159 | [01;36m[Kis_initialized[m[K(rclcpp::Context::SharedPtr context = nullptr);
+[52.355s]       | [01;36m[K^~~~~~~~~~~~~~[m[K
+[52.355s] [01m[K/home/user/ros2_ws/src/ros2_mara/mara/mara_contact_publisher/src/ContactPublisher.cpp:77:31:[m[K [01;35m[Kwarning: [m[K'[01m[Kbool rclcpp::is_initialized(rclcpp::Context::SharedPtr)[m[K' is deprecated: use the function ok() instead, which has the same usage. [[01;35m[K-Wdeprecated-declarations[m[K]
+[52.355s]    77 |   if (!rclcpp::is_initialized([01;35m[K)[m[K) {
+[52.355s]       |                               [01;35m[K^[m[K
+[52.356s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:36[m[K,
+[52.356s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[52.356s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[52.356s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[52.356s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[52.356s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[52.357s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[52.357s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[52.357s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[52.357s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[52.357s]                  from [01m[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18[m[K,
+[52.357s]                  from [01m[K/home/user/ros2_ws/src/ros2_mara/mara/mara_contact_publisher/src/ContactPublisher.cpp:25[m[K:
+[52.357s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:159:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[52.358s]   159 | [01;36m[Kis_initialized[m[K(rclcpp::Context::SharedPtr context = nullptr);
+[52.358s]       | [01;36m[K^~~~~~~~~~~~~~[m[K
+[52.358s] [01m[K/home/user/ros2_ws/src/ros2_mara/mara/mara_contact_publisher/src/ContactPublisher.cpp:77:31:[m[K [01;35m[Kwarning: [m[K'[01m[Kbool rclcpp::is_initialized(rclcpp::Context::SharedPtr)[m[K' is deprecated: use the function ok() instead, which has the same usage. [[01;35m[K-Wdeprecated-declarations[m[K]
+[52.358s]    77 |   if (!rclcpp::is_initialized([01;35m[K)[m[K) {
+[52.358s]       |                               [01;35m[K^[m[K
+[52.359s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:36[m[K,
+[52.359s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[52.359s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[52.359s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[52.359s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[52.359s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[52.360s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[52.360s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[52.360s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[52.360s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[52.360s]                  from [01m[K/opt/ros/foxy/include/gazebo_ros/node.hpp:18[m[K,
+[52.361s]                  from [01m[K/home/user/ros2_ws/src/ros2_mara/mara/mara_contact_publisher/src/ContactPublisher.cpp:25[m[K:
+[52.361s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:159:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[52.361s]   159 | [01;36m[Kis_initialized[m[K(rclcpp::Context::SharedPtr context = nullptr);
+[52.361s]       | [01;36m[K^~~~~~~~~~~~~~[m[K
+[58.093s] [100%] [32m[1mLinking CXX executable mara_contact_publisher[0m
+[61.455s] [100%] Built target mara_contact_publisher
+[61.494s] Invoked command in '/home/user/ros2_ws/build/mara_contact_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/mara_contact_publisher -- -j16 -l16
+[61.684s] Invoking command in '/home/user/ros2_ws/build/mara_contact_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/mara_contact_publisher
+[61.699s] -- Install configuration: ""
+[61.700s] -- Installing: /home/user/ros2_ws/install/mara_contact_publisher/lib/mara_contact_publisher/mara_contact_publisher
+[61.702s] -- Set runtime path of "/home/user/ros2_ws/install/mara_contact_publisher/lib/mara_contact_publisher/mara_contact_publisher" to ""
+[61.702s] -- Installing: /home/user/ros2_ws/install/mara_contact_publisher/share/ament_index/resource_index/package_run_dependencies/mara_contact_publisher
+[61.703s] -- Installing: /home/user/ros2_ws/install/mara_contact_publisher/share/ament_index/resource_index/parent_prefix_path/mara_contact_publisher
+[61.703s] -- Installing: /home/user/ros2_ws/install/mara_contact_publisher/share/mara_contact_publisher/environment/ament_prefix_path.sh
+[61.704s] -- Installing: /home/user/ros2_ws/install/mara_contact_publisher/share/mara_contact_publisher/environment/ament_prefix_path.dsv
+[61.704s] -- Installing: /home/user/ros2_ws/install/mara_contact_publisher/share/mara_contact_publisher/environment/path.sh
+[61.705s] -- Installing: /home/user/ros2_ws/install/mara_contact_publisher/share/mara_contact_publisher/environment/path.dsv
+[61.705s] -- Installing: /home/user/ros2_ws/install/mara_contact_publisher/share/mara_contact_publisher/local_setup.bash
+[61.705s] -- Installing: /home/user/ros2_ws/install/mara_contact_publisher/share/mara_contact_publisher/local_setup.sh
+[61.706s] -- Installing: /home/user/ros2_ws/install/mara_contact_publisher/share/mara_contact_publisher/local_setup.zsh
+[61.706s] -- Installing: /home/user/ros2_ws/install/mara_contact_publisher/share/mara_contact_publisher/local_setup.dsv
+[61.707s] -- Installing: /home/user/ros2_ws/install/mara_contact_publisher/share/mara_contact_publisher/package.dsv
+[61.707s] -- Installing: /home/user/ros2_ws/install/mara_contact_publisher/share/ament_index/resource_index/packages/mara_contact_publisher
+[61.707s] -- Installing: /home/user/ros2_ws/install/mara_contact_publisher/share/mara_contact_publisher/cmake/mara_contact_publisherConfig.cmake
+[61.708s] -- Installing: /home/user/ros2_ws/install/mara_contact_publisher/share/mara_contact_publisher/cmake/mara_contact_publisherConfig-version.cmake
+[61.708s] -- Installing: /home/user/ros2_ws/install/mara_contact_publisher/share/mara_contact_publisher/package.xml
+[61.728s] Invoked command in '/home/user/ros2_ws/build/mara_contact_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/mara_contact_publisher

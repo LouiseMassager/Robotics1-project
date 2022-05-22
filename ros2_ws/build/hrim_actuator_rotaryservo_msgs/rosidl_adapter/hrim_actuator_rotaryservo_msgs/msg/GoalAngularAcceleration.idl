@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hrim_actuator_rotaryservo_msgs/msg/GoalAngularAcceleration.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module hrim_actuator_rotaryservo_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " control the acceleration")
+    struct GoalAngularAcceleration {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " angular acceleration")
+      float acceleration;
+    };
+  };
+};

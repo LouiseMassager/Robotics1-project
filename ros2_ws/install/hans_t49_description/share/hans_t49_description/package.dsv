@@ -1,0 +1,8 @@
+source;share/hans_t49_description/hook/cmake_prefix_path.ps1
+source;share/hans_t49_description/hook/cmake_prefix_path.dsv
+source;share/hans_t49_description/hook/cmake_prefix_path.sh
+source;share/hans_t49_description/local_setup.bash
+source;share/hans_t49_description/local_setup.dsv
+source;share/hans_t49_description/local_setup.ps1
+source;share/hans_t49_description/local_setup.sh
+source;share/hans_t49_description/local_setup.zsh

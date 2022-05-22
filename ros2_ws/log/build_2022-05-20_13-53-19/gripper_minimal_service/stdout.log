@@ -1,0 +1,38 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found hrim_actuator_gripper_srvs: 0.3.0 (/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/ros2_ws/build/gripper_minimal_service
+[ 25%] [32m[1mLinking CXX executable gripper_minimal_client_v2[0m
+[ 50%] Built target gripper_minimal_client_v2
+[ 75%] [32m[1mLinking CXX executable gripper_minimal_client_v1[0m
+[100%] Built target gripper_minimal_client_v1
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/install/gripper_minimal_service/lib/gripper_minimal_service/gripper_minimal_client_v1
+-- Set runtime path of "/home/user/ros2_ws/install/gripper_minimal_service/lib/gripper_minimal_service/gripper_minimal_client_v1" to ""
+-- Installing: /home/user/ros2_ws/install/gripper_minimal_service/lib/gripper_minimal_service/gripper_minimal_client_v2
+-- Set runtime path of "/home/user/ros2_ws/install/gripper_minimal_service/lib/gripper_minimal_service/gripper_minimal_client_v2" to ""
+-- Up-to-date: /home/user/ros2_ws/install/gripper_minimal_service/lib/gripper_minimal_service/gripper_minimal_client_v1.py
+-- Up-to-date: /home/user/ros2_ws/install/gripper_minimal_service/lib/gripper_minimal_service/gripper_minimal_client_v2.py
+-- Up-to-date: /home/user/ros2_ws/install/gripper_minimal_service/share/ament_index/resource_index/package_run_dependencies/gripper_minimal_service
+-- Up-to-date: /home/user/ros2_ws/install/gripper_minimal_service/share/ament_index/resource_index/parent_prefix_path/gripper_minimal_service
+-- Up-to-date: /home/user/ros2_ws/install/gripper_minimal_service/share/gripper_minimal_service/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/install/gripper_minimal_service/share/gripper_minimal_service/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/gripper_minimal_service/share/gripper_minimal_service/environment/path.sh
+-- Installing: /home/user/ros2_ws/install/gripper_minimal_service/share/gripper_minimal_service/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/gripper_minimal_service/share/gripper_minimal_service/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/install/gripper_minimal_service/share/gripper_minimal_service/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/install/gripper_minimal_service/share/gripper_minimal_service/local_setup.zsh
+-- Installing: /home/user/ros2_ws/install/gripper_minimal_service/share/gripper_minimal_service/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/gripper_minimal_service/share/gripper_minimal_service/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/gripper_minimal_service/share/ament_index/resource_index/packages/gripper_minimal_service
+-- Up-to-date: /home/user/ros2_ws/install/gripper_minimal_service/share/gripper_minimal_service/cmake/gripper_minimal_serviceConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/gripper_minimal_service/share/gripper_minimal_service/cmake/gripper_minimal_serviceConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/install/gripper_minimal_service/share/gripper_minimal_service/package.xml

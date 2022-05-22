@@ -1,0 +1,155 @@
+[0.175s] Invoking command in '/home/user/ros2_ws/build/mara_gazebo_plugins': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/hrim_generic_srvs:/home/user/ros2_ws/install/hrim_generic_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/hrim_generic_srvs:/home/user/ros2_ws/install/hrim_generic_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/hrim_generic_srvs/lib:/home/user/ros2_ws/install/hrim_generic_msgs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/hrim_generic_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_generic_msgs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/mara/mara_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/mara_gazebo_plugins
+[0.380s] -- The C compiler identification is GNU 9.3.0
+[0.514s] -- The CXX compiler identification is GNU 9.3.0
+[0.524s] -- Check for working C compiler: /usr/bin/cc
+[0.749s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.750s] -- Detecting C compiler ABI info
+[0.993s] -- Detecting C compiler ABI info - done
+[1.019s] -- Detecting C compile features
+[1.019s] -- Detecting C compile features - done
+[1.025s] -- Check for working CXX compiler: /usr/bin/c++
+[1.366s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.368s] -- Detecting CXX compiler ABI info
+[1.589s] -- Detecting CXX compiler ABI info - done
+[1.628s] -- Detecting CXX compile features
+[1.628s] -- Detecting CXX compile features - done
+[1.634s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.696s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.697s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.618s] -- Found ament_index_cpp: 1.0.1 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[2.629s] -- Found gazebo_dev: 3.5.0 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[2.661s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.681s] -- Checking for module 'bullet>=2.82'
+[2.788s] --   Found bullet, version 2.88
+[3.525s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[3.831s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[4.193s] -- Found assimp: /usr/include (found version "5.0.0") 
+[4.318s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[5.315s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[5.375s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[5.393s] -- Looking for ignition-math6 -- found version 6.4.0
+[5.406s] -- Searching for dependencies of ignition-math6
+[5.409s] -- Looking for OGRE...
+[5.410s] -- OGRE_PREFIX_WATCH changed.
+[5.418s] -- Checking for module 'OGRE'
+[5.472s] --   Found OGRE, version 1.9.0
+[5.699s] -- Found Ogre Ghadamon (1.9.0)
+[5.726s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[5.745s] -- Looking for OGRE_Paging...
+[5.764s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[5.764s] -- Looking for OGRE_Terrain...
+[5.780s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[5.780s] -- Looking for OGRE_Property...
+[5.795s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[5.795s] -- Looking for OGRE_RTShaderSystem...
+[5.809s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[5.810s] -- Looking for OGRE_Volume...
+[5.838s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[5.839s] -- Looking for OGRE_Overlay...
+[5.868s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[6.316s] -- Looking for ignition-math6 -- found version 6.4.0
+[6.336s] -- Looking for ignition-transport8 -- found version 8.1.0
+[6.338s] -- Searching for dependencies of ignition-transport8
+[6.450s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[6.499s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[6.507s] -- Checking for module 'libzmq >= 4'
+[6.588s] --   Found libzmq , version 4.3.2
+[6.793s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[6.807s] -- Checking for module 'uuid'
+[6.894s] --   Found uuid, version 2.34.0
+[7.126s] -- Found UUID: TRUE  
+[7.152s] -- Looking for ignition-msgs5 -- found version 5.3.0
+[7.153s] -- Searching for dependencies of ignition-msgs5
+[7.252s] -- Looking for ignition-math6 -- found version 6.4.0
+[7.264s] -- Checking for module 'tinyxml2'
+[7.359s] --   Found tinyxml2, version 6.2.0
+[7.595s] -- Looking for ignition-msgs5 -- found version 5.3.0
+[7.600s] -- Looking for ignition-common3 -- found version 3.6.0
+[7.601s] -- Searching for dependencies of ignition-common3
+[7.603s] -- Looking for dlfcn.h - found
+[7.605s] -- Looking for libdl - found
+[7.610s] -- Found DL: TRUE  
+[7.620s] -- Searching for <ignition-common3> component [graphics]
+[7.629s] -- Looking for ignition-common3-graphics -- found version 3.6.0
+[7.634s] -- Searching for dependencies of ignition-common3-graphics
+[7.635s] -- Looking for ignition-math6 -- found version 6.4.0
+[7.648s] -- Looking for ignition-fuel_tools4 -- found version 4.2.1
+[7.649s] -- Searching for dependencies of ignition-fuel_tools4
+[8.061s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[8.100s] -- Checking for module 'jsoncpp'
+[8.221s] --   Found jsoncpp, version 1.7.4
+[8.502s] -- Found JSONCPP: TRUE  
+[8.522s] -- Checking for module 'libzip'
+[8.616s] --   Found libzip, version 1.5.1
+[8.908s] -- Found ZIP: TRUE  
+[8.910s] -- Looking for ignition-common3 -- found version 3.6.0
+[8.911s] -- Looking for ignition-msgs5 -- found version 5.3.0
+[8.914s] -- Gazebo version: 11.1
+[8.919s] -- Found gazebo_ros: 3.5.0 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[9.018s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.037s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[9.553s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.635s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.869s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.020s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.030s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.030s] -- Found Threads: TRUE  
+[10.457s] -- Found rclcpp_action: 2.2.0 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[10.637s] -- Found sensor_msgs: 2.0.3 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[10.890s] -- Found tf2: 0.13.6 (/opt/ros/foxy/share/tf2/cmake)
+[10.928s] -- Found tf2_geometry_msgs: 0.13.6 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[10.965s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[10.970s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[11.788s] -- Found hrim_actuator_rotaryservo_msgs: 0.3.0 (/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs/share/hrim_actuator_rotaryservo_msgs/cmake)
+[11.938s] -- Found hrim_actuator_rotaryservo_srvs: 0.3.0 (/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs/share/hrim_actuator_rotaryservo_srvs/cmake)
+[11.969s] -- Found hrim_actuator_rotaryservo_actions: 0.3.0 (/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake)
+[12.683s] -- Found hrim_generic_msgs: 0.3.0 (/home/user/ros2_ws/install/hrim_generic_msgs/share/hrim_generic_msgs/cmake)
+[12.755s] -- Found hrim_generic_srvs: 0.3.0 (/home/user/ros2_ws/install/hrim_generic_srvs/share/hrim_generic_srvs/cmake)
+[13.077s] -- Configuring done
+[13.262s] -- Generating done
+[13.277s] -- Build files have been written to: /home/user/ros2_ws/build/mara_gazebo_plugins
+[13.309s] Invoked command in '/home/user/ros2_ws/build/mara_gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/hrim_generic_srvs:/home/user/ros2_ws/install/hrim_generic_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/hrim_generic_srvs:/home/user/ros2_ws/install/hrim_generic_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/hrim_generic_srvs/lib:/home/user/ros2_ws/install/hrim_generic_msgs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/hrim_generic_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_generic_msgs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/mara/mara_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/mara_gazebo_plugins
+[13.310s] Invoking command in '/home/user/ros2_ws/build/mara_gazebo_plugins': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/hrim_generic_srvs:/home/user/ros2_ws/install/hrim_generic_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/hrim_generic_srvs:/home/user/ros2_ws/install/hrim_generic_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/hrim_generic_srvs/lib:/home/user/ros2_ws/install/hrim_generic_msgs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/hrim_generic_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_generic_msgs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/mara_gazebo_plugins -- -j16 -l16
+[13.452s] [35m[1mScanning dependencies of target mara_gazebo_joint_plugin[0m
+[14.632s] [ 16%] [32mBuilding CXX object CMakeFiles/mara_gazebo_joint_plugin.dir/src/mara_gazebo_joint_plugin.cpp.o[0m
+[45.435s] [ 33%] [32mBuilding CXX object CMakeFiles/mara_gazebo_joint_plugin.dir/src/spline.cpp.o[0m
+[46.364s] [ 50%] [32m[1mLinking CXX shared library libmara_gazebo_joint_plugin.so[0m
+[48.580s] [ 50%] Built target mara_gazebo_joint_plugin
+[48.606s] [35m[1mScanning dependencies of target mara_gazebo_joint_training_plugin[0m
+[48.846s] [ 66%] [32mBuilding CXX object CMakeFiles/mara_gazebo_joint_training_plugin.dir/src/mara_gazebo_joint_training_plugin.cpp.o[0m
+[70.257s] [ 83%] [32mBuilding CXX object CMakeFiles/mara_gazebo_joint_training_plugin.dir/src/spline.cpp.o[0m
+[71.241s] [100%] [32m[1mLinking CXX shared library libmara_gazebo_joint_training_plugin.so[0m
+[72.183s] [100%] Built target mara_gazebo_joint_training_plugin
+[72.205s] Invoked command in '/home/user/ros2_ws/build/mara_gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/hrim_generic_srvs:/home/user/ros2_ws/install/hrim_generic_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/hrim_generic_srvs:/home/user/ros2_ws/install/hrim_generic_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/hrim_generic_srvs/lib:/home/user/ros2_ws/install/hrim_generic_msgs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/hrim_generic_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_generic_msgs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/mara_gazebo_plugins -- -j16 -l16
+[72.340s] Invoking command in '/home/user/ros2_ws/build/mara_gazebo_plugins': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/hrim_generic_srvs:/home/user/ros2_ws/install/hrim_generic_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/hrim_generic_srvs:/home/user/ros2_ws/install/hrim_generic_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/hrim_generic_srvs/lib:/home/user/ros2_ws/install/hrim_generic_msgs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/hrim_generic_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_generic_msgs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/mara_gazebo_plugins
+[72.356s] -- Install configuration: ""
+[72.357s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/mara_gazebo_plugins/environment/library_path.sh
+[72.358s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/mara_gazebo_plugins/environment/library_path.dsv
+[72.358s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/mara_gazebo_plugins
+[72.358s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/mara_gazebo_plugins
+[72.359s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/mara_gazebo_plugins/environment/ament_prefix_path.sh
+[72.359s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/mara_gazebo_plugins/environment/ament_prefix_path.dsv
+[72.359s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/mara_gazebo_plugins/environment/path.sh
+[72.359s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/mara_gazebo_plugins/environment/path.dsv
+[72.359s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/mara_gazebo_plugins/local_setup.bash
+[72.360s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/mara_gazebo_plugins/local_setup.sh
+[72.360s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/mara_gazebo_plugins/local_setup.zsh
+[72.360s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/mara_gazebo_plugins/local_setup.dsv
+[72.360s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/mara_gazebo_plugins/package.dsv
+[72.361s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/ament_index/resource_index/packages/mara_gazebo_plugins
+[72.361s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/mara_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[72.361s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/mara_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[72.361s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/mara_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[72.361s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/mara_gazebo_plugins/cmake/mara_gazebo_pluginsConfig.cmake
+[72.362s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/mara_gazebo_plugins/cmake/mara_gazebo_pluginsConfig-version.cmake
+[72.362s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/share/mara_gazebo_plugins/package.xml
+[72.362s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/include
+[72.362s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/include/mara_gazebo_plugins
+[72.363s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/include/mara_gazebo_plugins/spline.hpp
+[72.363s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/include/mara_gazebo_plugins/mara_gazebo_joint_training_plugin.hpp
+[72.363s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/include/mara_gazebo_plugins/mara_gazebo_joint_plugin.hpp
+[72.363s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/lib/libmara_gazebo_joint_plugin.so
+[72.375s] -- Set runtime path of "/home/user/ros2_ws/install/mara_gazebo_plugins/lib/libmara_gazebo_joint_plugin.so" to ""
+[72.375s] -- Installing: /home/user/ros2_ws/install/mara_gazebo_plugins/lib/libmara_gazebo_joint_training_plugin.so
+[72.381s] -- Set runtime path of "/home/user/ros2_ws/install/mara_gazebo_plugins/lib/libmara_gazebo_joint_training_plugin.so" to ""
+[72.393s] Invoked command in '/home/user/ros2_ws/build/mara_gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/hrim_generic_srvs:/home/user/ros2_ws/install/hrim_generic_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/hrim_generic_srvs:/home/user/ros2_ws/install/hrim_generic_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/hrim_generic_srvs/lib:/home/user/ros2_ws/install/hrim_generic_msgs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs/lib:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/hrim_generic_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_generic_msgs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_msgs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/mara_gazebo_plugins

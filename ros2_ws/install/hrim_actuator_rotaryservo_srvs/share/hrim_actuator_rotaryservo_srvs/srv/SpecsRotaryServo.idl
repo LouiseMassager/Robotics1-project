@@ -1,0 +1,65 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hrim_actuator_rotaryservo_srvs/srv/SpecsRotaryServo.srv
+// generated code does not contain a copyright notice
+
+
+module hrim_actuator_rotaryservo_srvs {
+  module srv {
+    @verbatim (language="comment", text=
+      " device features")
+    struct SpecsRotaryServo_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    module SpecsRotaryServo_Response_Constants {
+      const uint8 CONTROL_TYPE_NONE = 0;
+      const uint8 CONTROL_TYPE_POSITION = 1;
+      const uint8 CONTROL_TYPE_EFFORT = 2;
+      const uint8 CONTROL_TYPE_VELOCITY = 3;
+      const uint8 CONTROL_TYPE_POSITION_VELOCITY = 4;
+      const uint8 CONTROL_TYPE_POSITION_EFFORT = 5;
+      const uint8 CONTROL_TYPE_VELOCITY_EFFORT = 6;
+      const uint8 CONTROL_TYPE_POSITION_VELOCITY_EFFORT = 7;
+    };
+    struct SpecsRotaryServo_Response {
+      @verbatim (language="comment", text=
+        " rotary servomotor control type")
+      uint8 control_type;
+
+      @verbatim (language="comment", text=
+        " minimum work range")
+      double range_min;
+
+      @verbatim (language="comment", text=
+        " maximum work range")
+      double range_max;
+
+      @verbatim (language="comment", text=
+        " angular precision")
+      double precision;
+
+      @verbatim (language="comment", text=
+        " servomotor speed")
+      double rated_speed;
+
+      @verbatim (language="comment", text=
+        " maximum speed")
+      double reachable_speed;
+
+      @verbatim (language="comment", text=
+        " servomotor torque")
+      double rated_torque;
+
+      @verbatim (language="comment", text=
+        " peak torque")
+      double reachable_torque;
+
+      @verbatim (language="comment", text=
+        " minimum operational temperature")
+      double temperature_range_min;
+
+      @verbatim (language="comment", text=
+        " maximum operational temperature")
+      double temperature_range_max;
+    };
+  };
+};

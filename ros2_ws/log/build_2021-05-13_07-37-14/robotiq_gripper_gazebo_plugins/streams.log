@@ -1,0 +1,144 @@
+[0.130s] Invoking command in '/home/user/ros2_ws/build/robotiq_gripper_gazebo_plugins': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/robotiq_modular_gripper/robotiq_gripper_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins
+[0.356s] -- The C compiler identification is GNU 9.3.0
+[0.501s] -- The CXX compiler identification is GNU 9.3.0
+[0.512s] -- Check for working C compiler: /usr/bin/cc
+[0.761s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.763s] -- Detecting C compiler ABI info
+[0.985s] -- Detecting C compiler ABI info - done
+[1.015s] -- Detecting C compile features
+[1.015s] -- Detecting C compile features - done
+[1.024s] -- Check for working CXX compiler: /usr/bin/c++
+[1.277s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.279s] -- Detecting CXX compiler ABI info
+[1.491s] -- Detecting CXX compiler ABI info - done
+[1.519s] -- Detecting CXX compile features
+[1.520s] -- Detecting CXX compile features - done
+[1.529s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.595s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.595s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.289s] -- Found gazebo_ros: 3.5.0 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[2.361s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.378s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.822s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.958s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.216s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.329s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.332s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.333s] -- Looking for pthread.h
+[3.582s] -- Looking for pthread.h - found
+[3.583s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.779s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.779s] -- Looking for pthread_create in pthreads
+[3.943s] -- Looking for pthread_create in pthreads - not found
+[3.944s] -- Looking for pthread_create in pthread
+[4.169s] -- Looking for pthread_create in pthread - found
+[4.172s] -- Found Threads: TRUE  
+[4.557s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[4.561s] -- Checking for module 'bullet>=2.82'
+[4.647s] --   Found bullet, version 2.88
+[5.367s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[5.773s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[6.100s] -- Found assimp: /usr/include (found version "5.0.0") 
+[6.181s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[6.279s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[6.322s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[6.343s] -- Looking for ignition-math6 -- found version 6.4.0
+[6.356s] -- Searching for dependencies of ignition-math6
+[6.360s] -- Looking for OGRE...
+[6.361s] -- OGRE_PREFIX_WATCH changed.
+[6.372s] -- Checking for module 'OGRE'
+[6.439s] --   Found OGRE, version 1.9.0
+[6.644s] -- Found Ogre Ghadamon (1.9.0)
+[6.662s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[6.684s] -- Looking for OGRE_Paging...
+[6.699s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[6.699s] -- Looking for OGRE_Terrain...
+[6.711s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[6.712s] -- Looking for OGRE_Property...
+[6.730s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[6.730s] -- Looking for OGRE_RTShaderSystem...
+[6.751s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[6.751s] -- Looking for OGRE_Volume...
+[6.765s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[6.765s] -- Looking for OGRE_Overlay...
+[6.787s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[7.152s] -- Looking for ignition-math6 -- found version 6.4.0
+[7.161s] -- Looking for ignition-transport8 -- found version 8.1.0
+[7.162s] -- Searching for dependencies of ignition-transport8
+[7.219s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[7.260s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[7.269s] -- Checking for module 'libzmq >= 4'
+[7.335s] --   Found libzmq , version 4.3.2
+[7.584s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[7.603s] -- Checking for module 'uuid'
+[7.693s] --   Found uuid, version 2.34.0
+[7.976s] -- Found UUID: TRUE  
+[7.984s] -- Looking for ignition-msgs5 -- found version 5.3.0
+[7.984s] -- Searching for dependencies of ignition-msgs5
+[8.074s] -- Looking for ignition-math6 -- found version 6.4.0
+[8.091s] -- Checking for module 'tinyxml2'
+[8.187s] --   Found tinyxml2, version 6.2.0
+[8.388s] -- Looking for ignition-msgs5 -- found version 5.3.0
+[8.403s] -- Looking for ignition-common3 -- found version 3.6.0
+[8.403s] -- Searching for dependencies of ignition-common3
+[8.404s] -- Looking for dlfcn.h - found
+[8.407s] -- Looking for libdl - found
+[8.410s] -- Found DL: TRUE  
+[8.429s] -- Searching for <ignition-common3> component [graphics]
+[8.440s] -- Looking for ignition-common3-graphics -- found version 3.6.0
+[8.441s] -- Searching for dependencies of ignition-common3-graphics
+[8.442s] -- Looking for ignition-math6 -- found version 6.4.0
+[8.453s] -- Looking for ignition-fuel_tools4 -- found version 4.2.1
+[8.454s] -- Searching for dependencies of ignition-fuel_tools4
+[8.864s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[8.882s] -- Checking for module 'jsoncpp'
+[8.967s] --   Found jsoncpp, version 1.7.4
+[9.229s] -- Found JSONCPP: TRUE  
+[9.239s] -- Checking for module 'libzip'
+[9.345s] --   Found libzip, version 1.5.1
+[9.560s] -- Found ZIP: TRUE  
+[9.561s] -- Looking for ignition-common3 -- found version 3.6.0
+[9.561s] -- Looking for ignition-msgs5 -- found version 5.3.0
+[9.566s] -- Gazebo version: 11.1
+[9.595s] -- Found hrim_actuator_gripper_msgs: 0.3.0 (/home/user/ros2_ws/install/hrim_actuator_gripper_msgs/share/hrim_actuator_gripper_msgs/cmake)
+[9.855s] -- Found hrim_actuator_gripper_srvs: 0.3.0 (/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake)
+[10.028s] -- Configuring done
+[10.084s] -- Generating done
+[10.094s] -- Build files have been written to: /home/user/ros2_ws/build/robotiq_gripper_gazebo_plugins
+[10.117s] Invoked command in '/home/user/ros2_ws/build/robotiq_gripper_gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/robotiq_modular_gripper/robotiq_gripper_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins
+[10.118s] Invoking command in '/home/user/ros2_ws/build/robotiq_gripper_gazebo_plugins': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robotiq_gripper_gazebo_plugins -- -j16 -l16
+[10.264s] [35m[1mScanning dependencies of target robotiq_gripper_gazebo_plugin[0m
+[10.840s] [ 33%] [32mBuilding CXX object CMakeFiles/robotiq_gripper_gazebo_plugin.dir/src/RobotiqGripperPlugin.cpp.o[0m
+[31.440s] [ 66%] [32mBuilding CXX object CMakeFiles/robotiq_gripper_gazebo_plugin.dir/src/spline.cpp.o[0m
+[32.452s] [100%] [32m[1mLinking CXX shared library librobotiq_gripper_gazebo_plugin.so[0m
+[33.156s] [100%] Built target robotiq_gripper_gazebo_plugin
+[33.180s] Invoked command in '/home/user/ros2_ws/build/robotiq_gripper_gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robotiq_gripper_gazebo_plugins -- -j16 -l16
+[33.298s] Invoking command in '/home/user/ros2_ws/build/robotiq_gripper_gazebo_plugins': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robotiq_gripper_gazebo_plugins
+[33.314s] -- Install configuration: ""
+[33.314s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/robotiq_gripper_gazebo_plugins/environment/library_path.sh
+[33.315s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/robotiq_gripper_gazebo_plugins/environment/library_path.dsv
+[33.315s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/robotiq_gripper_gazebo_plugins
+[33.316s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/robotiq_gripper_gazebo_plugins
+[33.316s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/robotiq_gripper_gazebo_plugins/environment/ament_prefix_path.sh
+[33.316s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/robotiq_gripper_gazebo_plugins/environment/ament_prefix_path.dsv
+[33.317s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/robotiq_gripper_gazebo_plugins/environment/path.sh
+[33.317s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/robotiq_gripper_gazebo_plugins/environment/path.dsv
+[33.317s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/robotiq_gripper_gazebo_plugins/local_setup.bash
+[33.318s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/robotiq_gripper_gazebo_plugins/local_setup.sh
+[33.318s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/robotiq_gripper_gazebo_plugins/local_setup.zsh
+[33.318s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/robotiq_gripper_gazebo_plugins/local_setup.dsv
+[33.318s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/robotiq_gripper_gazebo_plugins/package.dsv
+[33.319s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/ament_index/resource_index/packages/robotiq_gripper_gazebo_plugins
+[33.319s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/robotiq_gripper_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[33.319s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/robotiq_gripper_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.319s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/robotiq_gripper_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.320s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/robotiq_gripper_gazebo_plugins/cmake/robotiq_gripper_gazebo_pluginsConfig.cmake
+[33.320s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/robotiq_gripper_gazebo_plugins/cmake/robotiq_gripper_gazebo_pluginsConfig-version.cmake
+[33.320s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/share/robotiq_gripper_gazebo_plugins/package.xml
+[33.320s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/include
+[33.321s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/include/robotiq_gripper_gazebo_plugins
+[33.321s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/include/robotiq_gripper_gazebo_plugins/spline.hpp
+[33.321s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/include/robotiq_gripper_gazebo_plugins/RobotiqGripperPlugin.h
+[33.321s] -- Installing: /home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/lib/librobotiq_gripper_gazebo_plugin.so
+[33.325s] -- Set runtime path of "/home/user/ros2_ws/install/robotiq_gripper_gazebo_plugins/lib/librobotiq_gripper_gazebo_plugin.so" to ""
+[33.330s] Invoked command in '/home/user/ros2_ws/build/robotiq_gripper_gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages:/home/user/ros2_ws/install/hrim_actuator_gripper_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robotiq_gripper_gazebo_plugins

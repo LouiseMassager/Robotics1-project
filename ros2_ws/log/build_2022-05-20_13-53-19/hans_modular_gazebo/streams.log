@@ -1,0 +1,35 @@
+[0.102s] Invoking command in '/home/user/ros2_ws/build/hans_modular_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/hans_modular_gazebo -- -j8 -l8
+[0.432s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.690s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.690s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.607s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[3.696s] -- Configuring done
+[3.712s] -- Generating done
+[3.720s] -- Build files have been written to: /home/user/ros2_ws/build/hans_modular_gazebo
+[4.210s] Invoked command in '/home/user/ros2_ws/build/hans_modular_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/hans_modular_gazebo -- -j8 -l8
+[4.417s] Invoking command in '/home/user/ros2_ws/build/hans_modular_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/hans_modular_gazebo
+[6.901s] -- Install configuration: ""
+[6.902s] -- Up-to-date: /home/user/ros2_ws/install/hans_modular_gazebo/share/hans_modular_gazebo/launch
+[6.903s] -- Up-to-date: /home/user/ros2_ws/install/hans_modular_gazebo/share/hans_modular_gazebo/launch/hans_t49.launch.py
+[6.903s] -- Up-to-date: /home/user/ros2_ws/install/hans_modular_gazebo/share/hans_modular_gazebo/launch/hans_t30.launch.py
+[6.903s] -- Up-to-date: /home/user/ros2_ws/install/hans_modular_gazebo/share/hans_modular_gazebo/launch/hans_t9_4.launch.py
+[6.904s] -- Up-to-date: /home/user/ros2_ws/install/hans_modular_gazebo/lib/hans_modular_gazebo/spawn_hans_t9.4.py
+[6.904s] -- Up-to-date: /home/user/ros2_ws/install/hans_modular_gazebo/lib/hans_modular_gazebo/spawn_hans_t30.py
+[6.904s] -- Up-to-date: /home/user/ros2_ws/install/hans_modular_gazebo/lib/hans_modular_gazebo/spawn_hans_t49.py
+[6.905s] -- Up-to-date: /home/user/ros2_ws/install/hans_modular_gazebo/share/ament_index/resource_index/package_run_dependencies/hans_modular_gazebo
+[6.905s] -- Installing: /home/user/ros2_ws/install/hans_modular_gazebo/share/ament_index/resource_index/parent_prefix_path/hans_modular_gazebo
+[6.905s] -- Installing: /home/user/ros2_ws/install/hans_modular_gazebo/share/hans_modular_gazebo/environment/ament_prefix_path.sh
+[6.906s] -- Installing: /home/user/ros2_ws/install/hans_modular_gazebo/share/hans_modular_gazebo/environment/ament_prefix_path.dsv
+[6.906s] -- Installing: /home/user/ros2_ws/install/hans_modular_gazebo/share/hans_modular_gazebo/environment/path.sh
+[6.906s] -- Installing: /home/user/ros2_ws/install/hans_modular_gazebo/share/hans_modular_gazebo/environment/path.dsv
+[6.907s] -- Installing: /home/user/ros2_ws/install/hans_modular_gazebo/share/hans_modular_gazebo/local_setup.bash
+[6.907s] -- Installing: /home/user/ros2_ws/install/hans_modular_gazebo/share/hans_modular_gazebo/local_setup.sh
+[6.907s] -- Installing: /home/user/ros2_ws/install/hans_modular_gazebo/share/hans_modular_gazebo/local_setup.zsh
+[6.907s] -- Installing: /home/user/ros2_ws/install/hans_modular_gazebo/share/hans_modular_gazebo/local_setup.dsv
+[6.908s] -- Installing: /home/user/ros2_ws/install/hans_modular_gazebo/share/hans_modular_gazebo/package.dsv
+[6.908s] -- Up-to-date: /home/user/ros2_ws/install/hans_modular_gazebo/share/ament_index/resource_index/packages/hans_modular_gazebo
+[6.909s] -- Installing: /home/user/ros2_ws/install/hans_modular_gazebo/share/hans_modular_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.909s] -- Up-to-date: /home/user/ros2_ws/install/hans_modular_gazebo/share/hans_modular_gazebo/cmake/hans_modular_gazeboConfig.cmake
+[6.909s] -- Up-to-date: /home/user/ros2_ws/install/hans_modular_gazebo/share/hans_modular_gazebo/cmake/hans_modular_gazeboConfig-version.cmake
+[6.909s] -- Up-to-date: /home/user/ros2_ws/install/hans_modular_gazebo/share/hans_modular_gazebo/package.xml
+[6.989s] Invoked command in '/home/user/ros2_ws/build/hans_modular_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/hans_modular_gazebo

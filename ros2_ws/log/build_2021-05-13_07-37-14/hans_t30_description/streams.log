@@ -1,0 +1,53 @@
+[0.287s] Invoking command in '/home/user/ros2_ws/build/hans_t30_description': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/hans_modular_servomotor/hans_t30_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/hans_t30_description
+[7.684s] -- The C compiler identification is GNU 9.3.0
+[11.449s] -- The CXX compiler identification is GNU 9.3.0
+[11.542s] -- Check for working C compiler: /usr/bin/cc
+[12.153s] -- Check for working C compiler: /usr/bin/cc -- works
+[12.157s] -- Detecting C compiler ABI info
+[12.447s] -- Detecting C compiler ABI info - done
+[12.478s] -- Detecting C compile features
+[12.490s] -- Detecting C compile features - done
+[12.495s] -- Check for working CXX compiler: /usr/bin/c++
+[12.722s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[12.724s] -- Detecting CXX compiler ABI info
+[12.996s] -- Detecting CXX compiler ABI info - done
+[13.034s] -- Detecting CXX compile features
+[13.035s] -- Detecting CXX compile features - done
+[13.046s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[13.232s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[13.232s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.077s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[14.631s] -- Configuring done
+[14.634s] -- Generating done
+[14.635s] -- Build files have been written to: /home/user/ros2_ws/build/hans_t30_description
+[14.650s] Invoked command in '/home/user/ros2_ws/build/hans_t30_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/hans_modular_servomotor/hans_t30_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/hans_t30_description
+[14.665s] Invoking command in '/home/user/ros2_ws/build/hans_t30_description': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/hans_t30_description -- -j16 -l16
+[16.884s] Invoked command in '/home/user/ros2_ws/build/hans_t30_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/hans_t30_description -- -j16 -l16
+[17.112s] Invoking command in '/home/user/ros2_ws/build/hans_t30_description': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/hans_t30_description
+[17.358s] -- Install configuration: ""
+[17.358s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/meshes
+[17.358s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/meshes/HANS_T30.dae
+[17.358s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/meshes/HANS_T30_Black.dae
+[17.358s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/urdf
+[17.359s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/urdf/hans_module.urdf.xacro
+[17.359s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/urdf/hans_t30.urdf
+[17.359s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/urdf/hans_t30.urdf.xacro
+[17.359s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/rviz
+[17.359s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/rviz/visualization.rviz
+[17.359s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/ament_index/resource_index/package_run_dependencies/hans_t30_description
+[17.360s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/ament_index/resource_index/parent_prefix_path/hans_t30_description
+[17.360s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/environment/ament_prefix_path.sh
+[17.360s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/environment/ament_prefix_path.dsv
+[17.360s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/environment/path.sh
+[17.360s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/environment/path.dsv
+[17.360s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/local_setup.bash
+[17.360s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/local_setup.sh
+[17.361s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/local_setup.zsh
+[17.361s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/local_setup.dsv
+[17.361s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/package.dsv
+[17.361s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/ament_index/resource_index/packages/hans_t30_description
+[17.361s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.361s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/cmake/hans_t30_descriptionConfig.cmake
+[17.361s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/cmake/hans_t30_descriptionConfig-version.cmake
+[17.361s] -- Installing: /home/user/ros2_ws/install/hans_t30_description/share/hans_t30_description/package.xml
+[17.390s] Invoked command in '/home/user/ros2_ws/build/hans_t30_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/hans_t30_description

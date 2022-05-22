@@ -1,0 +1,1304 @@
+[1.494s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'mara_examples']
+[1.494s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb5afe76bb0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['mara_examples'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb5afe76bb0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb5afe85160>)
+[1.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.539s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/ros2_ws'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara) by extensions ['ignore', 'ignore_ament_install']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara) by extension 'ignore'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara) by extension 'ignore_ament_install'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara) by extensions ['colcon_pkg']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara) by extension 'colcon_pkg'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara) by extensions ['colcon_meta']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara) by extension 'colcon_meta'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara) by extensions ['ros']
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara) by extension 'ros'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara) by extensions ['cmake', 'python']
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara) by extension 'cmake'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara) by extension 'python'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara) by extensions ['python_setup_py']
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara) by extension 'python_setup_py'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM) by extensions ['ignore', 'ignore_ament_install']
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM) by extension 'ignore'
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM) by extension 'ignore_ament_install'
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM) by extensions ['colcon_pkg']
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM) by extension 'colcon_pkg'
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM) by extensions ['colcon_meta']
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM) by extension 'colcon_meta'
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM) by extensions ['ros']
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM) by extension 'ros'
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM) by extensions ['cmake', 'python']
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM) by extension 'cmake'
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM) by extension 'python'
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM) by extensions ['python_setup_py']
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM) by extension 'python_setup_py'
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated) by extensions ['ignore', 'ignore_ament_install']
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated) by extension 'ignore'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated) by extension 'ignore_ament_install'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated) by extensions ['colcon_pkg']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated) by extension 'colcon_pkg'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated) by extensions ['colcon_meta']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated) by extension 'colcon_meta'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated) by extensions ['ros']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated) by extension 'ros'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated) by extensions ['cmake', 'python']
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated) by extension 'cmake'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated) by extension 'python'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated) by extensions ['python_setup_py']
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated) by extension 'python_setup_py'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator) by extensions ['ignore', 'ignore_ament_install']
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator) by extension 'ignore'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator) by extension 'ignore_ament_install'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator) by extensions ['colcon_pkg']
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator) by extension 'colcon_pkg'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator) by extensions ['colcon_meta']
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator) by extension 'colcon_meta'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator) by extensions ['ros']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator) by extension 'ros'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator) by extensions ['cmake', 'python']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator) by extension 'cmake'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator) by extension 'python'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator) by extensions ['python_setup_py']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator) by extension 'python_setup_py'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper) by extensions ['ignore', 'ignore_ament_install']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper) by extension 'ignore'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper) by extension 'ignore_ament_install'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper) by extensions ['colcon_pkg']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper) by extension 'colcon_pkg'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper) by extensions ['colcon_meta']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper) by extension 'colcon_meta'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper) by extensions ['ros']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper) by extension 'ros'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper) by extensions ['cmake', 'python']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper) by extension 'cmake'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper) by extension 'python'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper) by extensions ['python_setup_py']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper) by extension 'python_setup_py'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_msgs) by extension 'ignore'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_msgs) by extension 'ignore_ament_install'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_msgs) by extensions ['colcon_pkg']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_msgs) by extension 'colcon_pkg'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_msgs) by extensions ['colcon_meta']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_msgs) by extension 'colcon_meta'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_msgs) by extensions ['ros']
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_msgs) by extension 'ros'
+[1.591s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_msgs' with type 'ros.ament_cmake' and name 'hrim_actuator_gripper_msgs'
+[1.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_srvs) by extensions ['ignore', 'ignore_ament_install']
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_srvs) by extension 'ignore'
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_srvs) by extension 'ignore_ament_install'
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_srvs) by extensions ['colcon_pkg']
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_srvs) by extension 'colcon_pkg'
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_srvs) by extensions ['colcon_meta']
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_srvs) by extension 'colcon_meta'
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_srvs) by extensions ['ros']
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_srvs) by extension 'ros'
+[1.594s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_srvs' with type 'ros.ament_cmake' and name 'hrim_actuator_gripper_srvs'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo) by extensions ['ignore', 'ignore_ament_install']
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo) by extension 'ignore'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo) by extension 'ignore_ament_install'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo) by extensions ['colcon_pkg']
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo) by extension 'colcon_pkg'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo) by extensions ['colcon_meta']
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo) by extension 'colcon_meta'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo) by extensions ['ros']
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo) by extension 'ros'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo) by extensions ['cmake', 'python']
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo) by extension 'cmake'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo) by extension 'python'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo) by extensions ['python_setup_py']
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo) by extension 'python_setup_py'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_actions) by extensions ['ignore', 'ignore_ament_install']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_actions) by extension 'ignore'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_actions) by extension 'ignore_ament_install'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_actions) by extensions ['colcon_pkg']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_actions) by extension 'colcon_pkg'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_actions) by extensions ['colcon_meta']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_actions) by extension 'colcon_meta'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_actions) by extensions ['ros']
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_actions) by extension 'ros'
+[1.601s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_actions' with type 'ros.ament_cmake' and name 'hrim_actuator_rotaryservo_actions'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_msgs) by extension 'ignore'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_msgs) by extension 'ignore_ament_install'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_msgs) by extensions ['colcon_pkg']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_msgs) by extension 'colcon_pkg'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_msgs) by extensions ['colcon_meta']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_msgs) by extension 'colcon_meta'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_msgs) by extensions ['ros']
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_msgs) by extension 'ros'
+[1.640s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_msgs' with type 'ros.ament_cmake' and name 'hrim_actuator_rotaryservo_msgs'
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_srvs) by extensions ['ignore', 'ignore_ament_install']
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_srvs) by extension 'ignore'
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_srvs) by extension 'ignore_ament_install'
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_srvs) by extensions ['colcon_pkg']
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_srvs) by extension 'colcon_pkg'
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_srvs) by extensions ['colcon_meta']
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_srvs) by extension 'colcon_meta'
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_srvs) by extensions ['ros']
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_srvs) by extension 'ros'
+[1.642s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_srvs' with type 'ros.ament_cmake' and name 'hrim_actuator_rotaryservo_srvs'
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic) by extensions ['ignore', 'ignore_ament_install']
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic) by extension 'ignore'
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic) by extension 'ignore_ament_install'
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic) by extensions ['colcon_pkg']
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic) by extension 'colcon_pkg'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic) by extensions ['colcon_meta']
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic) by extension 'colcon_meta'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic) by extensions ['ros']
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic) by extension 'ros'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic) by extensions ['cmake', 'python']
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic) by extension 'cmake'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic) by extension 'python'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic) by extensions ['python_setup_py']
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic) by extension 'python_setup_py'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic/hrim_generic_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic/hrim_generic_msgs) by extension 'ignore'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic/hrim_generic_msgs) by extension 'ignore_ament_install'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic/hrim_generic_msgs) by extensions ['colcon_pkg']
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic/hrim_generic_msgs) by extension 'colcon_pkg'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic/hrim_generic_msgs) by extensions ['colcon_meta']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic/hrim_generic_msgs) by extension 'colcon_meta'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic/hrim_generic_msgs) by extensions ['ros']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic/hrim_generic_msgs) by extension 'ros'
+[1.646s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/HRIM/generated/generic/hrim_generic_msgs' with type 'ros.ament_cmake' and name 'hrim_generic_msgs'
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic/hrim_generic_srvs) by extensions ['ignore', 'ignore_ament_install']
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic/hrim_generic_srvs) by extension 'ignore'
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic/hrim_generic_srvs) by extension 'ignore_ament_install'
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic/hrim_generic_srvs) by extensions ['colcon_pkg']
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic/hrim_generic_srvs) by extension 'colcon_pkg'
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic/hrim_generic_srvs) by extensions ['colcon_meta']
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic/hrim_generic_srvs) by extension 'colcon_meta'
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic/hrim_generic_srvs) by extensions ['ros']
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/generated/generic/hrim_generic_srvs) by extension 'ros'
+[1.648s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/HRIM/generated/generic/hrim_generic_srvs' with type 'ros.ament_cmake' and name 'hrim_generic_srvs'
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/installator) by extensions ['ignore', 'ignore_ament_install']
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/installator) by extension 'ignore'
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/installator) ignored
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/linter) by extensions ['ignore', 'ignore_ament_install']
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/linter) by extension 'ignore'
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/linter) by extension 'ignore_ament_install'
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/linter) by extensions ['colcon_pkg']
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/linter) by extension 'colcon_pkg'
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/linter) by extensions ['colcon_meta']
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/linter) by extension 'colcon_meta'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/linter) by extensions ['ros']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/linter) by extension 'ros'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/linter) by extensions ['cmake', 'python']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/linter) by extension 'cmake'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/linter) by extension 'python'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/linter) by extensions ['python_setup_py']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/linter) by extension 'python_setup_py'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models) by extensions ['ignore', 'ignore_ament_install']
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models) by extension 'ignore'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models) by extension 'ignore_ament_install'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models) by extensions ['colcon_pkg']
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models) by extension 'colcon_pkg'
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models) by extensions ['colcon_meta']
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models) by extension 'colcon_meta'
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models) by extensions ['ros']
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models) by extension 'ros'
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models) by extensions ['cmake', 'python']
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models) by extension 'cmake'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models) by extension 'python'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models) by extensions ['python_setup_py']
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models) by extension 'python_setup_py'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator) by extensions ['ignore', 'ignore_ament_install']
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator) by extension 'ignore'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator) by extension 'ignore_ament_install'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator) by extensions ['colcon_pkg']
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator) by extension 'colcon_pkg'
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator) by extensions ['colcon_meta']
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator) by extension 'colcon_meta'
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator) by extensions ['ros']
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator) by extension 'ros'
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator) by extensions ['cmake', 'python']
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator) by extension 'cmake'
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator) by extension 'python'
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator) by extensions ['python_setup_py']
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator) by extension 'python_setup_py'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor) by extensions ['ignore', 'ignore_ament_install']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor) by extension 'ignore'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor) by extension 'ignore_ament_install'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor) by extensions ['colcon_pkg']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor) by extension 'colcon_pkg'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor) by extensions ['colcon_meta']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor) by extension 'colcon_meta'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor) by extensions ['ros']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor) by extension 'ros'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor) by extensions ['cmake', 'python']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor) by extension 'cmake'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor) by extension 'python'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor) by extensions ['python_setup_py']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor) by extension 'python_setup_py'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor/topics) by extension 'ignore'
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor/topics) by extension 'ignore_ament_install'
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor/topics) by extensions ['colcon_pkg']
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor/topics) by extension 'colcon_pkg'
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor/topics) by extensions ['colcon_meta']
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor/topics) by extension 'colcon_meta'
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor/topics) by extensions ['ros']
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor/topics) by extension 'ros'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor/topics) by extensions ['cmake', 'python']
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor/topics) by extension 'cmake'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor/topics) by extension 'python'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor/topics) by extensions ['python_setup_py']
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/electricmotor/topics) by extension 'python_setup_py'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper) by extensions ['ignore', 'ignore_ament_install']
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper) by extension 'ignore'
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper) by extension 'ignore_ament_install'
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper) by extensions ['colcon_pkg']
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper) by extension 'colcon_pkg'
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper) by extensions ['colcon_meta']
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper) by extension 'colcon_meta'
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper) by extensions ['ros']
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper) by extension 'ros'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper) by extensions ['cmake', 'python']
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper) by extension 'cmake'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper) by extension 'python'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper) by extensions ['python_setup_py']
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper) by extension 'python_setup_py'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper/topics) by extension 'ignore'
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper/topics) by extension 'ignore_ament_install'
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper/topics) by extensions ['colcon_pkg']
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper/topics) by extension 'colcon_pkg'
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper/topics) by extensions ['colcon_meta']
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper/topics) by extension 'colcon_meta'
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper/topics) by extensions ['ros']
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper/topics) by extension 'ros'
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper/topics) by extensions ['cmake', 'python']
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper/topics) by extension 'cmake'
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper/topics) by extension 'python'
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper/topics) by extensions ['python_setup_py']
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/gripper/topics) by extension 'python_setup_py'
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo) by extensions ['ignore', 'ignore_ament_install']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo) by extension 'ignore'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo) by extension 'ignore_ament_install'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo) by extensions ['colcon_pkg']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo) by extension 'colcon_pkg'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo) by extensions ['colcon_meta']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo) by extension 'colcon_meta'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo) by extensions ['ros']
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo) by extension 'ros'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo) by extensions ['cmake', 'python']
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo) by extension 'cmake'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo) by extension 'python'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo) by extensions ['python_setup_py']
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo) by extension 'python_setup_py'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo/topics) by extension 'ignore'
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo/topics) by extension 'ignore_ament_install'
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo/topics) by extensions ['colcon_pkg']
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo/topics) by extension 'colcon_pkg'
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo/topics) by extensions ['colcon_meta']
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo/topics) by extension 'colcon_meta'
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo/topics) by extensions ['ros']
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo/topics) by extension 'ros'
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo/topics) by extensions ['cmake', 'python']
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo/topics) by extension 'cmake'
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo/topics) by extension 'python'
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo/topics) by extensions ['python_setup_py']
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/actuator/servo/topics) by extension 'python_setup_py'
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite) by extensions ['ignore', 'ignore_ament_install']
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite) by extension 'ignore'
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite) by extension 'ignore_ament_install'
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite) by extensions ['colcon_pkg']
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite) by extension 'colcon_pkg'
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite) by extensions ['colcon_meta']
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite) by extension 'colcon_meta'
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite) by extensions ['ros']
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite) by extension 'ros'
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite) by extensions ['cmake', 'python']
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite) by extension 'cmake'
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite) by extension 'python'
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite) by extensions ['python_setup_py']
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite) by extension 'python_setup_py'
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm) by extensions ['ignore', 'ignore_ament_install']
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm) by extension 'ignore'
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm) by extension 'ignore_ament_install'
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm) by extensions ['colcon_pkg']
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm) by extension 'colcon_pkg'
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm) by extensions ['colcon_meta']
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm) by extension 'colcon_meta'
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm) by extensions ['ros']
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm) by extension 'ros'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm) by extensions ['cmake', 'python']
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm) by extension 'cmake'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm) by extension 'python'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm) by extensions ['python_setup_py']
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm) by extension 'python_setup_py'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm/topics) by extension 'ignore'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm/topics) by extension 'ignore_ament_install'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm/topics) by extensions ['colcon_pkg']
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm/topics) by extension 'colcon_pkg'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm/topics) by extensions ['colcon_meta']
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm/topics) by extension 'colcon_meta'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm/topics) by extensions ['ros']
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm/topics) by extension 'ros'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm/topics) by extensions ['cmake', 'python']
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm/topics) by extension 'cmake'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm/topics) by extension 'python'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm/topics) by extensions ['python_setup_py']
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/arm/topics) by extension 'python_setup_py'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor) by extensions ['ignore', 'ignore_ament_install']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor) by extension 'ignore'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor) by extension 'ignore_ament_install'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor) by extensions ['colcon_pkg']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor) by extension 'colcon_pkg'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor) by extensions ['colcon_meta']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor) by extension 'colcon_meta'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor) by extensions ['ros']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor) by extension 'ros'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor) by extensions ['cmake', 'python']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor) by extension 'cmake'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor) by extension 'python'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor) by extensions ['python_setup_py']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor) by extension 'python_setup_py'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor/topics) by extension 'ignore'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor/topics) by extension 'ignore_ament_install'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor/topics) by extensions ['colcon_pkg']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor/topics) by extension 'colcon_pkg'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor/topics) by extensions ['colcon_meta']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor/topics) by extension 'colcon_meta'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor/topics) by extensions ['ros']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor/topics) by extension 'ros'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor/topics) by extensions ['cmake', 'python']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor/topics) by extension 'cmake'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor/topics) by extension 'python'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor/topics) by extensions ['python_setup_py']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/conveyor/topics) by extension 'python_setup_py'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase) by extensions ['ignore', 'ignore_ament_install']
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase) by extension 'ignore'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase) by extension 'ignore_ament_install'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase) by extensions ['colcon_pkg']
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase) by extension 'colcon_pkg'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase) by extensions ['colcon_meta']
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase) by extension 'colcon_meta'
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase) by extensions ['ros']
+[1.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase) by extension 'ros'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase) by extensions ['cmake', 'python']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase) by extension 'cmake'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase) by extension 'python'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase) by extensions ['python_setup_py']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase) by extension 'python_setup_py'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase/topics) by extension 'ignore'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase/topics) by extension 'ignore_ament_install'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase/topics) by extensions ['colcon_pkg']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase/topics) by extension 'colcon_pkg'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase/topics) by extensions ['colcon_meta']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase/topics) by extension 'colcon_meta'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase/topics) by extensions ['ros']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase/topics) by extension 'ros'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase/topics) by extensions ['cmake', 'python']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase/topics) by extension 'cmake'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase/topics) by extension 'python'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase/topics) by extensions ['python_setup_py']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/composite/mobilebase/topics) by extension 'python_setup_py'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/generic) by extensions ['ignore', 'ignore_ament_install']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/generic) by extension 'ignore'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/generic) by extension 'ignore_ament_install'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/generic) by extensions ['colcon_pkg']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/generic) by extension 'colcon_pkg'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/generic) by extensions ['colcon_meta']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/generic) by extension 'colcon_meta'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/generic) by extensions ['ros']
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/generic) by extension 'ros'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/generic) by extensions ['cmake', 'python']
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/generic) by extension 'cmake'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/generic) by extension 'python'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/generic) by extensions ['python_setup_py']
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/generic) by extension 'python_setup_py'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power) by extensions ['ignore', 'ignore_ament_install']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power) by extension 'ignore'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power) by extension 'ignore_ament_install'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power) by extensions ['colcon_pkg']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power) by extension 'colcon_pkg'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power) by extensions ['colcon_meta']
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power) by extension 'colcon_meta'
+[1.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power) by extensions ['ros']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power) by extension 'ros'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power) by extensions ['cmake', 'python']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power) by extension 'cmake'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power) by extension 'python'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power) by extensions ['python_setup_py']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power) by extension 'python_setup_py'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery) by extensions ['ignore', 'ignore_ament_install']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery) by extension 'ignore'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery) by extension 'ignore_ament_install'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery) by extensions ['colcon_pkg']
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery) by extension 'colcon_pkg'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery) by extensions ['colcon_meta']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery) by extension 'colcon_meta'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery) by extensions ['ros']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery) by extension 'ros'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery) by extensions ['cmake', 'python']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery) by extension 'cmake'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery) by extension 'python'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery) by extensions ['python_setup_py']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery) by extension 'python_setup_py'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery/topics) by extension 'ignore'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery/topics) by extension 'ignore_ament_install'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery/topics) by extensions ['colcon_pkg']
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery/topics) by extension 'colcon_pkg'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery/topics) by extensions ['colcon_meta']
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery/topics) by extension 'colcon_meta'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery/topics) by extensions ['ros']
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery/topics) by extension 'ros'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery/topics) by extensions ['cmake', 'python']
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery/topics) by extension 'cmake'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery/topics) by extension 'python'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery/topics) by extensions ['python_setup_py']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/power/battery/topics) by extension 'python_setup_py'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/schemas) by extensions ['ignore', 'ignore_ament_install']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/schemas) by extension 'ignore'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/schemas) by extension 'ignore_ament_install'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/schemas) by extensions ['colcon_pkg']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/schemas) by extension 'colcon_pkg'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/schemas) by extensions ['colcon_meta']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/schemas) by extension 'colcon_meta'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/schemas) by extensions ['ros']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/schemas) by extension 'ros'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/schemas) by extensions ['cmake', 'python']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/schemas) by extension 'cmake'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/schemas) by extension 'python'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/schemas) by extensions ['python_setup_py']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/schemas) by extension 'python_setup_py'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor) by extensions ['ignore', 'ignore_ament_install']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor) by extension 'ignore'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor) by extension 'ignore_ament_install'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor) by extensions ['colcon_pkg']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor) by extension 'colcon_pkg'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor) by extensions ['colcon_meta']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor) by extension 'colcon_meta'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor) by extensions ['ros']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor) by extension 'ros'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor) by extensions ['cmake', 'python']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor) by extension 'cmake'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor) by extension 'python'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor) by extensions ['python_setup_py']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor) by extension 'python_setup_py'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera) by extensions ['ignore', 'ignore_ament_install']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera) by extension 'ignore'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera) by extension 'ignore_ament_install'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera) by extensions ['colcon_pkg']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera) by extension 'colcon_pkg'
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera) by extensions ['colcon_meta']
+[1.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera) by extension 'colcon_meta'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera) by extensions ['ros']
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera) by extension 'ros'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera) by extensions ['cmake', 'python']
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera) by extension 'cmake'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera) by extension 'python'
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera) by extensions ['python_setup_py']
+[1.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera) by extension 'python_setup_py'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera/topics) by extension 'ignore'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera/topics) by extension 'ignore_ament_install'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera/topics) by extensions ['colcon_pkg']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera/topics) by extension 'colcon_pkg'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera/topics) by extensions ['colcon_meta']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera/topics) by extension 'colcon_meta'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera/topics) by extensions ['ros']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera/topics) by extension 'ros'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera/topics) by extensions ['cmake', 'python']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera/topics) by extension 'cmake'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera/topics) by extension 'python'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera/topics) by extensions ['python_setup_py']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/3dcamera/topics) by extension 'python_setup_py'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera) by extensions ['ignore', 'ignore_ament_install']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera) by extension 'ignore'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera) by extension 'ignore_ament_install'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera) by extensions ['colcon_pkg']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera) by extension 'colcon_pkg'
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera) by extensions ['colcon_meta']
+[1.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera) by extension 'colcon_meta'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera) by extensions ['ros']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera) by extension 'ros'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera) by extensions ['cmake', 'python']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera) by extension 'cmake'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera) by extension 'python'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera) by extensions ['python_setup_py']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera) by extension 'python_setup_py'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera/topics) by extension 'ignore'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera/topics) by extension 'ignore_ament_install'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera/topics) by extensions ['colcon_pkg']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera/topics) by extension 'colcon_pkg'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera/topics) by extensions ['colcon_meta']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera/topics) by extension 'colcon_meta'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera/topics) by extensions ['ros']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera/topics) by extension 'ros'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera/topics) by extensions ['cmake', 'python']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera/topics) by extension 'cmake'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera/topics) by extension 'python'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera/topics) by extensions ['python_setup_py']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/camera/topics) by extension 'python_setup_py'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder) by extensions ['ignore', 'ignore_ament_install']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder) by extension 'ignore'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder) by extension 'ignore_ament_install'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder) by extensions ['colcon_pkg']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder) by extension 'colcon_pkg'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder) by extensions ['colcon_meta']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder) by extension 'colcon_meta'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder) by extensions ['ros']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder) by extension 'ros'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder) by extensions ['cmake', 'python']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder) by extension 'cmake'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder) by extension 'python'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder) by extensions ['python_setup_py']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder) by extension 'python_setup_py'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder/topics) by extension 'ignore'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder/topics) by extension 'ignore_ament_install'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder/topics) by extensions ['colcon_pkg']
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder/topics) by extension 'colcon_pkg'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder/topics) by extensions ['colcon_meta']
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder/topics) by extension 'colcon_meta'
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder/topics) by extensions ['ros']
+[1.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder/topics) by extension 'ros'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder/topics) by extensions ['cmake', 'python']
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder/topics) by extension 'cmake'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder/topics) by extension 'python'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder/topics) by extensions ['python_setup_py']
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/encoder/topics) by extension 'python_setup_py'
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force) by extensions ['ignore', 'ignore_ament_install']
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force) by extension 'ignore'
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force) by extension 'ignore_ament_install'
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force) by extensions ['colcon_pkg']
+[1.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force) by extension 'colcon_pkg'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force) by extensions ['colcon_meta']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force) by extension 'colcon_meta'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force) by extensions ['ros']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force) by extension 'ros'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force) by extensions ['cmake', 'python']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force) by extension 'cmake'
+[1.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force) by extension 'python'
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force) by extensions ['python_setup_py']
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force) by extension 'python_setup_py'
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force/topics) by extension 'ignore'
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force/topics) by extension 'ignore_ament_install'
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force/topics) by extensions ['colcon_pkg']
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force/topics) by extension 'colcon_pkg'
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force/topics) by extensions ['colcon_meta']
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force/topics) by extension 'colcon_meta'
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force/topics) by extensions ['ros']
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force/topics) by extension 'ros'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force/topics) by extensions ['cmake', 'python']
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force/topics) by extension 'cmake'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force/topics) by extension 'python'
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force/topics) by extensions ['python_setup_py']
+[1.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/force/topics) by extension 'python_setup_py'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque) by extensions ['ignore', 'ignore_ament_install']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque) by extension 'ignore'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque) by extension 'ignore_ament_install'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque) by extensions ['colcon_pkg']
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque) by extension 'colcon_pkg'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque) by extensions ['colcon_meta']
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque) by extension 'colcon_meta'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque) by extensions ['ros']
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque) by extension 'ros'
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque) by extensions ['cmake', 'python']
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque) by extension 'cmake'
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque) by extension 'python'
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque) by extensions ['python_setup_py']
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque) by extension 'python_setup_py'
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque/topics) by extension 'ignore'
+[1.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque/topics) by extension 'ignore_ament_install'
+[1.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque/topics) by extensions ['colcon_pkg']
+[1.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque/topics) by extension 'colcon_pkg'
+[1.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque/topics) by extensions ['colcon_meta']
+[1.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque/topics) by extension 'colcon_meta'
+[1.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque/topics) by extensions ['ros']
+[1.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque/topics) by extension 'ros'
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque/topics) by extensions ['cmake', 'python']
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque/topics) by extension 'cmake'
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque/topics) by extension 'python'
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque/topics) by extensions ['python_setup_py']
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/forcetorque/topics) by extension 'python_setup_py'
+[1.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector) by extensions ['ignore', 'ignore_ament_install']
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector) by extension 'ignore'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector) by extension 'ignore_ament_install'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector) by extensions ['colcon_pkg']
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector) by extension 'colcon_pkg'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector) by extensions ['colcon_meta']
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector) by extension 'colcon_meta'
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector) by extensions ['ros']
+[1.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector) by extension 'ros'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector) by extensions ['cmake', 'python']
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector) by extension 'cmake'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector) by extension 'python'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector) by extensions ['python_setup_py']
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector) by extension 'python_setup_py'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector/topics) by extension 'ignore'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector/topics) by extension 'ignore_ament_install'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector/topics) by extensions ['colcon_pkg']
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector/topics) by extension 'colcon_pkg'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector/topics) by extensions ['colcon_meta']
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector/topics) by extension 'colcon_meta'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector/topics) by extensions ['ros']
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector/topics) by extension 'ros'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector/topics) by extensions ['cmake', 'python']
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector/topics) by extension 'cmake'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector/topics) by extension 'python'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector/topics) by extensions ['python_setup_py']
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gasdetector/topics) by extension 'python_setup_py'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps) by extensions ['ignore', 'ignore_ament_install']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps) by extension 'ignore'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps) by extension 'ignore_ament_install'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps) by extensions ['colcon_pkg']
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps) by extension 'colcon_pkg'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps) by extensions ['colcon_meta']
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps) by extension 'colcon_meta'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps) by extensions ['ros']
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps) by extension 'ros'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps) by extensions ['cmake', 'python']
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps) by extension 'cmake'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps) by extension 'python'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps) by extensions ['python_setup_py']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps) by extension 'python_setup_py'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps/topics) by extension 'ignore'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps/topics) by extension 'ignore_ament_install'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps/topics) by extensions ['colcon_pkg']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps/topics) by extension 'colcon_pkg'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps/topics) by extensions ['colcon_meta']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps/topics) by extension 'colcon_meta'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps/topics) by extensions ['ros']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps/topics) by extension 'ros'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps/topics) by extensions ['cmake', 'python']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps/topics) by extension 'cmake'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps/topics) by extension 'python'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps/topics) by extensions ['python_setup_py']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/gps/topics) by extension 'python_setup_py'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer) by extensions ['ignore', 'ignore_ament_install']
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer) by extension 'ignore'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer) by extension 'ignore_ament_install'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer) by extensions ['colcon_pkg']
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer) by extension 'colcon_pkg'
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer) by extensions ['colcon_meta']
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer) by extension 'colcon_meta'
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer) by extensions ['ros']
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer) by extension 'ros'
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer) by extensions ['cmake', 'python']
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer) by extension 'cmake'
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer) by extension 'python'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer) by extensions ['python_setup_py']
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer) by extension 'python_setup_py'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer/topics) by extension 'ignore'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer/topics) by extension 'ignore_ament_install'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer/topics) by extensions ['colcon_pkg']
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer/topics) by extension 'colcon_pkg'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer/topics) by extensions ['colcon_meta']
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer/topics) by extension 'colcon_meta'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer/topics) by extensions ['ros']
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer/topics) by extension 'ros'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer/topics) by extensions ['cmake', 'python']
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer/topics) by extension 'cmake'
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer/topics) by extension 'python'
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer/topics) by extensions ['python_setup_py']
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/hygrometer/topics) by extension 'python_setup_py'
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu) by extensions ['ignore', 'ignore_ament_install']
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu) by extension 'ignore'
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu) by extension 'ignore_ament_install'
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu) by extensions ['colcon_pkg']
+[1.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu) by extension 'colcon_pkg'
+[1.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu) by extensions ['colcon_meta']
+[1.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu) by extension 'colcon_meta'
+[1.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu) by extensions ['ros']
+[1.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu) by extension 'ros'
+[1.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu) by extensions ['cmake', 'python']
+[1.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu) by extension 'cmake'
+[1.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu) by extension 'python'
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu) by extensions ['python_setup_py']
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu) by extension 'python_setup_py'
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu/topics) by extension 'ignore'
+[1.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu/topics) by extension 'ignore_ament_install'
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu/topics) by extensions ['colcon_pkg']
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu/topics) by extension 'colcon_pkg'
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu/topics) by extensions ['colcon_meta']
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu/topics) by extension 'colcon_meta'
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu/topics) by extensions ['ros']
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu/topics) by extension 'ros'
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu/topics) by extensions ['cmake', 'python']
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu/topics) by extension 'cmake'
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu/topics) by extension 'python'
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu/topics) by extensions ['python_setup_py']
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/imu/topics) by extension 'python_setup_py'
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar) by extensions ['ignore', 'ignore_ament_install']
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar) by extension 'ignore'
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar) by extension 'ignore_ament_install'
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar) by extensions ['colcon_pkg']
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar) by extension 'colcon_pkg'
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar) by extensions ['colcon_meta']
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar) by extension 'colcon_meta'
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar) by extensions ['ros']
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar) by extension 'ros'
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar) by extensions ['cmake', 'python']
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar) by extension 'cmake'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar) by extension 'python'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar) by extensions ['python_setup_py']
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar) by extension 'python_setup_py'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar/topics) by extension 'ignore'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar/topics) by extension 'ignore_ament_install'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar/topics) by extensions ['colcon_pkg']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar/topics) by extension 'colcon_pkg'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar/topics) by extensions ['colcon_meta']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar/topics) by extension 'colcon_meta'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar/topics) by extensions ['ros']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar/topics) by extension 'ros'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar/topics) by extensions ['cmake', 'python']
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar/topics) by extension 'cmake'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar/topics) by extension 'python'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar/topics) by extensions ['python_setup_py']
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/lidar/topics) by extension 'python_setup_py'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone) by extensions ['ignore', 'ignore_ament_install']
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone) by extension 'ignore'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone) by extension 'ignore_ament_install'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone) by extensions ['colcon_pkg']
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone) by extension 'colcon_pkg'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone) by extensions ['colcon_meta']
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone) by extension 'colcon_meta'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone) by extensions ['ros']
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone) by extension 'ros'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone) by extensions ['cmake', 'python']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone) by extension 'cmake'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone) by extension 'python'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone) by extensions ['python_setup_py']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone) by extension 'python_setup_py'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone/topics) by extension 'ignore'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone/topics) by extension 'ignore_ament_install'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone/topics) by extensions ['colcon_pkg']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone/topics) by extension 'colcon_pkg'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone/topics) by extensions ['colcon_meta']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone/topics) by extension 'colcon_meta'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone/topics) by extensions ['ros']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone/topics) by extension 'ros'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone/topics) by extensions ['cmake', 'python']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone/topics) by extension 'cmake'
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone/topics) by extension 'python'
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone/topics) by extensions ['python_setup_py']
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/microphone/topics) by extension 'python_setup_py'
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder) by extensions ['ignore', 'ignore_ament_install']
+[1.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder) by extension 'ignore'
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder) by extension 'ignore_ament_install'
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder) by extensions ['colcon_pkg']
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder) by extension 'colcon_pkg'
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder) by extensions ['colcon_meta']
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder) by extension 'colcon_meta'
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder) by extensions ['ros']
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder) by extension 'ros'
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder) by extensions ['cmake', 'python']
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder) by extension 'cmake'
+[1.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder) by extension 'python'
+[1.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder) by extensions ['python_setup_py']
+[1.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder) by extension 'python_setup_py'
+[1.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder/topics) by extension 'ignore'
+[1.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder/topics) by extension 'ignore_ament_install'
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder/topics) by extensions ['colcon_pkg']
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder/topics) by extension 'colcon_pkg'
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder/topics) by extensions ['colcon_meta']
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder/topics) by extension 'colcon_meta'
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder/topics) by extensions ['ros']
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder/topics) by extension 'ros'
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder/topics) by extensions ['cmake', 'python']
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder/topics) by extension 'cmake'
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder/topics) by extension 'python'
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder/topics) by extensions ['python_setup_py']
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/rangefinder/topics) by extension 'python_setup_py'
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer) by extensions ['ignore', 'ignore_ament_install']
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer) by extension 'ignore'
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer) by extension 'ignore_ament_install'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer) by extensions ['colcon_pkg']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer) by extension 'colcon_pkg'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer) by extensions ['colcon_meta']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer) by extension 'colcon_meta'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer) by extensions ['ros']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer) by extension 'ros'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer) by extensions ['cmake', 'python']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer) by extension 'cmake'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer) by extension 'python'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer) by extensions ['python_setup_py']
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer) by extension 'python_setup_py'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer/topics) by extension 'ignore'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer/topics) by extension 'ignore_ament_install'
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer/topics) by extensions ['colcon_pkg']
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer/topics) by extension 'colcon_pkg'
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer/topics) by extensions ['colcon_meta']
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer/topics) by extension 'colcon_meta'
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer/topics) by extensions ['ros']
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer/topics) by extension 'ros'
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer/topics) by extensions ['cmake', 'python']
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer/topics) by extension 'cmake'
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer/topics) by extension 'python'
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer/topics) by extensions ['python_setup_py']
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/thermometer/topics) by extension 'python_setup_py'
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque) by extensions ['ignore', 'ignore_ament_install']
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque) by extension 'ignore'
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque) by extension 'ignore_ament_install'
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque) by extensions ['colcon_pkg']
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque) by extension 'colcon_pkg'
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque) by extensions ['colcon_meta']
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque) by extension 'colcon_meta'
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque) by extensions ['ros']
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque) by extension 'ros'
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque) by extensions ['cmake', 'python']
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque) by extension 'cmake'
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque) by extension 'python'
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque) by extensions ['python_setup_py']
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque) by extension 'python_setup_py'
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque/topics) by extensions ['ignore', 'ignore_ament_install']
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque/topics) by extension 'ignore'
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque/topics) by extension 'ignore_ament_install'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque/topics) by extensions ['colcon_pkg']
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque/topics) by extension 'colcon_pkg'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque/topics) by extensions ['colcon_meta']
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque/topics) by extension 'colcon_meta'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque/topics) by extensions ['ros']
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque/topics) by extension 'ros'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque/topics) by extensions ['cmake', 'python']
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque/topics) by extension 'cmake'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque/topics) by extension 'python'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque/topics) by extensions ['python_setup_py']
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/models/sensor/torque/topics) by extension 'python_setup_py'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/templates) by extensions ['ignore', 'ignore_ament_install']
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/templates) by extension 'ignore'
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/templates) by extension 'ignore_ament_install'
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/templates) by extensions ['colcon_pkg']
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/templates) by extension 'colcon_pkg'
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/templates) by extensions ['colcon_meta']
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/templates) by extension 'colcon_meta'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/templates) by extensions ['ros']
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/templates) by extension 'ros'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/templates) by extensions ['cmake', 'python']
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/templates) by extension 'cmake'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/templates) by extension 'python'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/templates) by extensions ['python_setup_py']
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/HRIM/templates) by extension 'python_setup_py'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs) by extension 'ignore'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs) by extension 'ignore_ament_install'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs) by extensions ['colcon_pkg']
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs) by extension 'colcon_pkg'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs) by extensions ['colcon_meta']
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs) by extension 'colcon_meta'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs) by extensions ['ros']
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs) by extension 'ros'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs) by extensions ['cmake', 'python']
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs) by extension 'cmake'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs) by extension 'python'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs) by extensions ['python_setup_py']
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs) by extension 'python_setup_py'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs/control_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs/control_msgs) by extension 'ignore'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs/control_msgs) by extension 'ignore_ament_install'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs/control_msgs) by extensions ['colcon_pkg']
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs/control_msgs) by extension 'colcon_pkg'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs/control_msgs) by extensions ['colcon_meta']
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs/control_msgs) by extension 'colcon_meta'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs/control_msgs) by extensions ['ros']
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/control_msgs/control_msgs) by extension 'ros'
+[1.794s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/control_msgs/control_msgs' with type 'ros.ament_cmake' and name 'control_msgs'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor) by extensions ['ignore', 'ignore_ament_install']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor) by extension 'ignore'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor) by extension 'ignore_ament_install'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor) by extensions ['colcon_pkg']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor) by extension 'colcon_pkg'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor) by extensions ['colcon_meta']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor) by extension 'colcon_meta'
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor) by extensions ['ros']
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor) by extension 'ros'
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor) by extensions ['cmake', 'python']
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor) by extension 'cmake'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor) by extension 'python'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor) by extensions ['python_setup_py']
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor) by extension 'python_setup_py'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_modular_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_modular_gazebo) by extension 'ignore'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_modular_gazebo) by extension 'ignore_ament_install'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_modular_gazebo) by extensions ['colcon_pkg']
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_modular_gazebo) by extension 'colcon_pkg'
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_modular_gazebo) by extensions ['colcon_meta']
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_modular_gazebo) by extension 'colcon_meta'
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_modular_gazebo) by extensions ['ros']
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_modular_gazebo) by extension 'ros'
+[1.843s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/hans_modular_servomotor/hans_modular_gazebo' with type 'ros.ament_cmake' and name 'hans_modular_gazebo'
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t30_description) by extensions ['ignore', 'ignore_ament_install']
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t30_description) by extension 'ignore'
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t30_description) by extension 'ignore_ament_install'
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t30_description) by extensions ['colcon_pkg']
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t30_description) by extension 'colcon_pkg'
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t30_description) by extensions ['colcon_meta']
+[1.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t30_description) by extension 'colcon_meta'
+[1.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t30_description) by extensions ['ros']
+[1.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t30_description) by extension 'ros'
+[1.846s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/hans_modular_servomotor/hans_t30_description' with type 'ros.ament_cmake' and name 'hans_t30_description'
+[1.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t49_description) by extensions ['ignore', 'ignore_ament_install']
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t49_description) by extension 'ignore'
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t49_description) by extension 'ignore_ament_install'
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t49_description) by extensions ['colcon_pkg']
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t49_description) by extension 'colcon_pkg'
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t49_description) by extensions ['colcon_meta']
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t49_description) by extension 'colcon_meta'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t49_description) by extensions ['ros']
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t49_description) by extension 'ros'
+[1.849s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/hans_modular_servomotor/hans_t49_description' with type 'ros.ament_cmake' and name 'hans_t49_description'
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t9_4_description) by extensions ['ignore', 'ignore_ament_install']
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t9_4_description) by extension 'ignore'
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t9_4_description) by extension 'ignore_ament_install'
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t9_4_description) by extensions ['colcon_pkg']
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t9_4_description) by extension 'colcon_pkg'
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t9_4_description) by extensions ['colcon_meta']
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t9_4_description) by extension 'colcon_meta'
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t9_4_description) by extensions ['ros']
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/hans_modular_servomotor/hans_t9_4_description) by extension 'ros'
+[1.851s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/hans_modular_servomotor/hans_t9_4_description' with type 'ros.ament_cmake' and name 'hans_t9_4_description'
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/launching_scripts) by extensions ['ignore', 'ignore_ament_install']
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/launching_scripts) by extension 'ignore'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/launching_scripts) by extension 'ignore_ament_install'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/launching_scripts) by extensions ['colcon_pkg']
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/launching_scripts) by extension 'colcon_pkg'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/launching_scripts) by extensions ['colcon_meta']
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/launching_scripts) by extension 'colcon_meta'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/launching_scripts) by extensions ['ros']
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/launching_scripts) by extension 'ros'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/launching_scripts) by extensions ['cmake', 'python']
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/launching_scripts) by extension 'cmake'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/launching_scripts) by extension 'python'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/launching_scripts) by extensions ['python_setup_py']
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/launching_scripts) by extension 'python_setup_py'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara) by extensions ['ignore', 'ignore_ament_install']
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara) by extension 'ignore'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara) by extension 'ignore_ament_install'
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara) by extensions ['colcon_pkg']
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara) by extension 'colcon_pkg'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara) by extensions ['colcon_meta']
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara) by extension 'colcon_meta'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara) by extensions ['ros']
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara) by extension 'ros'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara) by extensions ['cmake', 'python']
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara) by extension 'cmake'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara) by extension 'python'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara) by extensions ['python_setup_py']
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara) by extension 'python_setup_py'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/hros_cognition_mara_components) by extensions ['ignore', 'ignore_ament_install']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/hros_cognition_mara_components) by extension 'ignore'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/hros_cognition_mara_components) by extension 'ignore_ament_install'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/hros_cognition_mara_components) by extensions ['colcon_pkg']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/hros_cognition_mara_components) by extension 'colcon_pkg'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/hros_cognition_mara_components) by extensions ['colcon_meta']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/hros_cognition_mara_components) by extension 'colcon_meta'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/hros_cognition_mara_components) by extensions ['ros']
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/hros_cognition_mara_components) by extension 'ros'
+[1.859s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/mara/hros_cognition_mara_components' with type 'ros.ament_cmake' and name 'hros_cognition_mara_components'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/individual_trajectories_bridge) by extensions ['ignore', 'ignore_ament_install']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/individual_trajectories_bridge) by extension 'ignore'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/individual_trajectories_bridge) by extension 'ignore_ament_install'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/individual_trajectories_bridge) by extensions ['colcon_pkg']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/individual_trajectories_bridge) by extension 'colcon_pkg'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/individual_trajectories_bridge) by extensions ['colcon_meta']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/individual_trajectories_bridge) by extension 'colcon_meta'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/individual_trajectories_bridge) by extensions ['ros']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/individual_trajectories_bridge) by extension 'ros'
+[1.863s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/mara/individual_trajectories_bridge' with type 'ros.ament_cmake' and name 'individual_trajectories_bridge'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_bringup) by extension 'ignore'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_bringup) by extension 'ignore_ament_install'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_bringup) by extensions ['colcon_pkg']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_bringup) by extension 'colcon_pkg'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_bringup) by extensions ['colcon_meta']
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_bringup) by extension 'colcon_meta'
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_bringup) by extensions ['ros']
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_bringup) by extension 'ros'
+[1.866s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/mara/mara_bringup' with type 'ros.ament_cmake' and name 'mara_bringup'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_contact_publisher) by extensions ['ignore', 'ignore_ament_install']
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_contact_publisher) by extension 'ignore'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_contact_publisher) by extension 'ignore_ament_install'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_contact_publisher) by extensions ['colcon_pkg']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_contact_publisher) by extension 'colcon_pkg'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_contact_publisher) by extensions ['colcon_meta']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_contact_publisher) by extension 'colcon_meta'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_contact_publisher) by extensions ['ros']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_contact_publisher) by extension 'ros'
+[1.868s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/mara/mara_contact_publisher' with type 'ros.ament_cmake' and name 'mara_contact_publisher'
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_description) by extensions ['ignore', 'ignore_ament_install']
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_description) by extension 'ignore'
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_description) by extension 'ignore_ament_install'
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_description) by extensions ['colcon_pkg']
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_description) by extension 'colcon_pkg'
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_description) by extensions ['colcon_meta']
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_description) by extension 'colcon_meta'
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_description) by extensions ['ros']
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_description) by extension 'ros'
+[1.871s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/mara/mara_description' with type 'ros.ament_cmake' and name 'mara_description'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_gazebo) by extension 'ignore'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_gazebo) by extension 'ignore_ament_install'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_gazebo) by extensions ['colcon_pkg']
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_gazebo) by extension 'colcon_pkg'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_gazebo) by extensions ['colcon_meta']
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_gazebo) by extension 'colcon_meta'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_gazebo) by extensions ['ros']
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_gazebo) by extension 'ros'
+[1.873s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/mara/mara_gazebo' with type 'ros.ament_cmake' and name 'mara_gazebo'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_gazebo_plugins) by extension 'ignore'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_gazebo_plugins) by extension 'ignore_ament_install'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_gazebo_plugins) by extensions ['colcon_pkg']
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_gazebo_plugins) by extension 'colcon_pkg'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_gazebo_plugins) by extensions ['colcon_meta']
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_gazebo_plugins) by extension 'colcon_meta'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_gazebo_plugins) by extensions ['ros']
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_gazebo_plugins) by extension 'ros'
+[1.877s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/mara/mara_gazebo_plugins' with type 'ros.ament_cmake' and name 'mara_gazebo_plugins'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_utils_scripts) by extensions ['ignore', 'ignore_ament_install']
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_utils_scripts) by extension 'ignore'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_utils_scripts) by extension 'ignore_ament_install'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_utils_scripts) by extensions ['colcon_pkg']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_utils_scripts) by extension 'colcon_pkg'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_utils_scripts) by extensions ['colcon_meta']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_utils_scripts) by extension 'colcon_meta'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_utils_scripts) by extensions ['ros']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara/mara_utils_scripts) by extension 'ros'
+[1.879s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/mara/mara_utils_scripts' with type 'ros.ament_cmake' and name 'mara_utils_scripts'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples) by extensions ['ignore', 'ignore_ament_install']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples) by extension 'ignore'
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples) by extension 'ignore_ament_install'
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples) by extensions ['colcon_pkg']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples) by extension 'colcon_pkg'
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples) by extensions ['colcon_meta']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples) by extension 'colcon_meta'
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples) by extensions ['ros']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples) by extension 'ros'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples) by extensions ['cmake', 'python']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples) by extension 'cmake'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples) by extension 'python'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples) by extensions ['python_setup_py']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples) by extension 'python_setup_py'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/gripper_minimal_service) by extensions ['ignore', 'ignore_ament_install']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/gripper_minimal_service) by extension 'ignore'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/gripper_minimal_service) by extension 'ignore_ament_install'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/gripper_minimal_service) by extensions ['colcon_pkg']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/gripper_minimal_service) by extension 'colcon_pkg'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/gripper_minimal_service) by extensions ['colcon_meta']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/gripper_minimal_service) by extension 'colcon_meta'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/gripper_minimal_service) by extensions ['ros']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/gripper_minimal_service) by extension 'ros'
+[1.883s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/mara_examples/gripper_minimal_service' with type 'ros.ament_cmake' and name 'gripper_minimal_service'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/gripper_minimal_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/gripper_minimal_subscriber) by extension 'ignore'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/gripper_minimal_subscriber) by extension 'ignore_ament_install'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/gripper_minimal_subscriber) by extensions ['colcon_pkg']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/gripper_minimal_subscriber) by extension 'colcon_pkg'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/gripper_minimal_subscriber) by extensions ['colcon_meta']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/gripper_minimal_subscriber) by extension 'colcon_meta'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/gripper_minimal_subscriber) by extensions ['ros']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/gripper_minimal_subscriber) by extension 'ros'
+[1.886s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/mara_examples/gripper_minimal_subscriber' with type 'ros.ament_cmake' and name 'gripper_minimal_subscriber'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_publisher) by extensions ['ignore', 'ignore_ament_install']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_publisher) by extension 'ignore'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_publisher) by extension 'ignore_ament_install'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_publisher) by extensions ['colcon_pkg']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_publisher) by extension 'colcon_pkg'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_publisher) by extensions ['colcon_meta']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_publisher) by extension 'colcon_meta'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_publisher) by extensions ['ros']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_publisher) by extension 'ros'
+[1.888s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/mara_examples/mara_minimal_publisher' with type 'ros.ament_cmake' and name 'mara_minimal_publisher'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_subscriber) by extension 'ignore'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_subscriber) by extension 'ignore_ament_install'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_subscriber) by extensions ['colcon_pkg']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_subscriber) by extension 'colcon_pkg'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_subscriber) by extensions ['colcon_meta']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_subscriber) by extension 'colcon_meta'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_subscriber) by extensions ['ros']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_subscriber) by extension 'ros'
+[1.890s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/mara_examples/mara_minimal_subscriber' with type 'ros.ament_cmake' and name 'mara_minimal_subscriber'
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_trajectory_action) by extensions ['ignore', 'ignore_ament_install']
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_trajectory_action) by extension 'ignore'
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_trajectory_action) by extension 'ignore_ament_install'
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_trajectory_action) by extensions ['colcon_pkg']
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_trajectory_action) by extension 'colcon_pkg'
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_trajectory_action) by extensions ['colcon_meta']
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_trajectory_action) by extension 'colcon_meta'
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_trajectory_action) by extensions ['ros']
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/mara_examples/mara_minimal_trajectory_action) by extension 'ros'
+[1.892s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/mara_examples/mara_minimal_trajectory_action' with type 'ros.ament_cmake' and name 'mara_minimal_trajectory_action'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper) by extensions ['ignore', 'ignore_ament_install']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper) by extension 'ignore'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper) by extension 'ignore_ament_install'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper) by extensions ['colcon_pkg']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper) by extension 'colcon_pkg'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper) by extensions ['colcon_meta']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper) by extension 'colcon_meta'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper) by extensions ['ros']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper) by extension 'ros'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper) by extensions ['cmake', 'python']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper) by extension 'cmake'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper) by extension 'python'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper) by extensions ['python_setup_py']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper) by extension 'python_setup_py'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_140_gripper_description) by extensions ['ignore', 'ignore_ament_install']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_140_gripper_description) by extension 'ignore'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_140_gripper_description) by extension 'ignore_ament_install'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_140_gripper_description) by extensions ['colcon_pkg']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_140_gripper_description) by extension 'colcon_pkg'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_140_gripper_description) by extensions ['colcon_meta']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_140_gripper_description) by extension 'colcon_meta'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_140_gripper_description) by extensions ['ros']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_140_gripper_description) by extension 'ros'
+[1.896s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/robotiq_modular_gripper/robotiq_140_gripper_description' with type 'ros.ament_cmake' and name 'robotiq_140_gripper_description'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_85_gripper_description) by extensions ['ignore', 'ignore_ament_install']
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_85_gripper_description) by extension 'ignore'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_85_gripper_description) by extension 'ignore_ament_install'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_85_gripper_description) by extensions ['colcon_pkg']
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_85_gripper_description) by extension 'colcon_pkg'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_85_gripper_description) by extensions ['colcon_meta']
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_85_gripper_description) by extension 'colcon_meta'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_85_gripper_description) by extensions ['ros']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_85_gripper_description) by extension 'ros'
+[1.899s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/robotiq_modular_gripper/robotiq_85_gripper_description' with type 'ros.ament_cmake' and name 'robotiq_85_gripper_description'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_gazebo) by extension 'ignore'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_gazebo) by extension 'ignore_ament_install'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_gazebo) by extensions ['colcon_pkg']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_gazebo) by extension 'colcon_pkg'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_gazebo) by extensions ['colcon_meta']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_gazebo) by extension 'colcon_meta'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_gazebo) by extensions ['ros']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_gazebo) by extension 'ros'
+[1.905s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/robotiq_modular_gripper/robotiq_gazebo' with type 'ros.ament_cmake' and name 'robotiq_gazebo'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_gripper_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_gripper_gazebo_plugins) by extension 'ignore'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_gripper_gazebo_plugins) by extension 'ignore_ament_install'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_gripper_gazebo_plugins) by extensions ['colcon_pkg']
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_gripper_gazebo_plugins) by extension 'colcon_pkg'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_gripper_gazebo_plugins) by extensions ['colcon_meta']
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_gripper_gazebo_plugins) by extension 'colcon_meta'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_gripper_gazebo_plugins) by extensions ['ros']
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_gripper_gazebo_plugins) by extension 'ros'
+[1.908s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/robotiq_modular_gripper/robotiq_gripper_gazebo_plugins' with type 'ros.ament_cmake' and name 'robotiq_gripper_gazebo_plugins'
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_hande_gripper_description) by extensions ['ignore', 'ignore_ament_install']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_hande_gripper_description) by extension 'ignore'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_hande_gripper_description) by extension 'ignore_ament_install'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_hande_gripper_description) by extensions ['colcon_pkg']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_hande_gripper_description) by extension 'colcon_pkg'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_hande_gripper_description) by extensions ['colcon_meta']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_hande_gripper_description) by extension 'colcon_meta'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_hande_gripper_description) by extensions ['ros']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_mara/robotiq_modular_gripper/robotiq_hande_gripper_description) by extension 'ros'
+[1.910s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_mara/robotiq_modular_gripper/robotiq_hande_gripper_description' with type 'ros.ament_cmake' and name 'robotiq_hande_gripper_description'
+[1.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.913s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'mara_examples' in --packages-select
+[2.000s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'control_msgs' in 'src/ros2_mara/control_msgs/control_msgs'
+[2.001s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hans_modular_gazebo' in 'src/ros2_mara/hans_modular_servomotor/hans_modular_gazebo'
+[2.001s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hans_t30_description' in 'src/ros2_mara/hans_modular_servomotor/hans_t30_description'
+[2.001s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hans_t49_description' in 'src/ros2_mara/hans_modular_servomotor/hans_t49_description'
+[2.001s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hans_t9_4_description' in 'src/ros2_mara/hans_modular_servomotor/hans_t9_4_description'
+[2.001s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hrim_actuator_gripper_msgs' in 'src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_msgs'
+[2.001s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hrim_actuator_gripper_srvs' in 'src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_srvs'
+[2.001s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hrim_actuator_rotaryservo_actions' in 'src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_actions'
+[2.001s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hrim_actuator_rotaryservo_msgs' in 'src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_msgs'
+[2.001s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hrim_actuator_rotaryservo_srvs' in 'src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_srvs'
+[2.001s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hrim_generic_msgs' in 'src/ros2_mara/HRIM/generated/generic/hrim_generic_msgs'
+[2.002s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hrim_generic_srvs' in 'src/ros2_mara/HRIM/generated/generic/hrim_generic_srvs'
+[2.002s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mara_bringup' in 'src/ros2_mara/mara/mara_bringup'
+[2.002s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mara_contact_publisher' in 'src/ros2_mara/mara/mara_contact_publisher'
+[2.002s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mara_description' in 'src/ros2_mara/mara/mara_description'
+[2.002s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mara_gazebo' in 'src/ros2_mara/mara/mara_gazebo'
+[2.002s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robotiq_140_gripper_description' in 'src/ros2_mara/robotiq_modular_gripper/robotiq_140_gripper_description'
+[2.002s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robotiq_85_gripper_description' in 'src/ros2_mara/robotiq_modular_gripper/robotiq_85_gripper_description'
+[2.002s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robotiq_gazebo' in 'src/ros2_mara/robotiq_modular_gripper/robotiq_gazebo'
+[2.002s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robotiq_hande_gripper_description' in 'src/ros2_mara/robotiq_modular_gripper/robotiq_hande_gripper_description'
+[2.002s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gripper_minimal_service' in 'src/ros2_mara/mara_examples/gripper_minimal_service'
+[2.002s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gripper_minimal_subscriber' in 'src/ros2_mara/mara_examples/gripper_minimal_subscriber'
+[2.002s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hros_cognition_mara_components' in 'src/ros2_mara/mara/hros_cognition_mara_components'
+[2.003s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'individual_trajectories_bridge' in 'src/ros2_mara/mara/individual_trajectories_bridge'
+[2.003s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mara_gazebo_plugins' in 'src/ros2_mara/mara/mara_gazebo_plugins'
+[2.003s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mara_minimal_publisher' in 'src/ros2_mara/mara_examples/mara_minimal_publisher'
+[2.003s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mara_minimal_subscriber' in 'src/ros2_mara/mara_examples/mara_minimal_subscriber'
+[2.003s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mara_minimal_trajectory_action' in 'src/ros2_mara/mara_examples/mara_minimal_trajectory_action'
+[2.003s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mara_utils_scripts' in 'src/ros2_mara/mara/mara_utils_scripts'
+[2.003s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robotiq_gripper_gazebo_plugins' in 'src/ros2_mara/robotiq_modular_gripper/robotiq_gripper_gazebo_plugins'
+[2.004s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.043s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.044s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.044s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.045s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.045s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.060s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.063s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.081s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.081s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.093s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.093s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.ps1'
+[2.096s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/install/_local_setup_util_ps1.py'
+[2.099s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.ps1'
+[2.115s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.sh'
+[2.117s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/install/_local_setup_util_sh.py'
+[2.118s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.sh'
+[2.169s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.bash'
+[2.171s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.bash'
+[2.185s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.zsh'
+[2.186s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.zsh'
