@@ -41,6 +41,16 @@ colcon build --packages-select ldmk_package
 ros2 run ldmk_package anglespublisher2 0 90 0 90 0 0
 ```
 
+- step 3: open/close the gripper (eg. at 50%) <br />
+In terminal 3:	
+```bash
+cd ros2_ws
+source install/setup.bash
+colcon build --packages-select ldmk_package
+ros2 run ldmk_package fingersclient 0.5
+```
+
+
 :woman_teacher: To deploy a simulation of the Mara robotic arm multiple nodes must be run
 
 - step 1: launch the Mara robot in Gazebo <br />
