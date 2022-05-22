@@ -3,6 +3,10 @@
 Robotics1-project aims to realize a position control of the Mara robot in ROS2 in order to move a box around.
 
 
+## Screenshots
+
+<img src="mara_demo.jpg" width=1000>
+
 ## Features
 
 In order to run this project, multiple prerequisites are needed. Please refer to the steps in the [MARA repository](https://github.com/AcutronicRobotics/MARA#install).
@@ -35,11 +39,6 @@ cd ros2_ws
 source install/setup.bash
 ros2 run ldmk_package teleop_keyboard run
 ```
-
-
-## Screenshots
-
-<img src="mara_demo.jpg" width=1000>
 
 
 ## Author
