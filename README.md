@@ -59,6 +59,13 @@ source install/setup.bash
 ros2 run ldmk_package teleop_keyboard run
 ```
 
+:woman_teacher: To listen to a topic (eg. /cmd_ik)
+additional terminal:
+```bash
+cd ros2_ws
+source install/setup.bash
+ros2 topic echo /cmd_ik
+```
 
 ## Author
 
