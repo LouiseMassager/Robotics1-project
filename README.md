@@ -5,8 +5,11 @@ Robotics1-project aims to realize a position control of the Mara robot in ROS2 w
 
 ## Screenshot
 
-<img src="mara_demo.jpg" width=1000>
-
+<div align="center">
+  <a href="https://github.com/LouiseMassager/Robotics1-project">
+    <img src="mara_demo.jpg" width=500>
+  </a>
+</div>
 ## Features
 
 In order to run this project, multiple prerequisites are needed. Please refer to the steps in the [MARA repository](https://github.com/AcutronicRobotics/MARA#install).
@@ -87,8 +90,8 @@ ros2 topic echo /cmd_ik
 
 ## Author
 
-- [@Louise Massager](https://github.com/LouiseMassager/MA1project_ROSMuJoCo/tree/main/new_panda)
-- [@Dinh-Hao Nguyen](https://github.com/LouiseMassager/MA1project_ROSMuJoCo/tree/main/new_panda)
+- [@Louise Massager](https://github.com/LouiseMassager)
+- [@Dinh-Hao Nguyen](https://github.com/Dinh-Hao-Nguyen)
 
 
 ## Acknowledgements
