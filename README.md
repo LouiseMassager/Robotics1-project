@@ -10,6 +10,7 @@ Robotics1-project aims to realize a position control of the Mara robot in ROS2 w
     <img src="mara_demo.jpg" width=500>
   </a>
 </div>
+
 ## Features
 
 In order to run this project, multiple prerequisites are needed. Please refer to the steps in the [MARA repository](https://github.com/AcutronicRobotics/MARA#install).
