@@ -4,4 +4,4 @@ Robotics1-project aims to realize a position control of the Mara robot in ROS2 w
 
 ## Small videos
 <img src="showoff.gif" width="400" >
-<img src="showoff.gif" width="200" >
+<img src="showoff_gripper.gif" width="200" >
