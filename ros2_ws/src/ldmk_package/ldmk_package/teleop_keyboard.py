@@ -26,6 +26,8 @@ yaw (x):   r/f
 pitch (y):  t/g
 roll (z):    y/h
 
+Gripper: w/x
+
 space key: force stop
 
 CTRL-C to quit
@@ -41,6 +43,8 @@ Orientation:
 yaw (x):   r/f
 pitch (y):  t/g
 roll (z):    y/h
+
+Gripper: w/x
 """
 
 e = """
