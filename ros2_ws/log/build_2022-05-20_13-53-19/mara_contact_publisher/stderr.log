@@ -1,0 +1,18 @@
+CMake Warning at CMakeLists.txt:34 (add_executable):
+  Cannot generate a safe runtime search path for target
+  mara_contact_publisher because there is a cycle in the constraint graph:
+
+    dir 0 is [/usr/lib/x86_64-linux-gnu/gazebo-11/plugins]
+    dir 1 is [/opt/ros/foxy/lib]
+      dir 2 must precede it due to runtime library [liboctomap.so.1.9]
+    dir 2 is [/opt/ros/noetic/lib]
+      dir 1 must precede it due to runtime library [libgazebo_ros_utils.so]
+
+  Some of these libraries may not be found correctly.
+
+
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+make[2]: *** [CMakeFiles/mara_contact_publisher.dir/build.make:63: CMakeFiles/mara_contact_publisher.dir/src/ContactPublisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/mara_contact_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

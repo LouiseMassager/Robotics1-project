@@ -1,0 +1,10 @@
+msg/GoalAngularAcceleration.idl
+msg/GoalAngularAcceleration.msg
+msg/GoalRotaryServo.idl
+msg/GoalRotaryServo.msg
+msg/Reconfiguration.idl
+msg/Reconfiguration.msg
+msg/StateRotaryServo.idl
+msg/StateRotaryServo.msg
+msg/Temperature.idl
+msg/Temperature.msg

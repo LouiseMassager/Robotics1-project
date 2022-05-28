@@ -1,0 +1,7 @@
+
+float32 cycle_time # needed time for one cycle
+
+float32 max_force # taking into account 100% vacuum and with non-porous material
+
+float32 max_payload # maximum recommended payload
+

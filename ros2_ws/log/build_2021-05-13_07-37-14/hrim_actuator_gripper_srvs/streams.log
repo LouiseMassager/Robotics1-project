@@ -1,0 +1,360 @@
+[0.308s] Invoking command in '/home/user/ros2_ws/build/hrim_actuator_gripper_srvs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_srvs -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs
+[7.724s] -- The C compiler identification is GNU 9.3.0
+[11.510s] -- The CXX compiler identification is GNU 9.3.0
+[11.577s] -- Check for working C compiler: /usr/bin/cc
+[12.150s] -- Check for working C compiler: /usr/bin/cc -- works
+[12.151s] -- Detecting C compiler ABI info
+[12.430s] -- Detecting C compiler ABI info - done
+[12.472s] -- Detecting C compile features
+[12.531s] -- Detecting C compile features - done
+[12.540s] -- Check for working CXX compiler: /usr/bin/c++
+[12.807s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[12.809s] -- Detecting CXX compiler ABI info
+[13.025s] -- Detecting CXX compiler ABI info - done
+[13.045s] -- Detecting CXX compile features
+[13.045s] -- Detecting CXX compile features - done
+[13.053s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[13.201s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[13.202s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.116s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[14.136s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.163s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[15.254s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[15.312s] -- Found FastRTPS: /opt/ros/foxy/include  
+[15.569s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.687s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[16.013s] -- Found ament_cmake_ros: 0.9.0 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[16.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[16.278s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.339s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[16.341s] -- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[16.513s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") 
+[16.514s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[16.514s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[16.514s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[16.567s] -- Found PythonExtra: .so  
+[16.666s] -- Configuring done
+[16.906s] -- Generating done
+[16.906s] -- Build files have been written to: /home/user/ros2_ws/build/hrim_actuator_gripper_srvs
+[16.987s] Invoked command in '/home/user/ros2_ws/build/hrim_actuator_gripper_srvs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/HRIM/generated/actuator/gripper/hrim_actuator_gripper_srvs -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/hrim_actuator_gripper_srvs
+[16.993s] Invoking command in '/home/user/ros2_ws/build/hrim_actuator_gripper_srvs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/hrim_actuator_gripper_srvs -- -j16 -l16
+[17.132s] [35m[1mScanning dependencies of target hrim_actuator_gripper_srvs__cpp[0m
+[17.153s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[17.182s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[20.278s] [35m[1mScanning dependencies of target hrim_actuator_gripper_srvs__rosidl_generator_c[0m
+[20.372s] [  4%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_generator_c.dir/rosidl_generator_c/hrim_actuator_gripper_srvs/srv/detail/control_finger__functions.c.o[0m
+[20.631s] [  5%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_generator_c.dir/rosidl_generator_c/hrim_actuator_gripper_srvs/srv/detail/specs_magnetic_gripper__functions.c.o[0m
+[20.782s] [  7%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_generator_c.dir/rosidl_generator_c/hrim_actuator_gripper_srvs/srv/detail/specs_vacuum_gripper__functions.c.o[0m
+[20.917s] [  8%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_generator_c.dir/rosidl_generator_c/hrim_actuator_gripper_srvs/srv/detail/specs_finger_gripper__functions.c.o[0m
+[21.040s] [  8%] Built target hrim_actuator_gripper_srvs__cpp
+[21.078s] [  9%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_generator_c.dir/rosidl_generator_c/hrim_actuator_gripper_srvs/srv/detail/goal_gripper__functions.c.o[0m
+[21.210s] [ 11%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_generator_c.dir/rosidl_generator_c/hrim_actuator_gripper_srvs/srv/detail/control_vacuum__functions.c.o[0m
+[21.389s] [ 12%] [32m[1mLinking C shared library libhrim_actuator_gripper_srvs__rosidl_generator_c.so[0m
+[21.541s] [ 12%] Built target hrim_actuator_gripper_srvs__rosidl_generator_c
+[21.595s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[23.638s] [35m[1mScanning dependencies of target hrim_actuator_gripper_srvs__rosidl_typesupport_cpp[0m
+[23.738s] [ 15%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hrim_actuator_gripper_srvs/srv/control_finger__type_support.cpp.o[0m
+[24.864s] [ 16%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hrim_actuator_gripper_srvs/srv/specs_vacuum_gripper__type_support.cpp.o[0m
+[25.606s] [ 18%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hrim_actuator_gripper_srvs/srv/specs_magnetic_gripper__type_support.cpp.o[0m
+[26.216s] [ 19%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hrim_actuator_gripper_srvs/srv/specs_finger_gripper__type_support.cpp.o[0m
+[26.692s] [ 21%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hrim_actuator_gripper_srvs/srv/goal_gripper__type_support.cpp.o[0m
+[27.248s] [ 22%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hrim_actuator_gripper_srvs/srv/control_vacuum__type_support.cpp.o[0m
+[27.793s] [ 23%] [32m[1mLinking CXX shared library libhrim_actuator_gripper_srvs__rosidl_typesupport_cpp.so[0m
+[27.906s] [ 23%] Built target hrim_actuator_gripper_srvs__rosidl_typesupport_cpp
+[27.938s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[29.333s] [35m[1mScanning dependencies of target hrim_actuator_gripper_srvs__rosidl_typesupport_c[0m
+[29.367s] [ 26%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hrim_actuator_gripper_srvs/srv/control_finger__type_support.cpp.o[0m
+[29.422s] [ 28%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hrim_actuator_gripper_srvs/srv/specs_vacuum_gripper__type_support.cpp.o[0m
+[29.498s] [ 29%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hrim_actuator_gripper_srvs/srv/specs_magnetic_gripper__type_support.cpp.o[0m
+[29.579s] [ 30%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hrim_actuator_gripper_srvs/srv/specs_finger_gripper__type_support.cpp.o[0m
+[29.664s] [ 32%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hrim_actuator_gripper_srvs/srv/goal_gripper__type_support.cpp.o[0m
+[29.740s] [ 33%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hrim_actuator_gripper_srvs/srv/control_vacuum__type_support.cpp.o[0m
+[29.825s] [ 35%] [32m[1mLinking CXX shared library libhrim_actuator_gripper_srvs__rosidl_typesupport_c.so[0m
+[29.906s] [ 35%] Built target hrim_actuator_gripper_srvs__rosidl_typesupport_c
+[29.925s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[31.533s] [35m[1mScanning dependencies of target hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_c[0m
+[31.560s] [ 38%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hrim_actuator_gripper_srvs/srv/detail/control_finger__type_support.c.o[0m
+[31.620s] [ 39%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hrim_actuator_gripper_srvs/srv/detail/specs_vacuum_gripper__type_support.c.o[0m
+[31.686s] [ 40%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hrim_actuator_gripper_srvs/srv/detail/specs_magnetic_gripper__type_support.c.o[0m
+[31.742s] [ 42%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hrim_actuator_gripper_srvs/srv/detail/specs_finger_gripper__type_support.c.o[0m
+[31.820s] [ 43%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hrim_actuator_gripper_srvs/srv/detail/goal_gripper__type_support.c.o[0m
+[31.887s] [ 45%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hrim_actuator_gripper_srvs/srv/detail/control_vacuum__type_support.c.o[0m
+[31.952s] [ 46%] [32m[1mLinking C shared library libhrim_actuator_gripper_srvs__rosidl_typesupport_introspection_c.so[0m
+[32.013s] [ 46%] Built target hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_c
+[32.040s] [ 47%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[33.700s] [35m[1mScanning dependencies of target hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_cpp[0m
+[33.729s] [ 49%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hrim_actuator_gripper_srvs/srv/detail/control_finger__type_support.cpp.o[0m
+[34.352s] [ 50%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hrim_actuator_gripper_srvs/srv/detail/specs_vacuum_gripper__type_support.cpp.o[0m
+[34.921s] [ 52%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hrim_actuator_gripper_srvs/srv/detail/specs_magnetic_gripper__type_support.cpp.o[0m
+[35.429s] [ 53%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hrim_actuator_gripper_srvs/srv/detail/specs_finger_gripper__type_support.cpp.o[0m
+[35.955s] [ 54%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hrim_actuator_gripper_srvs/srv/detail/goal_gripper__type_support.cpp.o[0m
+[36.492s] [ 56%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hrim_actuator_gripper_srvs/srv/detail/control_vacuum__type_support.cpp.o[0m
+[37.000s] [ 57%] [32m[1mLinking CXX shared library libhrim_actuator_gripper_srvs__rosidl_typesupport_introspection_cpp.so[0m
+[37.099s] [ 57%] Built target hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_cpp
+[37.136s] [ 59%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[38.719s] [35m[1mScanning dependencies of target hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_cpp[0m
+[38.764s] [ 60%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hrim_actuator_gripper_srvs/srv/detail/dds_fastrtps/control_finger__type_support.cpp.o[0m
+[39.611s] [ 61%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hrim_actuator_gripper_srvs/srv/detail/dds_fastrtps/specs_vacuum_gripper__type_support.cpp.o[0m
+[40.462s] [ 63%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hrim_actuator_gripper_srvs/srv/detail/dds_fastrtps/specs_magnetic_gripper__type_support.cpp.o[0m
+[41.141s] [ 64%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hrim_actuator_gripper_srvs/srv/detail/dds_fastrtps/specs_finger_gripper__type_support.cpp.o[0m
+[41.830s] [ 66%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hrim_actuator_gripper_srvs/srv/detail/dds_fastrtps/goal_gripper__type_support.cpp.o[0m
+[42.509s] [ 67%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hrim_actuator_gripper_srvs/srv/detail/dds_fastrtps/control_vacuum__type_support.cpp.o[0m
+[43.329s] [ 69%] [32m[1mLinking CXX shared library libhrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_cpp.so[0m
+[43.458s] [ 69%] Built target hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_cpp
+[43.482s] [ 70%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[45.043s] [35m[1mScanning dependencies of target hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_c[0m
+[45.087s] [ 71%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hrim_actuator_gripper_srvs/srv/detail/control_finger__type_support_c.cpp.o[0m
+[45.762s] [ 73%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hrim_actuator_gripper_srvs/srv/detail/specs_vacuum_gripper__type_support_c.cpp.o[0m
+[46.412s] [ 74%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hrim_actuator_gripper_srvs/srv/detail/specs_magnetic_gripper__type_support_c.cpp.o[0m
+[47.134s] [ 76%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hrim_actuator_gripper_srvs/srv/detail/specs_finger_gripper__type_support_c.cpp.o[0m
+[47.877s] [ 77%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hrim_actuator_gripper_srvs/srv/detail/goal_gripper__type_support_c.cpp.o[0m
+[48.626s] [ 78%] [32mBuilding CXX object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hrim_actuator_gripper_srvs/srv/detail/control_vacuum__type_support_c.cpp.o[0m
+[49.293s] [ 80%] [32m[1mLinking CXX shared library libhrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_c.so[0m
+[49.729s] [ 80%] Built target hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_c
+[49.769s] [35m[1mScanning dependencies of target hrim_actuator_gripper_srvs[0m
+[49.807s] [ 80%] Built target hrim_actuator_gripper_srvs
+[49.828s] [35m[1mScanning dependencies of target hrim_actuator_gripper_srvs__py[0m
+[49.855s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[53.981s] [ 81%] Built target hrim_actuator_gripper_srvs__py
+[54.011s] [35m[1mScanning dependencies of target hrim_actuator_gripper_srvs__python[0m
+[54.073s] [ 83%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__python.dir/rosidl_generator_py/hrim_actuator_gripper_srvs/srv/_control_finger_s.c.o[0m
+[54.411s] [ 84%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__python.dir/rosidl_generator_py/hrim_actuator_gripper_srvs/srv/_specs_vacuum_gripper_s.c.o[0m
+[54.731s] [ 85%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__python.dir/rosidl_generator_py/hrim_actuator_gripper_srvs/srv/_specs_magnetic_gripper_s.c.o[0m
+[55.020s] [ 87%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__python.dir/rosidl_generator_py/hrim_actuator_gripper_srvs/srv/_specs_finger_gripper_s.c.o[0m
+[55.367s] [ 88%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__python.dir/rosidl_generator_py/hrim_actuator_gripper_srvs/srv/_goal_gripper_s.c.o[0m
+[55.634s] [ 90%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__python.dir/rosidl_generator_py/hrim_actuator_gripper_srvs/srv/_control_vacuum_s.c.o[0m
+[55.872s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/hrim_actuator_gripper_srvs/libhrim_actuator_gripper_srvs__python.so[0m
+[56.003s] [ 91%] Built target hrim_actuator_gripper_srvs__python
+[56.069s] [35m[1mScanning dependencies of target hrim_actuator_gripper_srvs__rosidl_typesupport_c__pyext[0m
+[56.147s] [ 92%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hrim_actuator_gripper_srvs/_hrim_actuator_gripper_srvs_s.ep.rosidl_typesupport_c.c.o[0m
+[56.425s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/hrim_actuator_gripper_srvs/hrim_actuator_gripper_srvs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[56.537s] [ 94%] Built target hrim_actuator_gripper_srvs__rosidl_typesupport_c__pyext
+[56.571s] [35m[1mScanning dependencies of target hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_c__pyext[0m
+[56.638s] [ 95%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hrim_actuator_gripper_srvs/_hrim_actuator_gripper_srvs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[56.990s] [ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/hrim_actuator_gripper_srvs/hrim_actuator_gripper_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[57.154s] [ 97%] Built target hrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_c__pyext
+[57.184s] [35m[1mScanning dependencies of target hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_c__pyext[0m
+[57.299s] [ 98%] [32mBuilding C object CMakeFiles/hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hrim_actuator_gripper_srvs/_hrim_actuator_gripper_srvs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[57.610s] [100%] [32m[1mLinking C shared library rosidl_generator_py/hrim_actuator_gripper_srvs/hrim_actuator_gripper_srvs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[57.771s] [100%] Built target hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_c__pyext
+[57.802s] Invoked command in '/home/user/ros2_ws/build/hrim_actuator_gripper_srvs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/hrim_actuator_gripper_srvs -- -j16 -l16
+[58.993s] Invoking command in '/home/user/ros2_ws/build/hrim_actuator_gripper_srvs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/hrim_actuator_gripper_srvs
+[59.020s] -- Install configuration: ""
+[59.021s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/ament_index/resource_index/rosidl_interfaces/hrim_actuator_gripper_srvs
+[59.023s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs
+[59.023s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv
+[59.024s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail
+[59.025s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_finger_gripper__functions.h
+[59.026s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_finger__functions.h
+[59.027s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_finger__struct.h
+[59.029s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_vacuum__functions.c
+[59.030s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_vacuum__type_support.h
+[59.031s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_vacuum_gripper__type_support.h
+[59.031s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_finger__functions.c
+[59.031s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/goal_gripper__type_support.h
+[59.032s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_magnetic_gripper__functions.h
+[59.033s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_vacuum_gripper__struct.h
+[59.033s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_finger__type_support.h
+[59.033s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_vacuum_gripper__functions.c
+[59.034s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_vacuum__functions.h
+[59.034s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_finger_gripper__type_support.h
+[59.034s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_vacuum__struct.h
+[59.034s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_vacuum_gripper__functions.h
+[59.035s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_magnetic_gripper__type_support.h
+[59.035s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_finger_gripper__functions.c
+[59.035s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_finger_gripper__struct.h
+[59.035s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/goal_gripper__struct.h
+[59.036s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/goal_gripper__functions.h
+[59.036s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/goal_gripper__functions.c
+[59.036s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_magnetic_gripper__functions.c
+[59.036s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_magnetic_gripper__struct.h
+[59.037s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/specs_finger_gripper.h
+[59.037s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/goal_gripper.h
+[59.037s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/control_finger.h
+[59.037s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/specs_magnetic_gripper.h
+[59.038s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/specs_vacuum_gripper.h
+[59.038s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/control_vacuum.h
+[59.038s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/msg
+[59.038s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/msg/rosidl_generator_c__visibility_control.h
+[59.038s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/environment/library_path.sh
+[59.039s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/environment/library_path.dsv
+[59.039s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/libhrim_actuator_gripper_srvs__rosidl_generator_c.so
+[59.040s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/libhrim_actuator_gripper_srvs__rosidl_generator_c.so" to ""
+[59.040s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs
+[59.040s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv
+[59.041s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail
+[59.041s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_finger__rosidl_typesupport_fastrtps_c.h
+[59.041s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/goal_gripper__rosidl_typesupport_fastrtps_c.h
+[59.042s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_finger_gripper__rosidl_typesupport_fastrtps_c.h
+[59.042s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_magnetic_gripper__rosidl_typesupport_fastrtps_c.h
+[59.042s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_vacuum__rosidl_typesupport_fastrtps_c.h
+[59.042s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_vacuum_gripper__rosidl_typesupport_fastrtps_c.h
+[59.042s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/msg
+[59.043s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[59.043s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/libhrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_c.so
+[59.043s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/libhrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_c.so" to ""
+[59.044s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs
+[59.044s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv
+[59.044s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail
+[59.044s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_finger__rosidl_typesupport_fastrtps_cpp.hpp
+[59.044s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_vacuum__rosidl_typesupport_fastrtps_cpp.hpp
+[59.045s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_finger_gripper__rosidl_typesupport_fastrtps_cpp.hpp
+[59.045s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/goal_gripper__rosidl_typesupport_fastrtps_cpp.hpp
+[59.045s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/dds_fastrtps
+[59.045s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_vacuum_gripper__rosidl_typesupport_fastrtps_cpp.hpp
+[59.046s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_magnetic_gripper__rosidl_typesupport_fastrtps_cpp.hpp
+[59.046s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/msg
+[59.046s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[59.046s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/libhrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_cpp.so
+[59.047s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/libhrim_actuator_gripper_srvs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[59.047s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs
+[59.047s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv
+[59.047s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail
+[59.048s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_finger_gripper__type_support.c
+[59.048s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_vacuum__type_support.c
+[59.048s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_vacuum__rosidl_typesupport_introspection_c.h
+[59.049s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_finger__rosidl_typesupport_introspection_c.h
+[59.049s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/goal_gripper__type_support.c
+[59.049s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_vacuum_gripper__rosidl_typesupport_introspection_c.h
+[59.049s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/goal_gripper__rosidl_typesupport_introspection_c.h
+[59.049s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_vacuum_gripper__type_support.c
+[59.050s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_magnetic_gripper__rosidl_typesupport_introspection_c.h
+[59.050s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_finger_gripper__rosidl_typesupport_introspection_c.h
+[59.050s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_finger__type_support.c
+[59.050s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_magnetic_gripper__type_support.c
+[59.051s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/msg
+[59.051s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[59.054s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/libhrim_actuator_gripper_srvs__rosidl_typesupport_introspection_c.so
+[59.055s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/libhrim_actuator_gripper_srvs__rosidl_typesupport_introspection_c.so" to ""
+[59.055s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/libhrim_actuator_gripper_srvs__rosidl_typesupport_c.so
+[59.056s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/libhrim_actuator_gripper_srvs__rosidl_typesupport_c.so" to ""
+[59.056s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs
+[59.057s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv
+[59.057s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail
+[59.062s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_finger__struct.hpp
+[59.062s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_finger_gripper__traits.hpp
+[59.062s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/goal_gripper__traits.hpp
+[59.062s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_finger__traits.hpp
+[59.063s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_finger__builder.hpp
+[59.063s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_vacuum_gripper__struct.hpp
+[59.065s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_magnetic_gripper__struct.hpp
+[59.065s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/goal_gripper__struct.hpp
+[59.065s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_vacuum__builder.hpp
+[59.065s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_finger_gripper__struct.hpp
+[59.065s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_vacuum__struct.hpp
+[59.065s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_finger_gripper__builder.hpp
+[59.066s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_vacuum_gripper__builder.hpp
+[59.066s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/goal_gripper__builder.hpp
+[59.066s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_vacuum__traits.hpp
+[59.066s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_magnetic_gripper__traits.hpp
+[59.069s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_magnetic_gripper__builder.hpp
+[59.069s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_vacuum_gripper__traits.hpp
+[59.069s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/goal_gripper.hpp
+[59.069s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/control_finger.hpp
+[59.070s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/specs_magnetic_gripper.hpp
+[59.070s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/specs_finger_gripper.hpp
+[59.070s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/control_vacuum.hpp
+[59.070s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/specs_vacuum_gripper.hpp
+[59.070s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs
+[59.071s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv
+[59.071s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail
+[59.071s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_magnetic_gripper__rosidl_typesupport_introspection_cpp.hpp
+[59.071s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/goal_gripper__rosidl_typesupport_introspection_cpp.hpp
+[59.071s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_finger__type_support.cpp
+[59.071s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_vacuum__type_support.cpp
+[59.071s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_vacuum_gripper__rosidl_typesupport_introspection_cpp.hpp
+[59.072s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_finger_gripper__rosidl_typesupport_introspection_cpp.hpp
+[59.072s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_finger__rosidl_typesupport_introspection_cpp.hpp
+[59.072s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/control_vacuum__rosidl_typesupport_introspection_cpp.hpp
+[59.072s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_finger_gripper__type_support.cpp
+[59.072s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/goal_gripper__type_support.cpp
+[59.073s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_magnetic_gripper__type_support.cpp
+[59.073s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/include/hrim_actuator_gripper_srvs/srv/detail/specs_vacuum_gripper__type_support.cpp
+[59.073s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/libhrim_actuator_gripper_srvs__rosidl_typesupport_introspection_cpp.so
+[59.073s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/libhrim_actuator_gripper_srvs__rosidl_typesupport_introspection_cpp.so" to ""
+[59.073s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/libhrim_actuator_gripper_srvs__rosidl_typesupport_cpp.so
+[59.073s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/libhrim_actuator_gripper_srvs__rosidl_typesupport_cpp.so" to ""
+[59.074s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/environment/pythonpath.sh
+[59.074s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/environment/pythonpath.dsv
+[59.074s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/__init__.py
+[59.199s] Compiling '/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/__init__.py'...
+[59.207s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/srv
+[59.207s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/srv/_control_vacuum_s.c
+[59.207s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/srv/_specs_vacuum_gripper_s.c
+[59.207s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/srv/_goal_gripper.py
+[59.208s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/srv/_goal_gripper_s.c
+[59.209s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/srv/_specs_magnetic_gripper_s.c
+[59.209s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/srv/__init__.py
+[59.209s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/srv/_specs_finger_gripper.py
+[59.209s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/srv/_specs_vacuum_gripper.py
+[59.210s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/srv/_control_finger_s.c
+[59.210s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/srv/_control_vacuum.py
+[59.210s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/srv/_specs_finger_gripper_s.c
+[59.210s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/srv/_specs_magnetic_gripper.py
+[59.211s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/srv/_control_finger.py
+[59.211s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/hrim_actuator_gripper_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[59.212s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/hrim_actuator_gripper_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[59.212s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/hrim_actuator_gripper_srvs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[59.214s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/hrim_actuator_gripper_srvs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[59.215s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/hrim_actuator_gripper_srvs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[59.216s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/python3.8/site-packages/hrim_actuator_gripper_srvs/hrim_actuator_gripper_srvs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[59.217s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/libhrim_actuator_gripper_srvs__python.so
+[59.218s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_gripper_srvs/lib/libhrim_actuator_gripper_srvs__python.so" to ""
+[59.219s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/ControlFinger.idl
+[59.219s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/ControlVacuum.idl
+[59.220s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/GoalGripper.idl
+[59.221s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/SpecsFingerGripper.idl
+[59.221s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/SpecsMagneticGripper.idl
+[59.222s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/SpecsVacuumGripper.idl
+[59.223s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/ControlFinger.srv
+[59.224s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/ControlFinger_Request.msg
+[59.224s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/ControlFinger_Response.msg
+[59.225s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/ControlVacuum.srv
+[59.226s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/ControlVacuum_Request.msg
+[59.226s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/ControlVacuum_Response.msg
+[59.227s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/GoalGripper.srv
+[59.228s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/GoalGripper_Request.msg
+[59.228s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/GoalGripper_Response.msg
+[59.229s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/SpecsFingerGripper.srv
+[59.230s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/SpecsFingerGripper_Request.msg
+[59.230s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/SpecsFingerGripper_Response.msg
+[59.231s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/SpecsMagneticGripper.srv
+[59.232s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/SpecsMagneticGripper_Request.msg
+[59.232s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/SpecsMagneticGripper_Response.msg
+[59.233s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/SpecsVacuumGripper.srv
+[59.234s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/SpecsVacuumGripper_Request.msg
+[59.234s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/srv/SpecsVacuumGripper_Response.msg
+[59.235s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/ament_index/resource_index/package_run_dependencies/hrim_actuator_gripper_srvs
+[59.236s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/ament_index/resource_index/parent_prefix_path/hrim_actuator_gripper_srvs
+[59.236s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/environment/ament_prefix_path.sh
+[59.237s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/environment/ament_prefix_path.dsv
+[59.238s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/environment/path.sh
+[59.238s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/environment/path.dsv
+[59.239s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/local_setup.bash
+[59.240s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/local_setup.sh
+[59.241s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/local_setup.zsh
+[59.241s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/local_setup.dsv
+[59.242s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/package.dsv
+[59.247s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/ament_index/resource_index/packages/hrim_actuator_gripper_srvs
+[59.247s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/hrim_actuator_gripper_srvs__rosidl_generator_cExport.cmake
+[59.247s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/hrim_actuator_gripper_srvs__rosidl_generator_cExport-noconfig.cmake
+[59.248s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_cExport.cmake
+[59.248s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[59.249s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/hrim_actuator_gripper_srvs__rosidl_typesupport_cExport.cmake
+[59.249s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/hrim_actuator_gripper_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[59.249s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/hrim_actuator_gripper_srvs__rosidl_generator_cppExport.cmake
+[59.250s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[59.250s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/hrim_actuator_gripper_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[59.259s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/hrim_actuator_gripper_srvs__rosidl_typesupport_cppExport.cmake
+[59.259s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/hrim_actuator_gripper_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[59.260s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/rosidl_cmake-extras.cmake
+[59.261s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.262s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[59.262s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[59.263s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[59.264s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[59.265s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[59.266s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/hrim_actuator_gripper_srvsConfig.cmake
+[59.266s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/cmake/hrim_actuator_gripper_srvsConfig-version.cmake
+[59.267s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_gripper_srvs/share/hrim_actuator_gripper_srvs/package.xml
+[59.289s] Invoked command in '/home/user/ros2_ws/build/hrim_actuator_gripper_srvs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/hrim_actuator_gripper_srvs

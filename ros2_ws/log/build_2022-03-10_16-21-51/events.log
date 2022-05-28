@@ -1,0 +1,32 @@
+[0.000000] (-) TimerEvent: {}
+[0.000944] (-) JobUnselected: {'identifier': 'control_msgs'}
+[0.001043] (-) JobUnselected: {'identifier': 'gripper_minimal_service'}
+[0.001105] (-) JobUnselected: {'identifier': 'gripper_minimal_subscriber'}
+[0.001158] (-) JobUnselected: {'identifier': 'hans_modular_gazebo'}
+[0.001206] (-) JobUnselected: {'identifier': 'hans_t30_description'}
+[0.001269] (-) JobUnselected: {'identifier': 'hans_t49_description'}
+[0.001320] (-) JobUnselected: {'identifier': 'hans_t9_4_description'}
+[0.001364] (-) JobUnselected: {'identifier': 'hrim_actuator_gripper_msgs'}
+[0.001401] (-) JobUnselected: {'identifier': 'hrim_actuator_gripper_srvs'}
+[0.001447] (-) JobUnselected: {'identifier': 'hrim_actuator_rotaryservo_actions'}
+[0.001498] (-) JobUnselected: {'identifier': 'hrim_actuator_rotaryservo_msgs'}
+[0.001555] (-) JobUnselected: {'identifier': 'hrim_actuator_rotaryservo_srvs'}
+[0.001608] (-) JobUnselected: {'identifier': 'hrim_generic_msgs'}
+[0.001663] (-) JobUnselected: {'identifier': 'hrim_generic_srvs'}
+[0.001712] (-) JobUnselected: {'identifier': 'hros_cognition_mara_components'}
+[0.001762] (-) JobUnselected: {'identifier': 'individual_trajectories_bridge'}
+[0.001809] (-) JobUnselected: {'identifier': 'mara_bringup'}
+[0.001848] (-) JobUnselected: {'identifier': 'mara_contact_publisher'}
+[0.001885] (-) JobUnselected: {'identifier': 'mara_description'}
+[0.001955] (-) JobUnselected: {'identifier': 'mara_gazebo'}
+[0.002013] (-) JobUnselected: {'identifier': 'mara_gazebo_plugins'}
+[0.002066] (-) JobUnselected: {'identifier': 'mara_minimal_publisher'}
+[0.002119] (-) JobUnselected: {'identifier': 'mara_minimal_subscriber'}
+[0.002175] (-) JobUnselected: {'identifier': 'mara_minimal_trajectory_action'}
+[0.002224] (-) JobUnselected: {'identifier': 'mara_utils_scripts'}
+[0.002273] (-) JobUnselected: {'identifier': 'robotiq_140_gripper_description'}
+[0.002322] (-) JobUnselected: {'identifier': 'robotiq_85_gripper_description'}
+[0.002374] (-) JobUnselected: {'identifier': 'robotiq_gazebo'}
+[0.002424] (-) JobUnselected: {'identifier': 'robotiq_gripper_gazebo_plugins'}
+[0.002469] (-) JobUnselected: {'identifier': 'robotiq_hande_gripper_description'}
+[0.002521] (-) EventReactorShutdown: {}

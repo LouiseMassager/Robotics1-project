@@ -1,0 +1,35 @@
+[0.117s] Invoking command in '/home/user/ros2_ws/build/robotiq_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robotiq_gazebo -- -j8 -l8
+[0.321s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.513s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.514s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.900s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[3.516s] -- Configuring done
+[3.519s] -- Generating done
+[3.521s] -- Build files have been written to: /home/user/ros2_ws/build/robotiq_gazebo
+[3.794s] Invoked command in '/home/user/ros2_ws/build/robotiq_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robotiq_gazebo -- -j8 -l8
+[4.306s] Invoking command in '/home/user/ros2_ws/build/robotiq_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robotiq_gazebo
+[10.618s] -- Install configuration: ""
+[10.621s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/launch
+[10.622s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/launch/robotiq_140.launch.py
+[10.622s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/launch/robotiq_85.launch.py
+[10.622s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/launch/robotiq_hande.launch.py
+[10.623s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/lib/robotiq_gazebo/spawn_hande.py
+[10.623s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/lib/robotiq_gazebo/spawn_robotiq85.py
+[10.623s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/lib/robotiq_gazebo/spawn_robotiq140.py
+[10.623s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/share/ament_index/resource_index/package_run_dependencies/robotiq_gazebo
+[10.623s] -- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/ament_index/resource_index/parent_prefix_path/robotiq_gazebo
+[10.623s] -- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/environment/ament_prefix_path.sh
+[10.624s] -- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/environment/ament_prefix_path.dsv
+[10.624s] -- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/environment/path.sh
+[10.624s] -- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/environment/path.dsv
+[10.624s] -- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/local_setup.bash
+[10.625s] -- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/local_setup.sh
+[10.625s] -- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/local_setup.zsh
+[10.625s] -- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/local_setup.dsv
+[10.625s] -- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/package.dsv
+[10.626s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/share/ament_index/resource_index/packages/robotiq_gazebo
+[10.626s] -- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.626s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/cmake/robotiq_gazeboConfig.cmake
+[10.626s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/cmake/robotiq_gazeboConfig-version.cmake
+[10.627s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/package.xml
+[10.699s] Invoked command in '/home/user/ros2_ws/build/robotiq_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robotiq_gazebo

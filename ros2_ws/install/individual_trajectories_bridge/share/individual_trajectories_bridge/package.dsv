@@ -1,0 +1,8 @@
+source;share/individual_trajectories_bridge/hook/cmake_prefix_path.ps1
+source;share/individual_trajectories_bridge/hook/cmake_prefix_path.dsv
+source;share/individual_trajectories_bridge/hook/cmake_prefix_path.sh
+source;share/individual_trajectories_bridge/local_setup.bash
+source;share/individual_trajectories_bridge/local_setup.dsv
+source;share/individual_trajectories_bridge/local_setup.ps1
+source;share/individual_trajectories_bridge/local_setup.sh
+source;share/individual_trajectories_bridge/local_setup.zsh

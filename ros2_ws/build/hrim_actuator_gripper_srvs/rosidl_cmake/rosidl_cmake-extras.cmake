@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(hrim_actuator_gripper_srvs_IDL_FILES "srv/ControlFinger.idl;srv/ControlVacuum.idl;srv/GoalGripper.idl;srv/SpecsFingerGripper.idl;srv/SpecsMagneticGripper.idl;srv/SpecsVacuumGripper.idl")
+set(hrim_actuator_gripper_srvs_INTERFACE_FILES "srv/ControlFinger.srv;srv/ControlFinger_Request.msg;srv/ControlFinger_Response.msg;srv/ControlVacuum.srv;srv/ControlVacuum_Request.msg;srv/ControlVacuum_Response.msg;srv/GoalGripper.srv;srv/GoalGripper_Request.msg;srv/GoalGripper_Response.msg;srv/SpecsFingerGripper.srv;srv/SpecsFingerGripper_Request.msg;srv/SpecsFingerGripper_Response.msg;srv/SpecsMagneticGripper.srv;srv/SpecsMagneticGripper_Request.msg;srv/SpecsMagneticGripper_Response.msg;srv/SpecsVacuumGripper.srv;srv/SpecsVacuumGripper_Request.msg;srv/SpecsVacuumGripper_Response.msg")

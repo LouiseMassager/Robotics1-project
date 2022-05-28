@@ -1,0 +1,60 @@
+[0.232s] Invoking command in '/home/user/ros2_ws/build/robotiq_85_gripper_description': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/robotiq_modular_gripper/robotiq_85_gripper_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/robotiq_85_gripper_description
+[0.486s] -- The C compiler identification is GNU 9.3.0
+[0.743s] -- The CXX compiler identification is GNU 9.3.0
+[0.752s] -- Check for working C compiler: /usr/bin/cc
+[1.170s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.173s] -- Detecting C compiler ABI info
+[1.659s] -- Detecting C compiler ABI info - done
+[1.722s] -- Detecting C compile features
+[1.728s] -- Detecting C compile features - done
+[1.758s] -- Check for working CXX compiler: /usr/bin/c++
+[2.379s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.383s] -- Detecting CXX compiler ABI info
+[2.817s] -- Detecting CXX compiler ABI info - done
+[2.871s] -- Detecting CXX compile features
+[2.882s] -- Detecting CXX compile features - done
+[2.891s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.975s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[2.975s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.953s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[4.194s] -- Configuring done
+[4.200s] -- Generating done
+[4.201s] -- Build files have been written to: /home/user/ros2_ws/build/robotiq_85_gripper_description
+[4.218s] Invoked command in '/home/user/ros2_ws/build/robotiq_85_gripper_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/robotiq_modular_gripper/robotiq_85_gripper_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/robotiq_85_gripper_description
+[4.223s] Invoking command in '/home/user/ros2_ws/build/robotiq_85_gripper_description': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robotiq_85_gripper_description -- -j16 -l16
+[4.329s] Invoked command in '/home/user/ros2_ws/build/robotiq_85_gripper_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robotiq_85_gripper_description -- -j16 -l16
+[4.482s] Invoking command in '/home/user/ros2_ws/build/robotiq_85_gripper_description': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robotiq_85_gripper_description
+[4.525s] -- Install configuration: ""
+[4.525s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes
+[4.525s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes/base_gripper.dae
+[4.539s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes/2-F-85_1_l.dae
+[4.539s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes/2-F-85_2_l.dae
+[4.540s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes/2-F-85_3_r.dae
+[4.540s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes/2-F-85_3_l.dae
+[4.542s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes/2-F-85_2_r.dae
+[4.542s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes/2-F-85_1_r.dae
+[4.542s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes/2-F-85_4_l.dae
+[4.542s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes/2-F-85_4_r.dae
+[4.543s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/urdf
+[4.544s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/urdf/robotiq_85.urdf
+[4.544s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/urdf/robotiq_85.urdf.xacro
+[4.544s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/urdf/robotiq_85_world.urdf.xacro
+[4.544s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/rviz
+[4.544s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/rviz/visualization.rviz
+[4.545s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/ament_index/resource_index/package_run_dependencies/robotiq_85_gripper_description
+[4.545s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/ament_index/resource_index/parent_prefix_path/robotiq_85_gripper_description
+[4.545s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/environment/ament_prefix_path.sh
+[4.546s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/environment/ament_prefix_path.dsv
+[4.546s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/environment/path.sh
+[4.547s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/environment/path.dsv
+[4.547s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/local_setup.bash
+[4.547s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/local_setup.sh
+[4.547s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/local_setup.zsh
+[4.548s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/local_setup.dsv
+[4.548s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/package.dsv
+[4.548s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/ament_index/resource_index/packages/robotiq_85_gripper_description
+[4.549s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.549s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/cmake/robotiq_85_gripper_descriptionConfig.cmake
+[4.556s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/cmake/robotiq_85_gripper_descriptionConfig-version.cmake
+[4.557s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/package.xml
+[4.600s] Invoked command in '/home/user/ros2_ws/build/robotiq_85_gripper_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robotiq_85_gripper_description

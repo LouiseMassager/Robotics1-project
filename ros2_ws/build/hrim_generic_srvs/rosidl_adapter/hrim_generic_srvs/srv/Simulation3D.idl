@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hrim_generic_srvs/srv/Simulation3D.srv
+// generated code does not contain a copyright notice
+
+
+module hrim_generic_srvs {
+  module srv {
+    struct Simulation3D_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct Simulation3D_Response {
+      @verbatim (language="comment", text=
+        " identifier name for the passed model")
+      string model_name;
+
+      @verbatim (language="comment", text=
+        " .stl of the component")
+      sequence<octet> model;
+    };
+  };
+};

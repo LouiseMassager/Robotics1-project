@@ -1,0 +1,36 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 2.4.0 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found hrim_actuator_rotaryservo_actions: 0.3.0 (/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/ros2_ws/build/mara_minimal_trajectory_action
+[35m[1mScanning dependencies of target mara_minimal_trajectory_action[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mara_minimal_trajectory_action.dir/src/mara_minimal_trajectory_action.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mara_minimal_trajectory_action[0m
+[100%] Built target mara_minimal_trajectory_action
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/install/mara_minimal_trajectory_action/lib/mara_minimal_trajectory_action/mara_minimal_trajectory_action
+-- Set runtime path of "/home/user/ros2_ws/install/mara_minimal_trajectory_action/lib/mara_minimal_trajectory_action/mara_minimal_trajectory_action" to ""
+-- Up-to-date: /home/user/ros2_ws/install/mara_minimal_trajectory_action/share/ament_index/resource_index/package_run_dependencies/mara_minimal_trajectory_action
+-- Installing: /home/user/ros2_ws/install/mara_minimal_trajectory_action/share/ament_index/resource_index/parent_prefix_path/mara_minimal_trajectory_action
+-- Installing: /home/user/ros2_ws/install/mara_minimal_trajectory_action/share/mara_minimal_trajectory_action/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/install/mara_minimal_trajectory_action/share/mara_minimal_trajectory_action/environment/ament_prefix_path.dsv
+-- Installing: /home/user/ros2_ws/install/mara_minimal_trajectory_action/share/mara_minimal_trajectory_action/environment/path.sh
+-- Installing: /home/user/ros2_ws/install/mara_minimal_trajectory_action/share/mara_minimal_trajectory_action/environment/path.dsv
+-- Installing: /home/user/ros2_ws/install/mara_minimal_trajectory_action/share/mara_minimal_trajectory_action/local_setup.bash
+-- Installing: /home/user/ros2_ws/install/mara_minimal_trajectory_action/share/mara_minimal_trajectory_action/local_setup.sh
+-- Installing: /home/user/ros2_ws/install/mara_minimal_trajectory_action/share/mara_minimal_trajectory_action/local_setup.zsh
+-- Installing: /home/user/ros2_ws/install/mara_minimal_trajectory_action/share/mara_minimal_trajectory_action/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/mara_minimal_trajectory_action/share/mara_minimal_trajectory_action/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/mara_minimal_trajectory_action/share/ament_index/resource_index/packages/mara_minimal_trajectory_action
+-- Up-to-date: /home/user/ros2_ws/install/mara_minimal_trajectory_action/share/mara_minimal_trajectory_action/cmake/mara_minimal_trajectory_actionConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/mara_minimal_trajectory_action/share/mara_minimal_trajectory_action/cmake/mara_minimal_trajectory_actionConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/install/mara_minimal_trajectory_action/share/mara_minimal_trajectory_action/package.xml

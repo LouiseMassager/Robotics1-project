@@ -1,0 +1,10 @@
+{
+  "package_name": "control_msgs",
+  "non_idl_tuples": [
+    "/home/user/ros2_ws/src/ros2_mara/control_msgs/control_msgs:msg/GripperCommand.msg",
+    "/home/user/ros2_ws/src/ros2_mara/control_msgs/control_msgs:msg/JointControllerState.msg",
+    "/home/user/ros2_ws/src/ros2_mara/control_msgs/control_msgs:msg/JointTolerance.msg",
+    "/home/user/ros2_ws/src/ros2_mara/control_msgs/control_msgs:msg/JointTrajectoryControllerState.msg",
+    "/home/user/ros2_ws/src/ros2_mara/control_msgs/control_msgs:msg/PidState.msg"
+  ]
+}

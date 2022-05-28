@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hrim_actuator_rotaryservo_srvs/srv/Stop.srv
+// generated code does not contain a copyright notice
+
+
+module hrim_actuator_rotaryservo_srvs {
+  module srv {
+    struct Stop_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct Stop_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

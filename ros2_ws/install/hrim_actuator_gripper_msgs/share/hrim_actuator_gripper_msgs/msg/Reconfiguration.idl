@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hrim_actuator_gripper_msgs/msg/Reconfiguration.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module hrim_actuator_gripper_msgs {
+  module msg {
+    typedef double double__9[9];
+    @verbatim (language="comment", text=
+      " dynamic reconfiguration of H-ROS systems")
+    struct Reconfiguration {
+      std_msgs::msg::Header header;
+
+      geometry_msgs::msg::Quaternion orientation;
+
+      double__9 orientation_covariance;
+
+      geometry_msgs::msg::Vector3 angular_velocity;
+
+      double__9 angular_velocity_covariance;
+
+      geometry_msgs::msg::Vector3 linear_acceleration;
+
+      double__9 linear_acceleration_covariance;
+    };
+  };
+};

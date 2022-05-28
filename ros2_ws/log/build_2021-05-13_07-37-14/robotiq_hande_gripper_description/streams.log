@@ -1,0 +1,54 @@
+[0.140s] Invoking command in '/home/user/ros2_ws/build/robotiq_hande_gripper_description': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/robotiq_modular_gripper/robotiq_hande_gripper_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/robotiq_hande_gripper_description
+[3.846s] -- The C compiler identification is GNU 9.3.0
+[3.846s] -- The CXX compiler identification is GNU 9.3.0
+[3.846s] -- Check for working C compiler: /usr/bin/cc
+[3.846s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.846s] -- Detecting C compiler ABI info
+[3.847s] -- Detecting C compiler ABI info - done
+[3.847s] -- Detecting C compile features
+[3.847s] -- Detecting C compile features - done
+[3.847s] -- Check for working CXX compiler: /usr/bin/c++
+[3.847s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.848s] -- Detecting CXX compiler ABI info
+[3.848s] -- Detecting CXX compiler ABI info - done
+[3.848s] -- Detecting CXX compile features
+[3.848s] -- Detecting CXX compile features - done
+[3.848s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.848s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[3.848s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.848s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[3.849s] -- Configuring done
+[3.849s] -- Generating done
+[3.849s] -- Build files have been written to: /home/user/ros2_ws/build/robotiq_hande_gripper_description
+[3.853s] Invoked command in '/home/user/ros2_ws/build/robotiq_hande_gripper_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/robotiq_modular_gripper/robotiq_hande_gripper_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/robotiq_hande_gripper_description
+[3.859s] Invoking command in '/home/user/ros2_ws/build/robotiq_hande_gripper_description': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robotiq_hande_gripper_description -- -j16 -l16
+[4.091s] Invoked command in '/home/user/ros2_ws/build/robotiq_hande_gripper_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robotiq_hande_gripper_description -- -j16 -l16
+[4.277s] Invoking command in '/home/user/ros2_ws/build/robotiq_hande_gripper_description': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robotiq_hande_gripper_description
+[4.327s] -- Install configuration: ""
+[4.328s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/meshes
+[4.328s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/meshes/finger_1.dae
+[4.328s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/meshes/finger_2.dae
+[4.329s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/meshes/hand-e.dae
+[4.335s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/urdf
+[4.335s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/urdf/robotiq_hande_world.urdf.xacro
+[4.335s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/urdf/robotiq_hande.urdf
+[4.335s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/urdf/robotiq_hande.urdf.xacro
+[4.336s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/rviz
+[4.336s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/rviz/visualization.rviz
+[4.337s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/ament_index/resource_index/package_run_dependencies/robotiq_hande_gripper_description
+[4.337s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/ament_index/resource_index/parent_prefix_path/robotiq_hande_gripper_description
+[4.338s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/environment/ament_prefix_path.sh
+[4.338s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/environment/ament_prefix_path.dsv
+[4.339s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/environment/path.sh
+[4.339s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/environment/path.dsv
+[4.339s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/local_setup.bash
+[4.339s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/local_setup.sh
+[4.340s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/local_setup.zsh
+[4.340s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/local_setup.dsv
+[4.341s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/package.dsv
+[4.341s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/ament_index/resource_index/packages/robotiq_hande_gripper_description
+[4.341s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.341s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/cmake/robotiq_hande_gripper_descriptionConfig.cmake
+[4.341s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/cmake/robotiq_hande_gripper_descriptionConfig-version.cmake
+[4.341s] -- Installing: /home/user/ros2_ws/install/robotiq_hande_gripper_description/share/robotiq_hande_gripper_description/package.xml
+[4.356s] Invoked command in '/home/user/ros2_ws/build/robotiq_hande_gripper_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robotiq_hande_gripper_description

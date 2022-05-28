@@ -1,0 +1,44 @@
+[0.221s] Invoking command in '/home/user/ros2_ws/build/robotiq_85_gripper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robotiq_85_gripper_description -- -j8 -l8
+[0.520s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.896s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.896s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.638s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[3.238s] -- Configuring done
+[3.242s] -- Generating done
+[3.305s] -- Build files have been written to: /home/user/ros2_ws/build/robotiq_85_gripper_description
+[3.504s] Invoked command in '/home/user/ros2_ws/build/robotiq_85_gripper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/robotiq_85_gripper_description -- -j8 -l8
+[3.919s] Invoking command in '/home/user/ros2_ws/build/robotiq_85_gripper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robotiq_85_gripper_description
+[4.011s] -- Install configuration: ""
+[4.011s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes
+[4.012s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes/base_gripper.dae
+[4.012s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes/2-F-85_1_l.dae
+[4.012s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes/2-F-85_2_l.dae
+[4.012s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes/2-F-85_3_r.dae
+[4.013s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes/2-F-85_3_l.dae
+[4.013s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes/2-F-85_2_r.dae
+[4.013s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes/2-F-85_1_r.dae
+[4.014s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes/2-F-85_4_l.dae
+[4.015s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/meshes/2-F-85_4_r.dae
+[4.015s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/urdf
+[4.015s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/urdf/robotiq_85.urdf
+[4.016s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/urdf/robotiq_85.urdf.xacro
+[4.017s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/urdf/robotiq_85_world.urdf.xacro
+[4.017s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/rviz
+[4.022s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/rviz/visualization.rviz
+[4.023s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/ament_index/resource_index/package_run_dependencies/robotiq_85_gripper_description
+[4.023s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/ament_index/resource_index/parent_prefix_path/robotiq_85_gripper_description
+[4.023s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/environment/ament_prefix_path.sh
+[4.023s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/environment/ament_prefix_path.dsv
+[4.024s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/environment/path.sh
+[4.025s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/environment/path.dsv
+[4.025s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/local_setup.bash
+[4.025s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/local_setup.sh
+[4.026s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/local_setup.zsh
+[4.026s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/local_setup.dsv
+[4.026s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/package.dsv
+[4.026s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/ament_index/resource_index/packages/robotiq_85_gripper_description
+[4.026s] -- Installing: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.027s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/cmake/robotiq_85_gripper_descriptionConfig.cmake
+[4.028s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/cmake/robotiq_85_gripper_descriptionConfig-version.cmake
+[4.028s] -- Up-to-date: /home/user/ros2_ws/install/robotiq_85_gripper_description/share/robotiq_85_gripper_description/package.xml
+[4.032s] Invoked command in '/home/user/ros2_ws/build/robotiq_85_gripper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/robotiq_85_gripper_description

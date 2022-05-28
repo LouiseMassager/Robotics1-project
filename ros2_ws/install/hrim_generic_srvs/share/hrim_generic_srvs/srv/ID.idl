@@ -1,0 +1,50 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hrim_generic_srvs/srv/ID.srv
+// generated code does not contain a copyright notice
+
+
+module hrim_generic_srvs {
+  module srv {
+    struct ID_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    module ID_Response_Constants {
+      const uint8 HRIM_COMM = 0;
+      const uint8 HRIM_SENSOR = 1;
+      const uint8 HRIM_ACTUATOR = 2;
+      const uint8 HRIM_COGNITION = 3;
+      const uint8 HRIM_UI = 4;
+      const uint8 HRIM_POWER = 5;
+      const uint8 HRIM_COMPOSITE = 6;
+    };
+    struct ID_Response {
+      @verbatim (language="comment", text=
+        " device classification")
+      uint8 device_kind_id;
+
+      @verbatim (language="comment", text=
+        " sub-type")
+      string device_name;
+
+      @verbatim (language="comment", text=
+        " vendor identifier")
+      uint32 vendor_id;
+
+      @verbatim (language="comment", text=
+        " part number")
+      uint32 product_id;
+
+      @verbatim (language="comment", text=
+        " module unique identifier")
+      uint32 instance_id;
+
+      @verbatim (language="comment", text=
+        " used hrim version")
+      string hrim_version;
+
+      @verbatim (language="comment", text=
+        " used h-ros version")
+      string hros_version;
+    };
+  };
+};

@@ -1,0 +1,31 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/ros2_ws/build/robotiq_gazebo
+-- Install configuration: ""
+-- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/launch
+-- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/launch/robotiq_140.launch.py
+-- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/launch/robotiq_85.launch.py
+-- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/launch/robotiq_hande.launch.py
+-- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/lib/robotiq_gazebo/spawn_hande.py
+-- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/lib/robotiq_gazebo/spawn_robotiq85.py
+-- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/lib/robotiq_gazebo/spawn_robotiq140.py
+-- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/share/ament_index/resource_index/package_run_dependencies/robotiq_gazebo
+-- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/ament_index/resource_index/parent_prefix_path/robotiq_gazebo
+-- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/environment/path.sh
+-- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/environment/path.dsv
+-- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/local_setup.bash
+-- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/local_setup.sh
+-- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/local_setup.zsh
+-- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/share/ament_index/resource_index/packages/robotiq_gazebo
+-- Installing: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/cmake/robotiq_gazeboConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/cmake/robotiq_gazeboConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/install/robotiq_gazebo/share/robotiq_gazebo/package.xml

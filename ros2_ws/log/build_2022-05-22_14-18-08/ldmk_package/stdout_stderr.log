@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/ldmk_package/ldmk_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/ldmk_package/ldmk_package.egg-info/dependency_links.txt
+writing entry points to ../../build/ldmk_package/ldmk_package.egg-info/entry_points.txt
+writing requirements to ../../build/ldmk_package/ldmk_package.egg-info/requires.txt
+writing top-level names to ../../build/ldmk_package/ldmk_package.egg-info/top_level.txt
+reading manifest file '../../build/ldmk_package/ldmk_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/ldmk_package/ldmk_package.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ldmk_package/fingerspublisher.py -> /home/user/ros2_ws/build/ldmk_package/build/lib/ldmk_package
+running install
+running install_lib
+copying /home/user/ros2_ws/build/ldmk_package/build/lib/ldmk_package/fingerspublisher.py -> /home/user/ros2_ws/install/ldmk_package/lib/python3.8/site-packages/ldmk_package
+byte-compiling /home/user/ros2_ws/install/ldmk_package/lib/python3.8/site-packages/ldmk_package/fingerspublisher.py to fingerspublisher.cpython-38.pyc
+running install_data
+copying package.xml -> /home/user/ros2_ws/install/ldmk_package/share/ldmk_package
+running install_egg_info
+removing '/home/user/ros2_ws/install/ldmk_package/lib/python3.8/site-packages/ldmk_package-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/ldmk_package/ldmk_package.egg-info to /home/user/ros2_ws/install/ldmk_package/lib/python3.8/site-packages/ldmk_package-0.0.0-py3.8.egg-info
+running install_scripts
+Installing anglespublisher script to /home/user/ros2_ws/install/ldmk_package/lib/ldmk_package
+Installing anglespublisher2 script to /home/user/ros2_ws/install/ldmk_package/lib/ldmk_package
+Installing fingerspublisher script to /home/user/ros2_ws/install/ldmk_package/lib/ldmk_package
+Installing roboticsIK script to /home/user/ros2_ws/install/ldmk_package/lib/ldmk_package
+Installing teleop_keyboard script to /home/user/ros2_ws/install/ldmk_package/lib/ldmk_package
+writing list of installed files to '/home/user/ros2_ws/build/ldmk_package/install.log'

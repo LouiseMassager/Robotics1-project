@@ -1,0 +1,274 @@
+[0.229s] Invoking command in '/home/user/ros2_ws/build/control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/control_msgs -- -j8 -l8
+[0.599s] [  1%] Built target control_msgs__cpp
+[0.794s] [35m[1mScanning dependencies of target control_msgs__rosidl_generator_c[0m
+[1.012s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.754s] [  4%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_tolerance__functions.c.o[0m
+[7.164s] [  6%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_trajectory_controller_state__functions.c.o[0m
+[7.608s] [  7%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/pid_state__functions.c.o[0m
+[8.361s] [  9%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_controller_state__functions.c.o[0m
+[8.805s] [ 11%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/gripper_command__functions.c.o[0m
+[9.280s] [ 12%] [32m[1mLinking C shared library libcontrol_msgs__rosidl_generator_c.so[0m
+[9.699s] [ 12%] Built target control_msgs__rosidl_generator_c
+[9.862s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.306s] [35m[1mScanning dependencies of target control_msgs__rosidl_typesupport_introspection_cpp[0m
+[14.494s] [ 15%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/gripper_command__type_support.cpp.o[0m
+[17.097s] [ 17%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.cpp.o[0m
+[19.900s] [ 19%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/pid_state__type_support.cpp.o[0m
+[22.855s] [ 20%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_tolerance__type_support.cpp.o[0m
+[26.459s] [ 22%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_controller_state__type_support.cpp.o[0m
+[29.167s] [ 23%] [32m[1mLinking CXX shared library libcontrol_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[30.058s] [ 23%] Built target control_msgs__rosidl_typesupport_introspection_cpp
+[30.173s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[33.701s] [35m[1mScanning dependencies of target control_msgs__rosidl_typesupport_c[0m
+[33.869s] [ 26%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/gripper_command__type_support.cpp.o[0m
+[34.162s] [ 28%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/pid_state__type_support.cpp.o[0m
+[34.479s] [ 30%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/joint_trajectory_controller_state__type_support.cpp.o[0m
+[34.731s] [ 31%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/joint_tolerance__type_support.cpp.o[0m
+[35.171s] [ 33%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/joint_controller_state__type_support.cpp.o[0m
+[35.657s] [ 34%] [32m[1mLinking CXX shared library libcontrol_msgs__rosidl_typesupport_c.so[0m
+[36.227s] [ 34%] Built target control_msgs__rosidl_typesupport_c
+[36.407s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[40.894s] [35m[1mScanning dependencies of target control_msgs__rosidl_typesupport_introspection_c[0m
+[41.192s] [ 38%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/gripper_command__type_support.c.o[0m
+[41.660s] [ 39%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/pid_state__type_support.c.o[0m
+[42.180s] [ 41%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.c.o[0m
+[42.485s] [ 42%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/joint_tolerance__type_support.c.o[0m
+[42.869s] [ 44%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/joint_controller_state__type_support.c.o[0m
+[43.258s] [ 46%] [32m[1mLinking C shared library libcontrol_msgs__rosidl_typesupport_introspection_c.so[0m
+[43.562s] [ 46%] Built target control_msgs__rosidl_typesupport_introspection_c
+[43.677s] [ 47%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[49.594s] [35m[1mScanning dependencies of target control_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[49.786s] [ 49%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/gripper_command__type_support.cpp.o[0m
+[52.872s] [ 50%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/pid_state__type_support.cpp.o[0m
+[56.282s] [ 52%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_trajectory_controller_state__type_support.cpp.o[0m
+[60.657s] [ 53%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_tolerance__type_support.cpp.o[0m
+[63.888s] [ 55%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_controller_state__type_support.cpp.o[0m
+[66.788s] [ 57%] [32m[1mLinking CXX shared library libcontrol_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[67.490s] [ 57%] Built target control_msgs__rosidl_typesupport_fastrtps_cpp
+[67.691s] [ 58%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[70.966s] [35m[1mScanning dependencies of target control_msgs__rosidl_typesupport_cpp[0m
+[71.078s] [ 60%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/gripper_command__type_support.cpp.o[0m
+[73.492s] [ 61%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/pid_state__type_support.cpp.o[0m
+[75.262s] [ 63%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_trajectory_controller_state__type_support.cpp.o[0m
+[77.556s] [ 65%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_tolerance__type_support.cpp.o[0m
+[79.378s] [ 66%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_controller_state__type_support.cpp.o[0m
+[81.780s] [ 68%] [32m[1mLinking CXX shared library libcontrol_msgs__rosidl_typesupport_cpp.so[0m
+[82.292s] [ 68%] Built target control_msgs__rosidl_typesupport_cpp
+[82.481s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[86.192s] [35m[1mScanning dependencies of target control_msgs__rosidl_typesupport_fastrtps_c[0m
+[86.367s] [ 71%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/gripper_command__type_support_c.cpp.o[0m
+[88.857s] [ 73%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/pid_state__type_support_c.cpp.o[0m
+[91.158s] [ 74%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/joint_trajectory_controller_state__type_support_c.cpp.o[0m
+[93.594s] [ 76%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/joint_tolerance__type_support_c.cpp.o[0m
+[95.980s] [ 77%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/joint_controller_state__type_support_c.cpp.o[0m
+[98.488s] [ 79%] [32m[1mLinking CXX shared library libcontrol_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[99.287s] [ 79%] Built target control_msgs__rosidl_typesupport_fastrtps_c
+[99.596s] [ 79%] Built target control_msgs
+[99.858s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[107.755s] [ 80%] Built target control_msgs__py
+[107.800s] [35m[1mScanning dependencies of target control_msgs__python[0m
+[107.978s] [ 82%] [32mBuilding C object CMakeFiles/control_msgs__python.dir/rosidl_generator_py/control_msgs/msg/_gripper_command_s.c.o[0m
+[108.605s] [ 84%] [32mBuilding C object CMakeFiles/control_msgs__python.dir/rosidl_generator_py/control_msgs/msg/_pid_state_s.c.o[0m
+[109.255s] [ 85%] [32mBuilding C object CMakeFiles/control_msgs__python.dir/rosidl_generator_py/control_msgs/msg/_joint_trajectory_controller_state_s.c.o[0m
+[109.882s] [ 87%] [32mBuilding C object CMakeFiles/control_msgs__python.dir/rosidl_generator_py/control_msgs/msg/_joint_tolerance_s.c.o[0m
+[110.201s] [ 88%] [32mBuilding C object CMakeFiles/control_msgs__python.dir/rosidl_generator_py/control_msgs/msg/_joint_controller_state_s.c.o[0m
+[110.695s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/control_msgs/libcontrol_msgs__python.so[0m
+[110.964s] [ 90%] Built target control_msgs__python
+[111.055s] [35m[1mScanning dependencies of target control_msgs__rosidl_typesupport_c__pyext[0m
+[111.200s] [ 92%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/control_msgs/_control_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[111.797s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/control_msgs/control_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[112.155s] [ 93%] Built target control_msgs__rosidl_typesupport_c__pyext
+[112.203s] [35m[1mScanning dependencies of target control_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[112.490s] [ 95%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/control_msgs/_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[112.903s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/control_msgs/control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[113.259s] [ 96%] Built target control_msgs__rosidl_typesupport_fastrtps_c__pyext
+[113.289s] [35m[1mScanning dependencies of target control_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[113.390s] [ 98%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/control_msgs/_control_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[113.885s] [100%] [32m[1mLinking C shared library rosidl_generator_py/control_msgs/control_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[114.074s] [100%] Built target control_msgs__rosidl_typesupport_introspection_c__pyext
+[114.165s] Invoked command in '/home/user/ros2_ws/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/control_msgs -- -j8 -l8
+[116.356s] Invoking command in '/home/user/ros2_ws/build/control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/control_msgs
+[116.383s] -- Install configuration: ""
+[116.383s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/ament_index/resource_index/rosidl_interfaces/control_msgs
+[116.383s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs
+[116.383s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg
+[116.384s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail
+[116.384s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__struct.h
+[116.384s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__functions.h
+[116.384s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__type_support.h
+[116.384s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__functions.c
+[116.385s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__functions.c
+[116.385s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__functions.h
+[116.385s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__type_support.h
+[116.385s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__struct.h
+[116.386s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__struct.h
+[116.386s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__functions.c
+[116.387s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__functions.c
+[116.390s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__struct.h
+[116.391s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__functions.h
+[116.391s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__type_support.h
+[116.391s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__struct.h
+[116.392s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__functions.h
+[116.392s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__functions.h
+[116.393s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.h
+[116.393s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__functions.c
+[116.393s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__type_support.h
+[116.394s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/gripper_command.h
+[116.394s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/rosidl_generator_c__visibility_control.h
+[116.394s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/joint_trajectory_controller_state.h
+[116.395s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/joint_tolerance.h
+[116.395s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/pid_state.h
+[116.395s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/joint_controller_state.h
+[116.396s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/control_msgs/environment/library_path.sh
+[116.396s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/control_msgs/environment/library_path.dsv
+[116.396s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_generator_c.so
+[116.396s] -- Set runtime path of "/home/user/ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_generator_c.so" to ""
+[116.397s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs
+[116.397s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg
+[116.397s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail
+[116.455s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__rosidl_typesupport_fastrtps_c.h
+[116.455s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__rosidl_typesupport_fastrtps_c.h
+[116.455s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_fastrtps_c.h
+[116.456s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_fastrtps_c.h
+[116.456s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_fastrtps_c.h
+[116.456s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[116.456s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_c.so
+[116.456s] -- Set runtime path of "/home/user/ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[116.464s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs
+[116.464s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg
+[116.464s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail
+[116.464s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__rosidl_typesupport_fastrtps_cpp.hpp
+[116.465s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__rosidl_typesupport_fastrtps_cpp.hpp
+[116.465s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_fastrtps_cpp.hpp
+[116.465s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[116.465s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[116.466s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/dds_fastrtps
+[116.468s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[116.468s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_cpp.so
+[116.468s] -- Set runtime path of "/home/user/ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[116.468s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs
+[116.469s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg
+[116.469s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail
+[116.469s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_introspection_c.h
+[116.470s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.c
+[116.471s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_introspection_c.h
+[116.471s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__type_support.c
+[116.474s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__type_support.c
+[116.475s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__type_support.c
+[116.475s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__rosidl_typesupport_introspection_c.h
+[116.475s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__rosidl_typesupport_introspection_c.h
+[116.476s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_introspection_c.h
+[116.476s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__type_support.c
+[116.476s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[116.476s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_introspection_c.so
+[116.476s] -- Set runtime path of "/home/user/ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_introspection_c.so" to ""
+[116.477s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_c.so
+[116.477s] -- Set runtime path of "/home/user/ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_c.so" to ""
+[116.477s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs
+[116.477s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg
+[116.477s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail
+[116.477s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__builder.hpp
+[116.477s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__struct.hpp
+[116.477s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__traits.hpp
+[116.478s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__struct.hpp
+[116.478s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__struct.hpp
+[116.478s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__traits.hpp
+[116.478s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__builder.hpp
+[116.478s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__traits.hpp
+[116.478s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__traits.hpp
+[116.479s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__builder.hpp
+[116.479s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__builder.hpp
+[116.481s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__struct.hpp
+[116.483s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__struct.hpp
+[116.484s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__builder.hpp
+[116.484s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__traits.hpp
+[116.484s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/joint_tolerance.hpp
+[116.485s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/joint_controller_state.hpp
+[116.485s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/joint_trajectory_controller_state.hpp
+[116.485s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/pid_state.hpp
+[116.485s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/gripper_command.hpp
+[116.485s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs
+[116.487s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg
+[116.489s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail
+[116.489s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__type_support.cpp
+[116.489s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__type_support.cpp
+[116.489s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/gripper_command__rosidl_typesupport_introspection_cpp.hpp
+[116.490s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__type_support.cpp
+[116.490s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__type_support.cpp
+[116.490s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.cpp
+[116.491s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/pid_state__rosidl_typesupport_introspection_cpp.hpp
+[116.495s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[116.495s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[116.495s] -- Installing: /home/user/ros2_ws/install/control_msgs/include/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_introspection_cpp.hpp
+[116.495s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_introspection_cpp.so
+[116.496s] -- Set runtime path of "/home/user/ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[116.496s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_cpp.so
+[116.497s] -- Set runtime path of "/home/user/ros2_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_cpp.so" to ""
+[116.499s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/environment/pythonpath.sh
+[116.500s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/control_msgs/environment/pythonpath.dsv
+[116.500s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/__init__.py
+[116.682s] Compiling '/home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/__init__.py'...
+[116.688s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg
+[116.694s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/_pid_state.py
+[116.694s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/_gripper_command.py
+[116.694s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/_joint_controller_state_s.c
+[116.695s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/_joint_trajectory_controller_state_s.c
+[116.695s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/__init__.py
+[116.695s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/_pid_state_s.c
+[116.695s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/_joint_tolerance.py
+[116.695s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/_gripper_command_s.c
+[116.697s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/_joint_tolerance_s.c
+[116.697s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/_joint_trajectory_controller_state.py
+[116.697s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/msg/_joint_controller_state.py
+[116.697s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[116.697s] -- Set runtime path of "/home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[116.698s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/control_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[116.698s] -- Set runtime path of "/home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/control_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[116.698s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/control_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[116.698s] -- Set runtime path of "/home/user/ros2_ws/install/control_msgs/lib/python3.8/site-packages/control_msgs/control_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[116.699s] -- Installing: /home/user/ros2_ws/install/control_msgs/lib/libcontrol_msgs__python.so
+[116.700s] -- Set runtime path of "/home/user/ros2_ws/install/control_msgs/lib/libcontrol_msgs__python.so" to ""
+[116.701s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/msg/GripperCommand.idl
+[116.702s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/msg/JointControllerState.idl
+[116.702s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/msg/JointTolerance.idl
+[116.702s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/msg/JointTrajectoryControllerState.idl
+[116.702s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/msg/PidState.idl
+[116.703s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/msg/GripperCommand.msg
+[116.704s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/msg/JointControllerState.msg
+[116.704s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/msg/JointTolerance.msg
+[116.704s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/msg/JointTrajectoryControllerState.msg
+[116.704s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/msg/PidState.msg
+[116.704s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/ament_index/resource_index/package_run_dependencies/control_msgs
+[116.705s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/ament_index/resource_index/parent_prefix_path/control_msgs
+[116.705s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/control_msgs/environment/ament_prefix_path.sh
+[116.705s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/control_msgs/environment/ament_prefix_path.dsv
+[116.706s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/control_msgs/environment/path.sh
+[116.706s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/control_msgs/environment/path.dsv
+[116.706s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/control_msgs/local_setup.bash
+[116.709s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/control_msgs/local_setup.sh
+[116.710s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/control_msgs/local_setup.zsh
+[116.759s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/control_msgs/local_setup.dsv
+[116.759s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/control_msgs/package.dsv
+[116.759s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/ament_index/resource_index/packages/control_msgs
+[116.759s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_generator_cExport.cmake
+[116.759s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_generator_cExport-noconfig.cmake
+[116.759s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cExport.cmake
+[116.759s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[116.760s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cExport.cmake
+[116.760s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[116.760s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_generator_cppExport.cmake
+[116.760s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[116.760s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[116.761s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cppExport.cmake
+[116.761s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[116.761s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/rosidl_cmake-extras.cmake
+[116.761s] -- Installing: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[116.762s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[116.762s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[116.762s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[116.762s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[116.763s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[116.763s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgsConfig.cmake
+[116.763s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/cmake/control_msgsConfig-version.cmake
+[116.772s] -- Up-to-date: /home/user/ros2_ws/install/control_msgs/share/control_msgs/package.xml
+[116.773s] Invoked command in '/home/user/ros2_ws/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/control_msgs

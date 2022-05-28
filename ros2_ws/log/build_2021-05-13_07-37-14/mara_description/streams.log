@@ -1,0 +1,103 @@
+[0.266s] Invoking command in '/home/user/ros2_ws/build/mara_description': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/mara/mara_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/mara_description
+[16.807s] -- The C compiler identification is GNU 9.3.0
+[16.808s] -- The CXX compiler identification is GNU 9.3.0
+[16.809s] -- Check for working C compiler: /usr/bin/cc
+[16.810s] -- Check for working C compiler: /usr/bin/cc -- works
+[16.810s] -- Detecting C compiler ABI info
+[16.810s] -- Detecting C compiler ABI info - done
+[16.811s] -- Detecting C compile features
+[16.811s] -- Detecting C compile features - done
+[16.811s] -- Check for working CXX compiler: /usr/bin/c++
+[16.811s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[16.811s] -- Detecting CXX compiler ABI info
+[16.812s] -- Detecting CXX compiler ABI info - done
+[16.812s] -- Detecting CXX compile features
+[16.812s] -- Detecting CXX compile features - done
+[16.812s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[16.812s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[16.812s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[16.812s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[16.813s] -- Configuring done
+[16.813s] -- Generating done
+[16.813s] -- Build files have been written to: /home/user/ros2_ws/build/mara_description
+[16.824s] Invoked command in '/home/user/ros2_ws/build/mara_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/mara/mara_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/mara_description
+[16.825s] Invoking command in '/home/user/ros2_ws/build/mara_description': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/mara_description -- -j16 -l16
+[16.924s] Invoked command in '/home/user/ros2_ws/build/mara_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/mara_description -- -j16 -l16
+[17.076s] Invoking command in '/home/user/ros2_ws/build/mara_description': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/mara_description
+[17.331s] -- Install configuration: ""
+[17.331s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/meshes
+[17.332s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/meshes/Base_plancha.dae
+[17.332s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/meshes/robotiq_adapter.dae
+[17.332s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/meshes/Intel_RealSense_Depth_Camera_D435.dae
+[17.332s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/meshes/MARA_T5.4.dae
+[17.333s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/meshes/MARA_Link1.dae
+[17.333s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/meshes/MARA_Link2.dae
+[17.333s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/meshes/Camera_Support_2.dae
+[17.333s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/meshes/v8_MARA_Base.dae
+[17.333s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/meshes/Base.dae
+[17.333s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/meshes/MARA_T5.4_black.dae
+[17.333s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/meshes/MARA_T30.dae
+[17.334s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/meshes/Camera_Support_1.dae
+[17.334s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/meshes/MARA_T30_Black.dae
+[17.334s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/meshes/MARA_T49_Black.dae
+[17.334s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/meshes/MARA_T49.dae
+[17.334s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/meshes/gripper_adapter.dae
+[17.334s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf
+[17.334s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/mara_robot_gripper_140.urdf
+[17.335s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/two_mara_robots.urdf.xacro
+[17.335s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/mara.transmission.xacro
+[17.335s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/mara_robot.urdf
+[17.335s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/two_mara_robots_gripper_140_no_table.urdf
+[17.335s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/camera_gripper_support.urdf.xacro
+[17.335s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/mara_robot_gripper_85.urdf.xacro
+[17.335s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/table.mtl
+[17.336s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/two_mara_robots_gripper_140_no_table.urdf.xacro
+[17.336s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/mara_robot_gripper_140_no_table.urdf
+[17.336s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/mara_gazebo.urdf.xacro
+[17.336s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/table.png
+[17.336s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/table.urdf.xacro
+[17.336s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/mara_robot_gripper_140_no_table.urdf.xacro
+[17.337s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/mara_robot_gripper_85.urdf
+[17.337s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/mara_robot_gripper_140.urdf.xacro
+[17.337s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/materials.xacro
+[17.337s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/table.obj
+[17.337s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/reinforcement_learning
+[17.337s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/reinforcement_learning/mara_robot_train.urdf.xacro
+[17.337s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/reinforcement_learning/mara_robot_run.urdf.xacro
+[17.338s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/reinforcement_learning/mara_gazebo_run.urdf.xacro
+[17.338s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/reinforcement_learning/mara_robot_gripper_140_camera_run.urdf.xacro
+[17.338s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/reinforcement_learning/mara_robot_gripper_140_camera_train.urdf.xacro
+[17.338s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/reinforcement_learning/mara_robot_train.urdf
+[17.338s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/reinforcement_learning/mara_robot_gripper_140_camera_train.urdf
+[17.338s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/reinforcement_learning/mara_run.urdf.xacro
+[17.338s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/reinforcement_learning/mara_robot_run.urdf
+[17.339s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/reinforcement_learning/mara_gazebo_train.urdf.xacro
+[17.339s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/reinforcement_learning/mara_robot_gripper_140_camera_run.urdf
+[17.339s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/reinforcement_learning/mara_train.urdf.xacro
+[17.339s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/mara_robot_gripper_hande.urdf
+[17.339s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/mara_robot_gripper_hande.urdf.xacro
+[17.339s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/mara.urdf.xacro
+[17.339s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/mara_robot.urdf.xacro
+[17.339s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/rs_d435.urdf.xacro
+[17.340s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/urdf/two_mara_robots.urdf
+[17.340s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/material
+[17.343s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/material/gazebo.material
+[17.343s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/rviz
+[17.344s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/rviz/visualization.rviz
+[17.344s] -- Installing: /home/user/ros2_ws/install/mara_description/share/ament_index/resource_index/package_run_dependencies/mara_description
+[17.344s] -- Installing: /home/user/ros2_ws/install/mara_description/share/ament_index/resource_index/parent_prefix_path/mara_description
+[17.344s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/environment/ament_prefix_path.sh
+[17.345s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/environment/ament_prefix_path.dsv
+[17.345s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/environment/path.sh
+[17.345s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/environment/path.dsv
+[17.345s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/local_setup.bash
+[17.346s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/local_setup.sh
+[17.346s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/local_setup.zsh
+[17.346s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/local_setup.dsv
+[17.346s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/package.dsv
+[17.346s] -- Installing: /home/user/ros2_ws/install/mara_description/share/ament_index/resource_index/packages/mara_description
+[17.347s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.347s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/cmake/mara_descriptionConfig.cmake
+[17.347s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/cmake/mara_descriptionConfig-version.cmake
+[17.347s] -- Installing: /home/user/ros2_ws/install/mara_description/share/mara_description/package.xml
+[17.617s] Invoked command in '/home/user/ros2_ws/build/mara_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/mara_description

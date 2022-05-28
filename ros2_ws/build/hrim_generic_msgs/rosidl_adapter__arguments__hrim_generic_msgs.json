@@ -1,0 +1,8 @@
+{
+  "package_name": "hrim_generic_msgs",
+  "non_idl_tuples": [
+    "/home/user/ros2_ws/src/ros2_mara/HRIM/generated/generic/hrim_generic_msgs:msg/Power.msg",
+    "/home/user/ros2_ws/src/ros2_mara/HRIM/generated/generic/hrim_generic_msgs:msg/StateCommunication.msg",
+    "/home/user/ros2_ws/src/ros2_mara/HRIM/generated/generic/hrim_generic_msgs:msg/Status.msg"
+  ]
+}

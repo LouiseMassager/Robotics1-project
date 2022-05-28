@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hrim_actuator_gripper_srvs/srv/SpecsMagneticGripper.srv
+// generated code does not contain a copyright notice
+
+
+module hrim_actuator_gripper_srvs {
+  module srv {
+    @verbatim (language="comment", text=
+      " main characteristics of the magnetic gripper")
+    struct SpecsMagneticGripper_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct SpecsMagneticGripper_Response {
+      @verbatim (language="comment", text=
+        " the magnet's force")
+      float magnetic_force;
+
+      @verbatim (language="comment", text=
+        " maximum payload")
+      float max_payload;
+    };
+  };
+};

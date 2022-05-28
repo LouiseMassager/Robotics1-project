@@ -1,0 +1,6 @@
+msg/Power.idl
+msg/Power.msg
+msg/StateCommunication.idl
+msg/StateCommunication.msg
+msg/Status.idl
+msg/Status.msg

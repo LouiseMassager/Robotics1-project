@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from hrim_actuator_rotaryservo_actions/action/GoalJointTrajectory.action
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+#include "trajectory_msgs/msg/JointTrajectory.idl"
+#include "trajectory_msgs/msg/JointTrajectoryPoint.idl"
+
+module hrim_actuator_rotaryservo_actions {
+  module action {
+    @verbatim (language="comment", text=
+      " create a joint trajectory")
+    struct GoalJointTrajectory_Goal {
+      string joint_name;
+
+      trajectory_msgs::msg::JointTrajectory trajectory;
+    };
+    module GoalJointTrajectory_Result_Constants {
+      const int32 GOAL_TOLERANCE_VIOLATED = -5;
+      const int32 PATH_TOLERANCE_VIOLATED = -4;
+      const int32 OLD_HEADER_TIMESTAMP = -3;
+      const int32 INVALID_JOINTS = -2;
+      const int32 INVALID_GOAL = -1;
+      const int32 SUCCESSFUL = 0;
+    };
+    struct GoalJointTrajectory_Result {
+      @verbatim (language="comment", text=
+        " Error code")
+      int32 error;
+
+      string error_string;
+    };
+    struct GoalJointTrajectory_Feedback {
+      std_msgs::msg::Header header;
+
+      string joint_name;
+
+      trajectory_msgs::msg::JointTrajectoryPoint desired;
+
+      trajectory_msgs::msg::JointTrajectoryPoint actual;
+
+      trajectory_msgs::msg::JointTrajectoryPoint error;
+    };
+  };
+};

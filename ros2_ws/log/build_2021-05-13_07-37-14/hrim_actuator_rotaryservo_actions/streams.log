@@ -1,0 +1,215 @@
+[0.317s] Invoking command in '/home/user/ros2_ws/build/hrim_actuator_rotaryservo_actions': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_actions -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions
+[7.754s] -- The C compiler identification is GNU 9.3.0
+[11.510s] -- The CXX compiler identification is GNU 9.3.0
+[11.599s] -- Check for working C compiler: /usr/bin/cc
+[12.224s] -- Check for working C compiler: /usr/bin/cc -- works
+[12.226s] -- Detecting C compiler ABI info
+[12.504s] -- Detecting C compiler ABI info - done
+[12.540s] -- Detecting C compile features
+[12.554s] -- Detecting C compile features - done
+[12.563s] -- Check for working CXX compiler: /usr/bin/c++
+[12.818s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[12.833s] -- Detecting CXX compiler ABI info
+[13.059s] -- Detecting CXX compiler ABI info - done
+[13.094s] -- Detecting CXX compile features
+[13.094s] -- Detecting CXX compile features - done
+[13.100s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[13.224s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[13.224s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.139s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[14.158s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.186s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[15.277s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[15.363s] -- Found FastRTPS: /opt/ros/foxy/include  
+[15.536s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.610s] -- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)
+[15.736s] -- Found trajectory_msgs: 2.0.3 (/opt/ros/foxy/share/trajectory_msgs/cmake)
+[16.077s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[16.469s] -- Found ament_cmake_ros: 0.9.0 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[17.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.471s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.524s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[17.530s] -- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[17.579s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") 
+[17.579s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[17.579s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[17.579s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[17.616s] -- Found PythonExtra: .so  
+[17.982s] -- Configuring done
+[18.591s] -- Generating done
+[18.598s] -- Build files have been written to: /home/user/ros2_ws/build/hrim_actuator_rotaryservo_actions
+[18.629s] Invoked command in '/home/user/ros2_ws/build/hrim_actuator_rotaryservo_actions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_actions -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions
+[18.636s] Invoking command in '/home/user/ros2_ws/build/hrim_actuator_rotaryservo_actions': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/hrim_actuator_rotaryservo_actions -- -j16 -l16
+[22.090s] [35m[1mScanning dependencies of target hrim_actuator_rotaryservo_actions__cpp[0m
+[22.090s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[22.090s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[22.090s] [  6%] Built target hrim_actuator_rotaryservo_actions__cpp
+[22.091s] [35m[1mScanning dependencies of target hrim_actuator_rotaryservo_actions__rosidl_generator_c[0m
+[22.091s] [  9%] [32mBuilding C object CMakeFiles/hrim_actuator_rotaryservo_actions__rosidl_generator_c.dir/rosidl_generator_c/hrim_actuator_rotaryservo_actions/action/detail/goal_joint_trajectory__functions.c.o[0m
+[22.091s] [ 12%] [32m[1mLinking C shared library libhrim_actuator_rotaryservo_actions__rosidl_generator_c.so[0m
+[22.091s] [ 12%] Built target hrim_actuator_rotaryservo_actions__rosidl_generator_c
+[22.091s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[22.586s] [35m[1mScanning dependencies of target hrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_cpp[0m
+[22.754s] [ 19%] [32mBuilding CXX object CMakeFiles/hrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hrim_actuator_rotaryservo_actions/action/detail/goal_joint_trajectory__type_support.cpp.o[0m
+[23.870s] [ 22%] [32m[1mLinking CXX shared library libhrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_cpp.so[0m
+[24.093s] [ 22%] Built target hrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_cpp
+[24.121s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[25.498s] [35m[1mScanning dependencies of target hrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_c[0m
+[25.625s] [ 29%] [32mBuilding C object CMakeFiles/hrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hrim_actuator_rotaryservo_actions/action/detail/goal_joint_trajectory__type_support.c.o[0m
+[25.737s] [ 32%] [32m[1mLinking C shared library libhrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_c.so[0m
+[25.832s] [ 32%] Built target hrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_c
+[25.856s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[26.536s] [35m[1mScanning dependencies of target hrim_actuator_rotaryservo_actions__rosidl_typesupport_c[0m
+[26.603s] [ 38%] [32mBuilding CXX object CMakeFiles/hrim_actuator_rotaryservo_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/hrim_actuator_rotaryservo_actions/action/goal_joint_trajectory__type_support.cpp.o[0m
+[26.727s] [ 41%] [32m[1mLinking CXX shared library libhrim_actuator_rotaryservo_actions__rosidl_typesupport_c.so[0m
+[26.856s] [ 41%] Built target hrim_actuator_rotaryservo_actions__rosidl_typesupport_c
+[26.892s] [ 45%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[27.651s] [35m[1mScanning dependencies of target hrim_actuator_rotaryservo_actions__rosidl_typesupport_fastrtps_cpp[0m
+[27.685s] [ 48%] [32mBuilding CXX object CMakeFiles/hrim_actuator_rotaryservo_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hrim_actuator_rotaryservo_actions/action/detail/dds_fastrtps/goal_joint_trajectory__type_support.cpp.o[0m
+[28.686s] [ 51%] [32m[1mLinking CXX shared library libhrim_actuator_rotaryservo_actions__rosidl_typesupport_fastrtps_cpp.so[0m
+[28.851s] [ 51%] Built target hrim_actuator_rotaryservo_actions__rosidl_typesupport_fastrtps_cpp
+[28.872s] [ 54%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[29.433s] [35m[1mScanning dependencies of target hrim_actuator_rotaryservo_actions__rosidl_typesupport_cpp[0m
+[29.465s] [ 58%] [32mBuilding CXX object CMakeFiles/hrim_actuator_rotaryservo_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hrim_actuator_rotaryservo_actions/action/goal_joint_trajectory__type_support.cpp.o[0m
+[30.086s] [ 61%] [32m[1mLinking CXX shared library libhrim_actuator_rotaryservo_actions__rosidl_typesupport_cpp.so[0m
+[30.204s] [ 61%] Built target hrim_actuator_rotaryservo_actions__rosidl_typesupport_cpp
+[30.232s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[31.141s] [35m[1mScanning dependencies of target hrim_actuator_rotaryservo_actions__rosidl_typesupport_fastrtps_c[0m
+[31.204s] [ 67%] [32mBuilding CXX object CMakeFiles/hrim_actuator_rotaryservo_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hrim_actuator_rotaryservo_actions/action/detail/goal_joint_trajectory__type_support_c.cpp.o[0m
+[32.010s] [ 70%] [32m[1mLinking CXX shared library libhrim_actuator_rotaryservo_actions__rosidl_typesupport_fastrtps_c.so[0m
+[32.185s] [ 70%] Built target hrim_actuator_rotaryservo_actions__rosidl_typesupport_fastrtps_c
+[32.241s] [35m[1mScanning dependencies of target hrim_actuator_rotaryservo_actions[0m
+[32.266s] [ 70%] Built target hrim_actuator_rotaryservo_actions
+[32.299s] [35m[1mScanning dependencies of target hrim_actuator_rotaryservo_actions__py[0m
+[32.321s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[34.563s] [ 74%] Built target hrim_actuator_rotaryservo_actions__py
+[34.592s] [35m[1mScanning dependencies of target hrim_actuator_rotaryservo_actions__python[0m
+[35.012s] [ 77%] [32mBuilding C object CMakeFiles/hrim_actuator_rotaryservo_actions__python.dir/rosidl_generator_py/hrim_actuator_rotaryservo_actions/action/_goal_joint_trajectory_s.c.o[0m
+[35.715s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/hrim_actuator_rotaryservo_actions/libhrim_actuator_rotaryservo_actions__python.so[0m
+[35.816s] [ 80%] Built target hrim_actuator_rotaryservo_actions__python
+[35.838s] [35m[1mScanning dependencies of target hrim_actuator_rotaryservo_actions__rosidl_typesupport_c__pyext[0m
+[35.874s] [ 83%] [32mBuilding C object CMakeFiles/hrim_actuator_rotaryservo_actions__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hrim_actuator_rotaryservo_actions/_hrim_actuator_rotaryservo_actions_s.ep.rosidl_typesupport_c.c.o[0m
+[36.079s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/hrim_actuator_rotaryservo_actions/hrim_actuator_rotaryservo_actions_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[36.168s] [ 87%] Built target hrim_actuator_rotaryservo_actions__rosidl_typesupport_c__pyext
+[36.207s] [35m[1mScanning dependencies of target hrim_actuator_rotaryservo_actions__rosidl_typesupport_fastrtps_c__pyext[0m
+[36.262s] [ 90%] [32mBuilding C object CMakeFiles/hrim_actuator_rotaryservo_actions__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hrim_actuator_rotaryservo_actions/_hrim_actuator_rotaryservo_actions_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[36.476s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/hrim_actuator_rotaryservo_actions/hrim_actuator_rotaryservo_actions_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[36.648s] [ 93%] Built target hrim_actuator_rotaryservo_actions__rosidl_typesupport_fastrtps_c__pyext
+[36.708s] [35m[1mScanning dependencies of target hrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_c__pyext[0m
+[36.747s] [ 96%] [32mBuilding C object CMakeFiles/hrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hrim_actuator_rotaryservo_actions/_hrim_actuator_rotaryservo_actions_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[37.000s] [100%] [32m[1mLinking C shared library rosidl_generator_py/hrim_actuator_rotaryservo_actions/hrim_actuator_rotaryservo_actions_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[37.090s] [100%] Built target hrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_c__pyext
+[37.125s] Invoked command in '/home/user/ros2_ws/build/hrim_actuator_rotaryservo_actions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/hrim_actuator_rotaryservo_actions -- -j16 -l16
+[37.420s] Invoking command in '/home/user/ros2_ws/build/hrim_actuator_rotaryservo_actions': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/hrim_actuator_rotaryservo_actions
+[37.443s] -- Install configuration: ""
+[37.444s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/ament_index/resource_index/rosidl_interfaces/hrim_actuator_rotaryservo_actions
+[37.444s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions
+[37.445s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/msg
+[37.445s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/msg/rosidl_generator_c__visibility_control.h
+[37.445s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action
+[37.446s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail
+[37.446s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail/goal_joint_trajectory__type_support.h
+[37.446s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail/goal_joint_trajectory__functions.c
+[37.446s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail/goal_joint_trajectory__functions.h
+[37.447s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail/goal_joint_trajectory__struct.h
+[37.447s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/goal_joint_trajectory.h
+[37.448s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/environment/library_path.sh
+[37.448s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/environment/library_path.dsv
+[37.448s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/libhrim_actuator_rotaryservo_actions__rosidl_generator_c.so
+[37.449s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/libhrim_actuator_rotaryservo_actions__rosidl_generator_c.so" to ""
+[37.449s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions
+[37.449s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/msg
+[37.449s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[37.450s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action
+[37.450s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail
+[37.450s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail/goal_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[37.450s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/libhrim_actuator_rotaryservo_actions__rosidl_typesupport_fastrtps_c.so
+[37.450s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/libhrim_actuator_rotaryservo_actions__rosidl_typesupport_fastrtps_c.so" to ""
+[37.451s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions
+[37.452s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/msg
+[37.452s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[37.452s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action
+[37.453s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail
+[37.453s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail/goal_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[37.454s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail/dds_fastrtps
+[37.454s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/libhrim_actuator_rotaryservo_actions__rosidl_typesupport_fastrtps_cpp.so
+[37.454s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/libhrim_actuator_rotaryservo_actions__rosidl_typesupport_fastrtps_cpp.so" to ""
+[37.454s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions
+[37.454s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/msg
+[37.454s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[37.454s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action
+[37.455s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail
+[37.455s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail/goal_joint_trajectory__rosidl_typesupport_introspection_c.h
+[37.455s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail/goal_joint_trajectory__type_support.c
+[37.455s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/libhrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_c.so
+[37.455s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/libhrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_c.so" to ""
+[37.456s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/libhrim_actuator_rotaryservo_actions__rosidl_typesupport_c.so
+[37.456s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/libhrim_actuator_rotaryservo_actions__rosidl_typesupport_c.so" to ""
+[37.457s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions
+[37.457s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action
+[37.457s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail
+[37.457s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail/goal_joint_trajectory__traits.hpp
+[37.458s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail/goal_joint_trajectory__struct.hpp
+[37.458s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail/goal_joint_trajectory__builder.hpp
+[37.458s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/goal_joint_trajectory.hpp
+[37.458s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions
+[37.458s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action
+[37.458s] -- Up-to-date: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail
+[37.459s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail/goal_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[37.459s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/include/hrim_actuator_rotaryservo_actions/action/detail/goal_joint_trajectory__type_support.cpp
+[37.459s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/libhrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_cpp.so
+[37.460s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/libhrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_cpp.so" to ""
+[37.460s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/libhrim_actuator_rotaryservo_actions__rosidl_typesupport_cpp.so
+[37.461s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/libhrim_actuator_rotaryservo_actions__rosidl_typesupport_cpp.so" to ""
+[37.462s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/environment/pythonpath.sh
+[37.462s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/environment/pythonpath.dsv
+[37.462s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages/hrim_actuator_rotaryservo_actions/__init__.py
+[37.525s] Compiling '/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages/hrim_actuator_rotaryservo_actions/__init__.py'...
+[37.532s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages/hrim_actuator_rotaryservo_actions/action
+[37.532s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages/hrim_actuator_rotaryservo_actions/action/_goal_joint_trajectory_s.c
+[37.532s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages/hrim_actuator_rotaryservo_actions/action/_goal_joint_trajectory.py
+[37.533s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages/hrim_actuator_rotaryservo_actions/action/__init__.py
+[37.533s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages/hrim_actuator_rotaryservo_actions/hrim_actuator_rotaryservo_actions_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[37.534s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages/hrim_actuator_rotaryservo_actions/hrim_actuator_rotaryservo_actions_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[37.535s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages/hrim_actuator_rotaryservo_actions/hrim_actuator_rotaryservo_actions_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[37.536s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages/hrim_actuator_rotaryservo_actions/hrim_actuator_rotaryservo_actions_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[37.536s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages/hrim_actuator_rotaryservo_actions/hrim_actuator_rotaryservo_actions_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[37.537s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/python3.8/site-packages/hrim_actuator_rotaryservo_actions/hrim_actuator_rotaryservo_actions_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[37.538s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/libhrim_actuator_rotaryservo_actions__python.so
+[37.538s] -- Set runtime path of "/home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/lib/libhrim_actuator_rotaryservo_actions__python.so" to ""
+[37.539s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/action/GoalJointTrajectory.idl
+[37.539s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/action/GoalJointTrajectory.action
+[37.539s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/ament_index/resource_index/package_run_dependencies/hrim_actuator_rotaryservo_actions
+[37.539s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/ament_index/resource_index/parent_prefix_path/hrim_actuator_rotaryservo_actions
+[37.540s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/environment/ament_prefix_path.sh
+[37.540s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/environment/ament_prefix_path.dsv
+[37.541s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/environment/path.sh
+[37.541s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/environment/path.dsv
+[37.541s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/local_setup.bash
+[37.541s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/local_setup.sh
+[37.542s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/local_setup.zsh
+[37.542s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/local_setup.dsv
+[37.543s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/package.dsv
+[37.543s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/ament_index/resource_index/packages/hrim_actuator_rotaryservo_actions
+[37.543s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/hrim_actuator_rotaryservo_actions__rosidl_generator_cExport.cmake
+[37.543s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/hrim_actuator_rotaryservo_actions__rosidl_generator_cExport-noconfig.cmake
+[37.544s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/hrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_cExport.cmake
+[37.544s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/hrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[37.549s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/hrim_actuator_rotaryservo_actions__rosidl_typesupport_cExport.cmake
+[37.549s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/hrim_actuator_rotaryservo_actions__rosidl_typesupport_cExport-noconfig.cmake
+[37.549s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/hrim_actuator_rotaryservo_actions__rosidl_generator_cppExport.cmake
+[37.550s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/hrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_cppExport.cmake
+[37.550s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/hrim_actuator_rotaryservo_actions__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[37.551s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/hrim_actuator_rotaryservo_actions__rosidl_typesupport_cppExport.cmake
+[37.551s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/hrim_actuator_rotaryservo_actions__rosidl_typesupport_cppExport-noconfig.cmake
+[37.551s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/rosidl_cmake-extras.cmake
+[37.551s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.551s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/ament_cmake_export_libraries-extras.cmake
+[37.552s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/ament_cmake_export_targets-extras.cmake
+[37.552s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/ament_cmake_export_include_directories-extras.cmake
+[37.553s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[37.553s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[37.554s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/hrim_actuator_rotaryservo_actionsConfig.cmake
+[37.554s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/cmake/hrim_actuator_rotaryservo_actionsConfig-version.cmake
+[37.554s] -- Installing: /home/user/ros2_ws/install/hrim_actuator_rotaryservo_actions/share/hrim_actuator_rotaryservo_actions/package.xml
+[37.559s] Invoked command in '/home/user/ros2_ws/build/hrim_actuator_rotaryservo_actions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/hrim_actuator_rotaryservo_actions
