@@ -42,7 +42,7 @@ In terminal 2:
 cd ros2_ws
 source install/setup.bash
 colcon build --packages-select ldmk_package
-ros2 run ldmk_package anglespublisher2 0 90 0 90 0 0
+ros2 run ldmk_package anglespublisher_manual 0 90 0 90 0 0
 ```
 
 - step 3: open/close the gripper (eg. at 50%) <br />
@@ -51,7 +51,7 @@ In terminal 3:
 cd ros2_ws
 source install/setup.bash
 colcon build --packages-select ldmk_package
-ros2 run ldmk_package fingersclient 0.5
+ros2 run ldmk_package fingersclient_manual 0.5
 ```
 
 
@@ -73,7 +73,7 @@ source install/setup.bash
 ros2 launch ldmk_package maraik.launch.py
 ```
 
-- step 3: listen to keyboard commands to move the end-effector <br />
+- step 3: listen to keyboard commands to move and open the end-effector <br />
 terminal 3:									
 ```bash
 cd ros2_ws
@@ -81,7 +81,7 @@ source install/setup.bash
 ros2 run ldmk_package teleop_keyboard run
 ```
 
-:ear: To listen to a topic (eg. /cmd_ik)
+:ear: To listen to a topic (eg. /cmd_ik or /cmd_fingers)
 - additional terminal:
 ```bash
 cd ros2_ws
