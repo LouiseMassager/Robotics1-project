@@ -3,7 +3,7 @@
 Robotics1-project aims to realize a position control of the Mara robot in ROS2 with the physics engine Gazebo in order to move a box around.
 
 ## Demonstration
-<img src="videos/showoff_gripper.gif" height="400" > <img src="videos/showoff.gif" height="400" >
+<img src="videos/showoff_gripper.gif" height="300" > <img src="videos/showoff.gif" height="300" >
 
 ## Features
 
