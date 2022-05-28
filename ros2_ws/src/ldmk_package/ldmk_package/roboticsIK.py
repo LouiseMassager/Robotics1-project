@@ -135,159 +135,220 @@ class SimpleSubscriber(Node):
             #        pass
 
 ################################## IK COMPUTATION ######################################################"###
-
 def isOrthogonal(R):
     # Check if a rotation matrix R is orthogonal
-
-    shouldBeIdentity = np.dot(R, np.transpose(R))
+    
+    shouldBeIdentity = np.dot(R,np.transpose(R))  # since R*R'=I
     I = np.identity(3)
     n = np.linalg.norm(I - shouldBeIdentity)
-
-    return n < 1e-6
+    
+    return n < 1e-6  # the difference (I-R*R') should be small
 
 
 def compute_0R6(yaw, pitch, roll):
-
-    cy, sy = math.cos(math.radians(yaw)), math.sin(math.radians(yaw))
+    # Compute rotation matrix 0R6 (end-effector frame with respect to absolute frame) from the desired yaw-pitch-roll angles
+    
+    cy,sy = math.cos(math.radians(yaw)), math.sin(math.radians(yaw))
     Rx = np.array([[1,  0,   0],
                    [0, cy, -sy],
                    [0, sy,  cy]])
-
-    cp, sp = math.cos(math.radians(pitch)), math.sin(math.radians(pitch))
-    Ry = np.array([[cp, 0, sp],
-                   [0, 1,  0],
+    
+    cp,sp = math.cos(math.radians(pitch)), math.sin(math.radians(pitch))
+    Ry = np.array([[ cp, 0, sp],
+                   [  0, 1,  0],
                    [-sp, 0, cp]])
-
-    cr, sr = math.cos(math.radians(roll)), math.sin(math.radians(roll))
+    
+    cr,sr = math.cos(math.radians(roll)), math.sin(math.radians(roll))
     Rz = np.array([[cr, -sr, 0],
                    [sr,  cr, 0],
-                   [0,   0, 1]])
-
-    R60 = np.dot(Rz, np.dot(Ry, Rx))
-
+                   [ 0,   0, 1]])
+    
+    R60 = np.dot(Rz,np.dot(Ry,Rx))
+    
+    if not( isOrthogonal(Rx) and isOrthogonal(Ry) and isOrthogonal(Rz) and isOrthogonal(R60) ):
+        print("Custom Error: rotation matrix R60 is not orthogonal!")
+    
     return R60
 
 
 def getWristPosition(pex, pey, pez, d6, R60):
-
-    pwx = pex - d6 * R60[0, 2]
-    pwy = pey - d6 * R60[1, 2]
-    pwz = pez - d6 * R60[2, 2]
-
+    # Compute the wrist center position (pw) from the end-effector position (pe) and orientation (R60)
+    
+    pwx = pex - d6 * R60[0,2]
+    pwy = pey - d6 * R60[1,2]
+    pwz = pez - d6 * R60[2,2]
+    
     return pwx, pwy, pwz
 
 
 def computeFirstThreeAngles(pwx, pwy, pwz, d1, a2, a3):
-
-    theta1 = math.atan2(pwy, pwx)
-
+    # From the desired wrist position (pw), compute the joint angles of the anthropomorphic arm: theta1, theta2, theta3
+    
+    theta1 = math.atan2(pwy,pwx)
+    
     r = math.sqrt(pwx**2+pwy**2)
     s = pwz-d1
     D = (r**2+s**2-a2**2-a3**2)/(2*a2*a3)
-
+    
     if D > 1:
-        print("Warning: D >> 1 !!!")
-
-    theta3 = math.atan2(math.sqrt(1-D**2), D)
-
-    c3, s3 = math.cos(theta3), math.sin(theta3)
-    theta2 = math.atan2(s, r) - math.atan2(a3*s3, a2+a3*c3)
-
+        print("Custom Error: D >> 1 !!!")
+    
+    theta3 = math.atan2(math.sqrt(1-D**2),D)
+    
+    c3,s3 = math.cos(theta3), math.sin(theta3)
+    theta2 = math.atan2(s,r) - math.atan2(a3*s3,a2+a3*c3)
+    
     return theta1, theta2, theta3
 
 
 def pose(a, alpha, d, theta):
-
+    # Compute the Denavit-Hartenberg matrix from the Denavit-Hartenberg parameters
+    
     r11 = math.cos(theta)
     r21 = math.sin(theta)
     r31 = 0
-
+    
     r12 = - math.sin(theta) * math.cos(alpha)
     r22 = math.cos(theta) * math.cos(alpha)
     r32 = math.sin(alpha)
-
+    
     r13 = math.sin(theta) * math.sin(alpha)
     r23 = - math.cos(theta) * math.sin(alpha)
     r33 = math.cos(alpha)
-
+    
     px = a * math.cos(theta)
     py = a * math.sin(theta)
     pz = d
-
+    
     T = np.array([[r11, r12, r13, px],
                   [r21, r22, r23, py],
                   [r31, r32, r33, pz],
-                  [0,   0,   0,  1]])  # [Spong p.69]
-
+                  [  0,   0,   0,  1]])
+    
     return T
 
 
 def compute_0R3(theta1, theta2, theta3, d1, a2, a3):
-
+    # Compute rotation matrix 0R3 (wrist center frame with respect to absolute frame) from the 3 first joint angles
+    
     A1 = pose(0, math.pi/2, d1, theta1)
     A2 = pose(a2, 0, 0, theta2)
     A3 = pose(a3, 0, 0, theta3)
-
-    T30 = np.dot(np.dot(A1, A2), A3)
-
-    x = T30[0, 3]
-    y = T30[1, 3]
-    z = T30[2, 3]
-
-    R30 = T30[0:3, 0:3]
-
+    
+    T30 = np.dot(np.dot(A1,A2),A3)
+    
+    R30 = T30[0:3,0:3]
+    
+    if not( isOrthogonal(R30) ):
+        print("Custom Error: rotation matrix R30 is not orthogonal!")
+    
     return R30
 
 
 def computeLastThreeAngles(R63):
-
-    [[r11, r12, r13],
-     [r21, r22, r23],
-     [r31, r32, r33]] = R63
-
-    theta5 = math.atan2(math.sqrt(1-r33**2), r33)
-
-    theta4 = math.atan2(r23, r13)
-
-    theta6 = math.atan2(r32, -r31)
-
+    # From the end-effector orientation (R63), compute the joint angles of the spherical wrist: theta4, theta5, theta6
+    
+    [[r11,r12,r13],
+     [r21,r22,r23],
+     [r31,r32,r33]] = R63
+    
+    theta4 = math.atan2(r23,r13)
+    
+    theta5 = math.atan2(math.sqrt(1-r33**2),r33)
+    
+    theta6 = math.atan2(r32,-r31)
+    
     return theta4, theta5, theta6
 
 
 def actuator_limitations(theta_vec):
-
-    for i in range(0, len(theta_vec)):
-
+    # Convert a set of angles (theta_vec) between -PI and PI
+    
+    for i in range(0,len(theta_vec)):
+        
+        n = abs(theta_vec[i]) // (2*math.pi)
+        
         if theta_vec[i] < - math.pi:
-            theta_vec[i] += 2*math.pi
+            theta_vec[i] += n*2*math.pi
+        
         elif theta_vec[i] > math.pi:
-            theta_vec[i] -= 2*math.pi
+            theta_vec[i] -= n*2*math.pi
+        
         else:
             pass
-
+    
     return theta_vec
 
 
-def IK(pex, pey, pez, yaw, pitch, roll):
-
+def forwardKinematics(theta1, theta2, theta3, theta4, theta5, theta6):
+    
+    # Parameters of the MARA robot
     d1 = 0.09122+0.1637   # distance from the base to joint 2
     a2 = 0.19998          # length of Link 2
     a3 = 0.1493+0.1607    # distance from joint 3 to the wrist center
     d6 = 0.1468+0.2449    # distance from the wrist center to the end-effector
+    
+    A1 = pose(0, math.pi/2, d1, theta1)
+    A2 = pose(a2, 0, 0, theta2)
+    A3 = pose(a3, 0, 0, theta3)
+    
+    T30 = np.dot(np.dot(A1,A2),A3)
+    
+    A4 = pose(0, -math.pi/2, 0, theta4)
+    A5 = pose(0, math.pi/2, 0, theta5)
+    A6 = pose(0, 0, d6, theta6)
+    
+    T60 = np.dot(np.dot(np.dot(T30,A4),A5),A6)
+    
+    x = T60[0,3]
+    y = T60[1,3]
+    z = T60[2,3]
+    
+    R = T60[0:3,0:3]
+    
+    return x, y, z, R
 
+
+def IK(pex, pey, pez, yaw, pitch, roll):
+    
+    # Parameters of the MARA robot
+    d1 = 0.09122+0.1637   # distance from the base to joint 2
+    a2 = 0.19998          # length of Link 2
+    a3 = 0.1493+0.1607    # distance from joint 3 to the wrist center
+    d6 = 0.1468+0.2449    # distance from the wrist center to the end-effector
+    
+    # STEP 1: Convert yaw-pitch-roll angles to rotation matrix
     R60 = compute_0R6(yaw, pitch, roll)
-
+    
+    # STEP 2: Compute the wrist center position
     pwx, pwy, pwz = getWristPosition(pex, pey, pez, d6, R60)
-
+    
+    # STEP 3: Compute the 3 first joint angles
     theta1, theta2, theta3 = computeFirstThreeAngles(pwx, pwy, pwz, d1, a2, a3)
-
+    
+    # STEP 4: Compute rotation matrix of the anthropomorphic arm
     R30 = compute_0R3(theta1, theta2, theta3, d1, a2, a3)
-
-    R63 = np.dot(np.transpose(R30), R60)
-
+    
+    # STEP 5: Compute rotation matrix of the spherical wrist
+    R63 = np.dot(np.transpose(R30),R60)
+    
+    if not( isOrthogonal(R63) ):
+        print("Custom Error: rotation matrix R63 is not orthogonal!")
+    
+    # STEP 6: Compute the 3 last joint angles
     theta4, theta5, theta6 = computeLastThreeAngles(R63)
-
-    return actuator_limitations([theta1 + math.pi/2, - theta2 + math.pi/2, theta3, theta5 - math.pi/2, theta4, theta6 + math.pi/2])
+    
+    # STEP 7: Verify the Inverse Kinematics using the Forward Kinematics
+    x, y, z, R = forwardKinematics(theta1, theta2, theta3, theta4, theta5, theta6)
+    
+    if not( round(x,5)==pex and round(y,5)==pey and round(z,5)==pez and np.allclose(R,R60) ):
+        print("Custom Error: Inverse Kinematics is wrong!")
+    
+    # The verification should be done before the experimental changes since the Forward and Inverse Kinematics
+    # are based on the theoretical model!
+    
+    # STEP 8: Adapt the theoretical model to the simulation
+    return actuator_limitations([theta1+math.pi/2, -theta2+math.pi/2, theta3, theta5-math.pi/2, theta4, theta6+math.pi/2])
 
 
 ####################################################################################################################
