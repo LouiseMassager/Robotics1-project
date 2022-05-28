@@ -4,7 +4,7 @@ Robotics1-project aims to realize a position control of the Mara robot in ROS2 w
 
 ## Demonstration
 A video of the simulation realized throughout this project can be found in the following Youtube link: 
-https://www.youtube.com/watch?v=c2SgsGN0ogU&ab_channel=KiWix
+https://www.youtube.com/watch?v=0mocsJkFYxQ
 
 <img src="videos/showoff_gripper.gif" height="300" > <img src="videos/showoff.gif" height="300" >
 
