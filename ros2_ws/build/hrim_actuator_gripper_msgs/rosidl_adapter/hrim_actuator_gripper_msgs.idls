@@ -1,5 +1,0 @@
-/home/user/ros2_ws/build/hrim_actuator_gripper_msgs/rosidl_adapter/hrim_actuator_gripper_msgs:msg/CycleTime.idl
-/home/user/ros2_ws/build/hrim_actuator_gripper_msgs/rosidl_adapter/hrim_actuator_gripper_msgs:msg/GoalTactilePressure.idl
-/home/user/ros2_ws/build/hrim_actuator_gripper_msgs/rosidl_adapter/hrim_actuator_gripper_msgs:msg/Reconfiguration.idl
-/home/user/ros2_ws/build/hrim_actuator_gripper_msgs/rosidl_adapter/hrim_actuator_gripper_msgs:msg/StateFingerGripper.idl
-/home/user/ros2_ws/build/hrim_actuator_gripper_msgs/rosidl_adapter/hrim_actuator_gripper_msgs:msg/StateGripper.idl

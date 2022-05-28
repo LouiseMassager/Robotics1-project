@@ -1,4 +1,0 @@
-make[2]: *** Deleting file 'rosidl_generator_c/control_msgs/msg/detail/pid_state__struct.h'
-make[2]: *** [CMakeFiles/control_msgs__rosidl_generator_c.dir/build.make:198: rosidl_generator_c/control_msgs/msg/detail/pid_state__struct.h] Interrupt
-make[1]: *** [CMakeFiles/Makefile2:444: CMakeFiles/control_msgs__rosidl_generator_c.dir/all] Interrupt
-make: *** [Makefile:141: all] Interrupt

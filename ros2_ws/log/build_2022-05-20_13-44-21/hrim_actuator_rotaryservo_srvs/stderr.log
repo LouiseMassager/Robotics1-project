@@ -1,5 +1,0 @@
-make[2]: *** [CMakeFiles/hrim_actuator_rotaryservo_srvs__rosidl_typesupport_introspection_cpp.dir/build.make:92: CMakeFiles/hrim_actuator_rotaryservo_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hrim_actuator_rotaryservo_srvs/srv/detail/open_close_brake__type_support.cpp.o] Interrupt
-make[1]: *** wait: No child processes.  Stop.
-make[1]: *** Waiting for unfinished jobs....
-make[1]: *** wait: No child processes.  Stop.
-make: *** [Makefile:141: all] Error 2

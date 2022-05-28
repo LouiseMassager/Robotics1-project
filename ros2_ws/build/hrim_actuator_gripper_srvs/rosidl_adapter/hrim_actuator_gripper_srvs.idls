@@ -1,6 +1,0 @@
-/home/user/ros2_ws/build/hrim_actuator_gripper_srvs/rosidl_adapter/hrim_actuator_gripper_srvs:srv/ControlFinger.idl
-/home/user/ros2_ws/build/hrim_actuator_gripper_srvs/rosidl_adapter/hrim_actuator_gripper_srvs:srv/ControlVacuum.idl
-/home/user/ros2_ws/build/hrim_actuator_gripper_srvs/rosidl_adapter/hrim_actuator_gripper_srvs:srv/GoalGripper.idl
-/home/user/ros2_ws/build/hrim_actuator_gripper_srvs/rosidl_adapter/hrim_actuator_gripper_srvs:srv/SpecsFingerGripper.idl
-/home/user/ros2_ws/build/hrim_actuator_gripper_srvs/rosidl_adapter/hrim_actuator_gripper_srvs:srv/SpecsMagneticGripper.idl
-/home/user/ros2_ws/build/hrim_actuator_gripper_srvs/rosidl_adapter/hrim_actuator_gripper_srvs:srv/SpecsVacuumGripper.idl

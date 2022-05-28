@@ -1,6 +1,0 @@
-[console_scripts]
-anglespublisher = ldmk_package.anglespublisher:main
-anglespublisher2 = ldmk_package.anglespublisher2
-roboticsIK = ldmk_package.roboticsIK:main
-teleop_keyboard = ldmk_package.teleop_keyboard
-

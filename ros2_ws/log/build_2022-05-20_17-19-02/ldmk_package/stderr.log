@@ -1,5 +1,0 @@
-  File "/home/user/ros2_ws/install/ldmk_package/lib/python3.8/site-packages/ldmk_package/anglespublisher.py", line 52
-    print("test:", & test)
-                   ^
-SyntaxError: invalid syntax
-

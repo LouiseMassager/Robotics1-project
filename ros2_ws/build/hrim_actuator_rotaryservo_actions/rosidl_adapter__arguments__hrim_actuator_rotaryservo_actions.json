@@ -1,6 +1,0 @@
-{
-  "package_name": "hrim_actuator_rotaryservo_actions",
-  "non_idl_tuples": [
-    "/home/user/ros2_ws/src/ros2_mara/HRIM/generated/actuator/rotaryservo/hrim_actuator_rotaryservo_actions:action/GoalJointTrajectory.action"
-  ]
-}

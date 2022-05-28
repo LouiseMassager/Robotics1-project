@@ -1,5 +1,0 @@
-/home/user/ros2_ws/build/hrim_actuator_rotaryservo_msgs/rosidl_adapter/hrim_actuator_rotaryservo_msgs:msg/GoalAngularAcceleration.idl
-/home/user/ros2_ws/build/hrim_actuator_rotaryservo_msgs/rosidl_adapter/hrim_actuator_rotaryservo_msgs:msg/GoalRotaryServo.idl
-/home/user/ros2_ws/build/hrim_actuator_rotaryservo_msgs/rosidl_adapter/hrim_actuator_rotaryservo_msgs:msg/Reconfiguration.idl
-/home/user/ros2_ws/build/hrim_actuator_rotaryservo_msgs/rosidl_adapter/hrim_actuator_rotaryservo_msgs:msg/StateRotaryServo.idl
-/home/user/ros2_ws/build/hrim_actuator_rotaryservo_msgs/rosidl_adapter/hrim_actuator_rotaryservo_msgs:msg/Temperature.idl

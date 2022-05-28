@@ -1,2 +1,0 @@
-Invoking command in '/home/user/ros2_ws/build/hrim_actuator_gripper_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/hrim_actuator_gripper_msgs -- -j8 -l8
-Invoked command in '/home/user/ros2_ws/build/hrim_actuator_gripper_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/hrim_actuator_gripper_msgs -- -j8 -l8
