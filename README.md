@@ -91,7 +91,7 @@ ros2 topic echo /cmd_ik
 
 - [@Louise Massager](https://github.com/LouiseMassager)
 - [@Dinh-Hao Nguyen](https://github.com/Dinh-Hao-Nguyen)
-- [@Mohammadjavad Rahimi](https://github.com/MJSk8RAHIMI)
+- [@Mohammadjavad Rahimi Dolatabad](https://github.com/MJSk8RAHIMI)
 
 
 ## Acknowledgements
