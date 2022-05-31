@@ -280,6 +280,20 @@ def actuator_limitations(theta_vec):
     return theta_vec
 
 
+def rotationMatrix_to_EulerAngles(R):
+    # Compute the ZYX Euler angles (roll-pitch-yaw) from a rotation matrix
+    
+    [[r11,r12,r13],
+     [r21,r22,r23],
+     [r31,r32,r33]] = R
+
+    roll = math.atan2(r21,r11)
+    pitch = math.atan2(-r31,math.sqrt(r32**2+r33**2))
+    yaw = math.atan2(r32,r33)
+    
+    return yaw, pitch, roll
+
+
 def forwardKinematics(theta1, theta2, theta3, theta4, theta5, theta6):
     
     # Parameters of the MARA robot
